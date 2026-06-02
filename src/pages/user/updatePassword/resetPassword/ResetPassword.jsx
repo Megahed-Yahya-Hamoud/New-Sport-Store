@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import classes from "./ResetPassword.module.css";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import ResetPasswordSchema from "./schema/ResetPasswordSchema";
-// import { useState } from "react";
+import { useEffect } from "react";
 import { notifications } from "@mantine/notifications";
 import API_CONFIG from "../../../../core/utils/apiConfig";
 
@@ -13,6 +13,16 @@ export default function ResetPassword() {
     const navigateTo = useNavigate();
     const userId = JSON.parse(sessionStorage.getItem("resetUser"));
     console.log(userId)
+
+    useEffect(() => {
+      if (!userId) {
+        notifications.show({
+          message: "Please enter your email first to reset your password.",
+          color: "red",
+        });
+        navigateTo("/confirmation-email");
+      }
+    }, [userId, navigateTo]);
     
     // دالة لتحديث كلمة المرور
 async function handleResetPassword(values) {

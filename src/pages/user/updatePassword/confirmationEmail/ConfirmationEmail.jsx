@@ -12,7 +12,7 @@ const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
 export default function ConfirmationEmail() {
 
   const navigateTo = useNavigate();
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState([]);
 
    useEffect(() => {
     fetch(API_CONFIG.mainUrl + endpointForUsers)
