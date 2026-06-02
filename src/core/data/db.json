@@ -24,7 +24,7 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/kB0rnIifAjE?si=2c4sSKtTIZUe3CfI",
-            "image": "src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
+            "image": "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
             "images": [
                 "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
                 "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus1.png",
