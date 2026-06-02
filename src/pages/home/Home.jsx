@@ -84,7 +84,7 @@ export default function Home() {
             Latest products
           </Text>
         </Box>
-        <Box mt={30} mb={40}>
+        <Box style={{display:"grid" , alignItems:"center"}} mt={30} mb={40}>
           {/* === search with props is value to search about product   === */}
           {/* get true or false from search for get data */}
           <Search
