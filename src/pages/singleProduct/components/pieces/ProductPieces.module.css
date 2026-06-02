@@ -1,0 +1,30 @@
+.containerCounter {
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.title{
+    text-align: center;
+  }
+
+
+.btn{
+    transition: 0.1s linear;
+}
+
+.btn:hover{
+box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+transform: scale(1.05);
+}
+
+@media (max-width:1143px) {
+  .title{
+    text-align: start;
+  }
+  .containerPieces{
+        display: grid;
+    justify-content: left;
+  }
+}

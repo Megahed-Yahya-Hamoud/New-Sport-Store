@@ -1,0 +1,170 @@
+.parent {
+  background-color: rgb(0, 0, 0);
+  padding: 0px 0px 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+  align-items: center;
+  width: 100%;
+
+  @media (max-width: 991px) {
+  height: 400px;
+  }
+  @media (max-width: 768px) {
+    height: 300px;
+    }
+
+    @media (max-width: 650px) {
+      display: none;
+      }
+
+}
+.showThisLine{
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+.mainTitle {
+  font-family: fantasy;
+  color: aliceblue !important;
+  font-size: 50px !important;
+  line-height: normal !important;
+  @media (max-width: 500px) {
+    font-size: 35px !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+  }
+
+  
+  @media (max-width: 991px) {
+    font-size: 40px !important;
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 30px !important;
+  }
+
+}
+
+.title{
+  font-family: fantasy;
+  /* color: aliceblue !important; */
+  color: rgb(0,135,255) !important;
+  font-size: 40px !important;
+  line-height: normal !important;
+  .sale{
+  font-size: 50px !important;
+  }
+  @media (max-width: 991px) {
+    font-size: 30px !important;
+
+    .sale{
+      font-size: 40px !important;
+      }
+  }
+
+  @media (max-width: 768px) {
+    font-size: 20px !important;
+
+    .sale{
+      font-size: 30px !important;
+      }
+  }
+}
+
+.titleSecond{
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(0, 0, 0) !important;
+    font-size: 50px !important;
+    line-height: normal !important;
+    @media (max-width: 500px) {
+        font-size: 35px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    
+    @media (max-width: 370px) {
+        font-size: 30px !important;
+    }
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    display: none;
+    @media (max-width: 650px) {
+            display: initial;
+    }
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevent overflow of images */
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevent overflow of images */
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0; /* Start hidden */
+  animation: fade 14s ease-in-out infinite; /* Total duration for the full cycle */
+}
+
+/* Set first image to be visible from the start */
+.image:nth-child(1) {
+  opacity: 1 !important; 
+  background-image: linear-gradient(to left, transparent 88%, #000), url("../../../../assets/154306-لاعبو-الملكي-بقميص-الموسم-الجديد.webp");
+}
+
+.image:nth-child(2) {
+  background-image: linear-gradient(to left, transparent 88%, #000), url("../../../../assets/image_editor_output_image-1941784495.webp");
+  animation-delay: 2s; /* Each image appears after 4 seconds */
+}
+
+.image:nth-child(3) {
+  background-image: linear-gradient(to left, transparent 88%, #000), url("../../../../assets/مان-يونايتد-1.jpeg");
+  animation-delay: 4s;
+}
+
+.image:nth-child(4) {
+  background-image: linear-gradient(to left, transparent 88%, #000), url("../../../../assets/380265-القميص-الثاني-لفريق-مان-سيتي.jfif");
+  animation-delay: 6s;
+}
+
+.image:nth-child(5) {
+  background-image: linear-gradient(to left, transparent 88%, #000), url("../../../../assets/548889-قميص-مان-سيتي.jfif");
+  animation-delay: 8s;
+}
+
+.image:nth-child(6) {
+  background-image: linear-gradient(to left, transparent 88%, #000), url("../../../../assets/982.png");
+  animation-delay: 10s;
+}
+
+@keyframes fade {
+  0%, 10% {
+    opacity: 0; /* Start hidden */
+  }
+  12%, 40% {
+    opacity: 1; /* Show the image */
+  }
+  42%, 100% {
+    opacity: 0; /* Fade out */
+  }
+}

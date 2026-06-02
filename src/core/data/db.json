@@ -1,0 +1,2839 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Nike Air Zoom Pegasus",
+            "brand": "Nike",
+            "category": "Shoes",
+            "price": 51,
+            "rating": 4.48,
+            "quantity": 35,
+            "colors": [
+                "red",
+                "green",
+                "yellow",
+                "blue",
+                "grey"
+            ],
+            "size": [
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ],
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "video": "https://youtu.be/kB0rnIifAjE?si=2c4sSKtTIZUe3CfI",
+            "image": "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
+            "images": [
+                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
+                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus1.png",
+                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus2.png",
+                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus3.png",
+                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus4.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 1,
+                    "user": "Charlotte Johnson",
+                    "rating": 4.5,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 2,
+                    "user": "Isabella Thomas",
+                    "rating": 4.7,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 3,
+                    "user": "Amelia Harris",
+                    "rating": 4.1,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 4,
+                    "user": "Olivia White",
+                    "rating": 4.6,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 5,
+                    "user": "Charlotte Thomas",
+                    "rating": 4.5,
+                    "comment": "Stylish and durable design."
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "name": "Adidas Ultraboost",
+            "brand": "Adidas",
+            "category": "Shoes",
+            "price": 157,
+            "rating": 4.14,
+            "quantity": 20,
+            "colors": [
+                "blue",
+                "gold",
+                "#d3d3d3",
+                "purple",
+                "black"
+            ],
+            "size": [
+                "38",
+                "39",
+                "40",
+                "41",
+                "42"
+            ],
+            "description": "Crafted with attention to detail to deliver long-lasting quality.",
+            "video": "https://youtu.be/ez3fw8SrexA?si=rneGT7mWzKvjXuvx",
+            "image": "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22.png",
+            "images": [
+                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22.png",
+                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22-1.png",
+                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22-2.png",
+                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22-3.png",
+                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22-4.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 6,
+                    "user": "Oliver White",
+                    "rating": 4.2,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 7,
+                    "user": "Mia Johnson",
+                    "rating": 3.8,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 8,
+                    "user": "William Jackson",
+                    "rating": 4.3,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 9,
+                    "user": "James Thomas",
+                    "rating": 4.6,
+                    "comment": "Great quality and very comfortable."
+                }, {
+                    "id": 10,
+                    "user": "Henry White",
+                    "rating": 3.8,
+                    "comment": "Great quality and very comfortable."
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "name": "Puma Velocity Nitro",
+            "brand": "Puma",
+            "category": "Shoes",
+            "price": 162,
+            "rating": 4.03,
+            "quantity": 25,
+            "colors": [
+                "red",
+                "gray",
+                "black",
+                "yellow",
+                "green"
+            ],
+            "size": [
+                "38",
+                "40",
+                "42",
+                "43",
+                "44"
+            ],
+            "description": "Designed for athletes who demand comfort and performance during long training sessions.",
+            "video": "https://youtu.be/UyefASVrtbw?si=4zCG0Z94C8NIYyz5",
+            "image": "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro.png",
+            "images": [
+                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro.png",
+                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro-2.png",
+                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro-3.png ",
+                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro-4.png ",
+                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro-5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 11,
+                    "user": "William Anderson",
+                    "rating": 3.8,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 12,
+                    "user": "Amelia Thomas",
+                    "rating": 3.8,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 13,
+                    "user": "Henry Harris",
+                    "rating": 4.4,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 14,
+                    "user": "Noah Taylor",
+                    "rating": 3.6,
+                    "comment": "Great quality and very comfortable."
+                }, {
+                    "id": 15,
+                    "user": "Mia Smith",
+                    "rating": 4.1,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 16,
+                    "user": "Charlotte Thomas",
+                    "rating": 4.5,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        },
+        {
+            "id": "4",
+            "name": "Under Armour HOVR Phantom",
+            "brand": "Under Armour",
+            "category": "Shoes",
+            "price": 125,
+            "rating": 4.37,
+            "quantity": 30,
+            "colors": [
+                "red",
+                "green",
+                "gold",
+                "grey",
+                "orange"
+            ],
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "video": "https://youtu.be/vnTrjU-4Ang?si=x4r6Io-yJXkMhygr",
+            "image": "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom.png",
+            "images": [
+                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom.png",
+                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-2.png",
+                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-3.png ",
+                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-4.png ",
+                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 17,
+                    "user": "Mia Smith",
+                    "rating": 4.7,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 18,
+                    "user": "Amelia Jackson",
+                    "rating": 4.5,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 19,
+                    "user": "Alexander Taylor",
+                    "rating": 4.5,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 20,
+                    "user": "Ava Smith",
+                    "rating": 5,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 21,
+                    "user": "Noah Jackson",
+                    "rating": 3.6,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 22,
+                    "user": "Alexander White",
+                    "rating": 3.9,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        }, {
+            "id": "5",
+            "name": "Reebok Nano X",
+            "brand": "Reebok",
+            "category": "Shoes",
+            "price": 126,
+            "rating": 3.92,
+            "quantity": 15,
+            "colors": [
+                "blue",
+                "green",
+                "gold",
+                "grey",
+                "black"
+            ],
+            "size": [
+                "38",
+                "40",
+                "42",
+                "43",
+                "44"
+            ],
+            "description": "Built with durable materials to withstand intense workouts and daily use.",
+            "video": "https://youtu.be/nEwXccb5mzA?si=8Jkujhyc68zFybxD",
+            "image": "../src/core/data/images/Reebok Nano X/Reebok Nano X.png",
+            "images": [
+                "../src/core/data/images/Reebok Nano X/Reebok Nano X.png",
+                "../src/core/data/images/Reebok Nano X/Reebok Nano X-2.png",
+                "../src/core/data/images/Reebok Nano X/Reebok Nano X-3.png",
+                "../src/core/data/images/Reebok Nano X/Reebok Nano X-4.png",
+                "../src/core/data/images/Reebok Nano X/Reebok Nano X-5.png"
+            ],
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 23,
+                    "user": "Benjamin Harris",
+                    "rating": 4.7,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 24,
+                    "user": "James White",
+                    "rating": 3.8,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 25,
+                    "user": "Evelyn Harris",
+                    "rating": 3.9,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 26,
+                    "user": "Noah Johnson",
+                    "rating": 3.7,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 27,
+                    "user": "Evelyn Taylor",
+                    "rating": 3.5,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        }, {
+            "id": "6",
+            "name": "Asics Gel Kayano",
+            "brand": "Asics",
+            "category": "Shoes",
+            "price": 45,
+            "rating": 4.52,
+            "quantity": 40,
+            "colors": [
+                "white",
+                "purple",
+                "gold",
+                "red",
+                "black"
+            ],
+            "size": [
+                "38",
+                "39",
+                "40",
+                "43",
+                "45"
+            ],
+            "description": "Perfect companion for gym sessions, running, or outdoor activities.",
+            "video": "https://youtu.be/OLDR-6JP3Qc?si=mFVeXPfZwK-1nG92",
+            "image": "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano.png",
+            "images": [
+                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano.png",
+                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano2.png",
+                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano3.png",
+                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano4.png",
+                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 28,
+                    "user": "Oliver Johnson",
+                    "rating": 4.1,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 29,
+                    "user": "Emma Johnson",
+                    "rating": 4.6,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 30,
+                    "user": "William Taylor",
+                    "rating": 4.6,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 31,
+                    "user": "Sophia Anderson",
+                    "rating": 4.7,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 32,
+                    "user": "Evelyn Smith",
+                    "rating": 4.6,
+                    "comment": "Perfect for daily use."
+                }
+            ]
+        }, {
+            "id": "7",
+            "name": "New Balance Fresh Foam",
+            "brand": "New Balance",
+            "category": "Shoes",
+            "price": 42,
+            "rating": 4.29,
+            "quantity": 25,
+            "colors": [
+                "black",
+                "grey",
+                "blue",
+                "red",
+                "aqua"
+            ],
+            "size": [
+                "40",
+                "41",
+                "42",
+                "43",
+                "44"
+            ],
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "video": "https://youtu.be/lEK6z2uQzkg?si=2RH2NzL6g6Fv8_I0",
+            "image": "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam.png",
+            "images": [
+                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam.png",
+                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam2.png",
+                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam3.png",
+                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam4.png",
+                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam5.png"
+            ],
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 33,
+                    "user": "Benjamin Taylor",
+                    "rating": 4.4,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 34,
+                    "user": "Harper Smith",
+                    "rating": 4.1,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 35,
+                    "user": "Olivia Smith",
+                    "rating": 4.3,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 36,
+                    "user": "Evelyn Smith",
+                    "rating": 3.7,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 37,
+                    "user": "Ava White",
+                    "rating": 4.6,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 38,
+                    "user": "Henry Thomas",
+                    "rating": 4.6,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 39,
+                    "user": "James Smith",
+                    "rating": 4.3,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "8",
+            "name": "Fila Disruptor II",
+            "brand": "Fila",
+            "category": "Shoes",
+            "price": 148,
+            "rating": 3.9,
+            "quantity": 30,
+            "colors": [
+                "white",
+                "grey",
+                "blue",
+                "red",
+                "black"
+            ],
+            "size": [
+                "41",
+                "42",
+                "43",
+                "44",
+                "45"
+            ],
+            "description": "Crafted with attention to detail to deliver long-lasting quality.",
+            "video": "https://youtu.be/aO3NR9NM7rc?si=aX-ULdD8IC5VeP7T",
+            "image": "../src/core/data/images/Fila Disruptor II/Fila Disruptor II.png",
+            "images": [
+                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II.png",
+                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II2.png",
+                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II3.png",
+                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II4.png",
+                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 40,
+                    "user": "Ava Smith",
+                    "rating": 4.4,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 41,
+                    "user": "Ava Martin",
+                    "rating": 3.8,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 42,
+                    "user": "Charlotte Taylor",
+                    "rating": 4.3,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 43,
+                    "user": "Sophia Thomas",
+                    "rating": 3.7,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 44,
+                    "user": "Amelia Taylor",
+                    "rating": 3.8,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 45,
+                    "user": "Elijah Taylor",
+                    "rating": 3.7,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 46,
+                    "user": "Henry Smith",
+                    "rating": 3.6,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        }, {
+            "id": "9",
+            "name": "Columbia Hiking Backpack",
+            "brand": "Columbia",
+            "category": "Bags",
+            "price": 94,
+            "rating": 4.2,
+            "quantity": 20,
+            "colors": [
+                "blue",
+                "black",
+                "green",
+                "red",
+                "aqua"
+            ],
+            "size": [
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl"
+            ],
+            "description": "A versatile product suitable for both beginners and professionals.",
+            "video": "https://youtu.be/3Vk4KqwThqU?si=Wyo_mtYA5PzmihRC",
+            "image": "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack.png",
+            "images": [
+                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack.png",
+                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack2.png",
+                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack3.png",
+                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack4.png",
+                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 47,
+                    "user": "Mia Harris",
+                    "rating": 4.2,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 48,
+                    "user": "Liam Thomas",
+                    "rating": 3.8,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 49,
+                    "user": "James Anderson",
+                    "rating": 4.4,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 50,
+                    "user": "Amelia Jackson",
+                    "rating": 4.4,
+                    "comment": "Stylish and durable design."
+                }, {
+                    "id": 51,
+                    "user": "William Brown",
+                    "rating": 4.8,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 52,
+                    "user": "William Anderson",
+                    "rating": 3.6,
+                    "comment": "Stylish and durable design."
+                }
+            ]
+        }, {
+            "id": "10",
+            "name": "Decathlon Gym Bag",
+            "brand": "Decathlon",
+            "category": "Bags",
+            "price": 48,
+            "rating": 4.38,
+            "quantity": 25,
+            "colors": [
+                "black",
+                "gray",
+                "red",
+                "blue",
+                "pink"
+            ],
+            "size": [
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl"
+            ],
+            "description": "Crafted with attention to detail to deliver long-lasting quality.",
+            "video": "https://youtu.be/jZUrsmj81pY?si=fIorQXP7J_BpOgBg",
+            "image": "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag.png",
+            "images": [
+                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag.png",
+                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag2.png",
+                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag3.png",
+                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag4.png",
+                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 53,
+                    "user": "Harper Johnson",
+                    "rating": 4.8,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 54,
+                    "user": "William Smith",
+                    "rating": 4.2,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 55,
+                    "user": "James Taylor",
+                    "rating": 3.7,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 56,
+                    "user": "Liam White",
+                    "rating": 4.8,
+                    "comment": "Stylish and durable design."
+                }, {
+                    "id": 57,
+                    "user": "Emma Brown",
+                    "rating": 4.4,
+                    "comment": "Exceeded my expectations."
+                }
+            ]
+        }, {
+            "id": "11",
+            "name": "Nike Training T-Shirt",
+            "brand": "Nike",
+            "category": "Clothing",
+            "price": 28,
+            "rating": 4.16,
+            "quantity": 30,
+            "colors": [
+                "black",
+                "gray",
+                "red",
+                "white",
+                "blue"
+            ],
+            "size": [
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl"
+            ],
+            "description": "Perfect companion for gym sessions, running, or outdoor activities.",
+            "video": "https://youtu.be/Op6aAJBgF68?si=gl4WopkTuTjIhLOj",
+            "image": "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt.png",
+            "images": [
+                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt.png",
+                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt2.png",
+                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt3.png",
+                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt5.png",
+                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt4.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 58,
+                    "user": "Emma Taylor",
+                    "rating": 4.4,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 59,
+                    "user": "Oliver Anderson",
+                    "rating": 4,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 60,
+                    "user": "Isabella Harris",
+                    "rating": 4,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 61,
+                    "user": "Emma Jackson",
+                    "rating": 4.4,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 62,
+                    "user": "Lucas Jackson",
+                    "rating": 4,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "12",
+            "name": "Adidas Running Shorts",
+            "brand": "Adidas",
+            "category": "Clothing",
+            "price": 145,
+            "rating": 3.94,
+            "quantity": 22,
+            "colors": [
+                "black",
+                "gray",
+                "blue",
+                "red",
+                "aqua"
+            ],
+            "size": [
+                "md",
+                "lg",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "description": "Crafted with attention to detail to deliver long-lasting quality.",
+            "video": "https://youtu.be/hfSJ6AjeS5E?si=2s32MkAyd6aRDcIc",
+            "image": "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts.png",
+            "images": [
+                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts.png",
+                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts2.png",
+                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts3.png",
+                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts4.png",
+                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 63,
+                    "user": "Ava Thomas",
+                    "rating": 4.6,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 64,
+                    "user": "Ava Anderson",
+                    "rating": 3.9,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 65,
+                    "user": "Emma White",
+                    "rating": 3.5,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 66,
+                    "user": "Benjamin Smith",
+                    "rating": 4.1,
+                    "comment": "Great quality and very comfortable."
+                }, {
+                    "id": 67,
+                    "user": "Mia Thomas",
+                    "rating": 3.6,
+                    "comment": "Great quality and very comfortable."
+                }
+            ]
+        }, {
+            "id": "13",
+            "name": "Puma Sports Jacket",
+            "brand": "Puma",
+            "category": "Clothing",
+            "price": 146,
+            "rating": 4.32,
+            "quantity": 25,
+            "colors": [
+                "black",
+                "gray",
+                "blue",
+                "red",
+                "green"
+            ],
+            "size": [
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl"
+            ],
+            "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
+            "video": "https://youtu.be/aPJBZD7a-EM?si=Oj4yzgtl1qSauEgE",
+            "image": "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket.png",
+            "images": [
+                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket.png",
+                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket2.png",
+                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket3.png",
+                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket4.png",
+                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 68,
+                    "user": "Noah Martin",
+                    "rating": 4.4,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 69,
+                    "user": "Emma Johnson",
+                    "rating": 3.7,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 70,
+                    "user": "Emma Thomas",
+                    "rating": 4.1,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 71,
+                    "user": "Liam Brown",
+                    "rating": 4.7,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 72,
+                    "user": "Benjamin Harris",
+                    "rating": 4.7,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "14",
+            "name": "Under Armour Hoodie",
+            "brand": "Under Armour",
+            "category": "Clothing",
+            "price": 179,
+            "rating": 4.34,
+            "quantity": 28,
+            "colors": [
+                "white",
+                "black",
+                "aqua",
+                "purple",
+                "blue"
+            ],
+            "size": [
+                "md",
+                "lg",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "description": "Lightweight and breathable design ensures maximum comfort all day long.",
+            "video": "https://youtu.be/UcvFlt1EYP8?si=OWEdIqg28aIgUVxV",
+            "image": "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie.png",
+            "images": [
+                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie.png",
+                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie2.png",
+                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie3.png",
+                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie4.png",
+                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 73,
+                    "user": "Harper White",
+                    "rating": 4.2,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 74,
+                    "user": "Sophia Thomas",
+                    "rating": 4.1,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 75,
+                    "user": "William Martin",
+                    "rating": 4.9,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 76,
+                    "user": "Benjamin Johnson",
+                    "rating": 4.9,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 77,
+                    "user": "Amelia Anderson",
+                    "rating": 3.6,
+                    "comment": "Perfect for daily use."
+                }
+            ]
+        }, {
+            "id": "15",
+            "name": "Reebok Joggers",
+            "brand": "Reebok",
+            "category": "Clothing",
+            "price": 36,
+            "rating": 4.11,
+            "quantity": 30,
+            "colors": [
+                "black",
+                "grey",
+                "blue",
+                "white",
+                "green"
+            ],
+            "size": [
+                "md",
+                "lg",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "video": "https://youtu.be/5hen1jzwxZY?si=J3_ii621Tr7pDGt6",
+            "image": "../src/core/data/images/Reebok Joggers/Reebok Joggers.png",
+            "images": [
+                "../src/core/data/images/Reebok Joggers/Reebok Joggers.png",
+                "../src/core/data/images/Reebok Joggers/Reebok Joggers2.png",
+                "../src/core/data/images/Reebok Joggers/Reebok Joggers3.png",
+                "../src/core/data/images/Reebok Joggers/Reebok Joggers4.png",
+                "../src/core/data/images/Reebok Joggers/Reebok Joggers5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 78,
+                    "user": "Liam Anderson",
+                    "rating": 4,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 79,
+                    "user": "Harper Johnson",
+                    "rating": 3.6,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 80,
+                    "user": "Charlotte White",
+                    "rating": 4.6,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 81,
+                    "user": "Amelia Smith",
+                    "rating": 3.9,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 82,
+                    "user": "Mia Martin",
+                    "rating": 4.9,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 83,
+                    "user": "Amelia Brown",
+                    "rating": 3.9,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 84,
+                    "user": "Noah Brown",
+                    "rating": 3.9,
+                    "comment": "Exceeded my expectations."
+                }
+            ]
+        }, {
+            "id": "16",
+            "name": "Asics Running Cap",
+            "brand": "Asics",
+            "category": "Training",
+            "price": 11,
+            "rating": 4.43,
+            "quantity": 43,
+            "colors": [
+                "black",
+                "grey",
+                "blue",
+                "white",
+                "green"
+            ],
+            "size": [
+                "sm", "lg"
+            ],
+            "description": "Lightweight and breathable design ensures maximum comfort all day long.",
+            "video": "https://youtu.be/2-AjbDUNMLM?si=knn3nTeqeqq0Eoyp",
+            "image": "../src/core/data/images/Asics Running Cap/Asics Running Cap.png",
+            "images": [
+                "../src/core/data/images/Asics Running Cap/Asics Running Cap.png",
+                "../src/core/data/images/Asics Running Cap/Asics Running Cap2.png",
+                "../src/core/data/images/Asics Running Cap/Asics Running Cap3.png",
+                "../src/core/data/images/Asics Running Cap/Asics Running Cap4.png",
+                "../src/core/data/images/Asics Running Cap/Asics Running Cap5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 85,
+                    "user": "Sophia Jackson",
+                    "rating": 4.1,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 86,
+                    "user": "Henry Jackson",
+                    "rating": 4.8,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 87,
+                    "user": "Harper Anderson",
+                    "rating": 4.6,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 88,
+                    "user": "Oliver Jackson",
+                    "rating": 4.7,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 89,
+                    "user": "Elijah White",
+                    "rating": 3.7,
+                    "comment": "Great quality and very comfortable."
+                }, {
+                    "id": 90,
+                    "user": "Amelia Taylor",
+                    "rating": 4.7,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "17",
+            "name": "New Balance Sneakers",
+            "brand": "New Balance",
+            "category": "Shoes",
+            "price": 47,
+            "rating": 4.05,
+            "quantity": 30,
+            "colors": [
+                "black",
+                "grey",
+                "brown",
+                "white",
+                "green"
+            ],
+            "size": [
+                "40",
+                "41",
+                "42",
+                "44",
+                "45"
+            ],
+            "description": "Lightweight and breathable design ensures maximum comfort all day long.",
+            "video": "https://youtu.be/purj-IBvd74?si=uMVSKCy8ZRvCrQFO",
+            "image": "../src/core/data/images/New Balance Sneakers/New Balance Sneakers.png",
+            "images": [
+                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers.png",
+                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers2.png",
+                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers3.png",
+                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers4.png",
+                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers5.png"
+            ],
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 91,
+                    "user": "Liam Brown",
+                    "rating": 4,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 92,
+                    "user": "Evelyn Harris",
+                    "rating": 4.6,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 93,
+                    "user": "Olivia White",
+                    "rating": 3.8,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 94,
+                    "user": "James Smith",
+                    "rating": 4,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 95,
+                    "user": "Liam White",
+                    "rating": 3.8,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 96,
+                    "user": "Elijah Brown",
+                    "rating": 4.1,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "18",
+            "name": "Fila Sports Tee",
+            "brand": "Fila",
+            "category": "Clothing",
+            "price": 138,
+            "rating": 4.49,
+            "quantity": 35,
+            "colors": [
+                "black",
+                "grey",
+                "white",
+                "blue",
+                "red"
+            ],
+            "size": [
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl"
+            ],
+            "description": "Crafted with attention to detail to deliver long-lasting quality.",
+            "video": "https://youtu.be/ZQB0HHsn75Y?si=prUUGwAlmfZzVBjE",
+            "image": "../src/core/data/images/Fila Sports Tee/Fila Sports Tee.png",
+            "images": [
+                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee.png",
+                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee2.png",
+                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee3.png",
+                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee4.png",
+                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 97,
+                    "user": "Mia Brown",
+                    "rating": 4.2,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 98,
+                    "user": "William Johnson",
+                    "rating": 4.6,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 99,
+                    "user": "Olivia Jackson",
+                    "rating": 4.2,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 100,
+                    "user": "Lucas Harris",
+                    "rating": 4.8,
+                    "comment": "Stylish and durable design."
+                }, {
+                    "id": 101,
+                    "user": "Oliver Jackson",
+                    "rating": 4.9,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 102,
+                    "user": "Isabella Martin",
+                    "rating": 4.3,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 103,
+                    "user": "Harper Brown",
+                    "rating": 4.4,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        }, {
+            "id": "19",
+            "name": "Columbia Outdoor Jacket",
+            "brand": "Columbia",
+            "category": "Clothing",
+            "price": 184,
+            "rating": 4.14,
+            "quantity": 20,
+            "colors": [
+                "black",
+                "grey",
+                "white",
+                "blue",
+                "green"
+            ],
+            "size": [
+                "md",
+                "lg",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "video": "https://youtu.be/0V_sLVmIa6Y?si=eFUi7u6rPXx9Fkmp",
+            "image": "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket.png",
+            "images": [
+                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket.png",
+                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket2.png",
+                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket3.png",
+                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket4.png",
+                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket5.png"
+            ],
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 104,
+                    "user": "Oliver Thomas",
+                    "rating": 4.6,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 105,
+                    "user": "Ava White",
+                    "rating": 4.6,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 106,
+                    "user": "William Jackson",
+                    "rating": 4.1,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 107,
+                    "user": "Sophia White",
+                    "rating": 3.7,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 108,
+                    "user": "Mia Thomas",
+                    "rating": 3.7,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "20",
+            "name": "Decathlon Yoga Mat",
+            "brand": "Decathlon",
+            "category": "Training",
+            "price": 100,
+            "rating": 4.49,
+            "quantity": 30,
+            "colors": [
+                "blue",
+                "purple",
+                "pink",
+                "green",
+                "red"
+            ],
+            "size": [
+                "173*24", "55*55"
+            ],
+            "description": "Designed for athletes who demand comfort and performance during long training sessions.",
+            "video": "https://youtu.be/VxuSNSv9GkQ?si=O1IHlNIzskntKZrO",
+            "image": "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat.png",
+            "images": [
+                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat.png",
+                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat2.png",
+                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat3.png",
+                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat4.png",
+                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat5.png"
+            ],
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 109,
+                    "user": "Emma Thomas",
+                    "rating": 4,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 110,
+                    "user": "William Smith",
+                    "rating": 4.3,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 111,
+                    "user": "William Taylor",
+                    "rating": 5,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 112,
+                    "user": "Elijah Thomas",
+                    "rating": 4.3,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 113,
+                    "user": "Lucas Martin",
+                    "rating": 4,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 114,
+                    "user": "Amelia Jackson",
+                    "rating": 4.9,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 115,
+                    "user": "Evelyn Jackson",
+                    "rating": 4.9,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "21",
+            "name": "Skipping Rope Pro",
+            "brand": "Adidas",
+            "category": "Equipment",
+            "price": 63,
+            "rating": 4.18,
+            "quantity": 15,
+            "description": "Lightweight and breathable design ensures maximum comfort all day long.",
+            "image": "./src/core/data/images/Skipping Rope.jpg",
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 116,
+                    "user": "Liam Thomas",
+                    "rating": 3.9,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 117,
+                    "user": "Benjamin Harris",
+                    "rating": 4.4,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 118,
+                    "user": "Oliver Anderson",
+                    "rating": 4.1,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 119,
+                    "user": "Alexander Jackson",
+                    "rating": 4.1,
+                    "comment": "Stylish and durable design."
+                }, {
+                    "id": 120,
+                    "user": "Lucas Jackson",
+                    "rating": 4.4,
+                    "comment": "Great quality and very comfortable."
+                }
+            ]
+        }, {
+            "id": "22",
+            "name": "Adjustable Dumbbells",
+            "brand": "Puma",
+            "category": "Fitness",
+            "price": 192,
+            "rating": 4.28,
+            "quantity": 25,
+            "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
+            "image": "./src/core/data/images/Adjustable Dumbbells.avif",
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 121,
+                    "user": "William Thomas",
+                    "rating": 4,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 122,
+                    "user": "Mia Thomas",
+                    "rating": 4.9,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 123,
+                    "user": "William Brown",
+                    "rating": 3.8,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 124,
+                    "user": "Sophia Anderson",
+                    "rating": 4.5,
+                    "comment": "Stylish and durable design."
+                }, {
+                    "id": 125,
+                    "user": "Alexander Thomas",
+                    "rating": 4.2,
+                    "comment": "Really worth the price."
+                }
+            ]
+        }, {
+            "id": "23",
+            "name": "Resistance Bands Set",
+            "brand": "Reebok",
+            "category": "Training",
+            "price": 25,
+            "rating": 3.83,
+            "quantity": 30,
+            "description": "Built with durable materials to withstand intense workouts and daily use.",
+            "image": "./src/core/data/images/Resistance Bands Set.jpg",
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 126,
+                    "user": "James Thomas",
+                    "rating": 4.5,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 127,
+                    "user": "Emma Harris",
+                    "rating": 3.5,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 128,
+                    "user": "Charlotte Smith",
+                    "rating": 3.8,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 129,
+                    "user": "Ava Brown",
+                    "rating": 3.8,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 130,
+                    "user": "Lucas Brown",
+                    "rating": 3.8,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 131,
+                    "user": "Amelia Harris",
+                    "rating": 3.6,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "24",
+            "name": "Kettlebell 12kg",
+            "brand": "Reebok",
+            "category": "Fitness",
+            "price": 57,
+            "rating": 4.08,
+            "quantity": 20,
+            "description": "Crafted with attention to detail to deliver long-lasting quality.",
+            "image": "./src/core/data/images/Kettlebell 12kg.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 132,
+                    "user": "Harper Anderson",
+                    "rating": 3.9,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 133,
+                    "user": "Lucas Johnson",
+                    "rating": 3.8,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 134,
+                    "user": "Lucas Martin",
+                    "rating": 4.1,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 135,
+                    "user": "Mia White",
+                    "rating": 3.9,
+                    "comment": "Great quality and very comfortable."
+                }, {
+                    "id": 136,
+                    "user": "Elijah Smith",
+                    "rating": 4.5,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 137,
+                    "user": "Liam White",
+                    "rating": 4.3,
+                    "comment": "Great quality and very comfortable."
+                }
+            ]
+        }, {
+            "id": "25",
+            "name": "Foam Roller",
+            "brand": "Asics",
+            "category": "Training",
+            "price": 23,
+            "rating": 3.91,
+            "quantity": 30,
+            "description": "Designed for athletes who demand comfort and performance during long training sessions.",
+            "image": "./src/core/data/images/yoga-grid-foam-roller.webp",
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 138,
+                    "user": "James Taylor",
+                    "rating": 3.7,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 139,
+                    "user": "Ava Jackson",
+                    "rating": 3.7,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 140,
+                    "user": "Mia Brown",
+                    "rating": 3.8,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 141,
+                    "user": "Amelia Harris",
+                    "rating": 3.6,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 142,
+                    "user": "Lucas Jackson",
+                    "rating": 4.6,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 143,
+                    "user": "James Taylor",
+                    "rating": 3.8,
+                    "comment": "Great quality and very comfortable."
+                }, {
+                    "id": 144,
+                    "user": "Liam Martin",
+                    "rating": 4.2,
+                    "comment": "Exceeded my expectations."
+                }
+            ]
+        }, {
+            "id": "26",
+            "name": "Pull Up Bar",
+            "brand": "New Balance",
+            "category": "Fitness",
+            "price": 27,
+            "rating": 4.42,
+            "quantity": 20,
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "image": "./src/core/data/images/Pull Up Bar.webp",
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 145,
+                    "user": "Benjamin Harris",
+                    "rating": 3.8,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 146,
+                    "user": "Charlotte Anderson",
+                    "rating": 4.3,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 147,
+                    "user": "Noah Smith",
+                    "rating": 3.8,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 148,
+                    "user": "Alexander Johnson",
+                    "rating": 4.7,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 149,
+                    "user": "Amelia Harris",
+                    "rating": 5,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 150,
+                    "user": "Benjamin Johnson",
+                    "rating": 4.9,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "27",
+            "name": "Ab Wheel Roller",
+            "brand": "Decathlon",
+            "category": "Equipment",
+            "price": 29,
+            "rating": 4.03,
+            "quantity": 30,
+            "description": "Built with durable materials to withstand intense workouts and daily use.",
+            "image": "./src/core/data/images/Ab Wheel Roller.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 151,
+                    "user": "Oliver Jackson",
+                    "rating": 3.7,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 152,
+                    "user": "Sophia Martin",
+                    "rating": 4,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 153,
+                    "user": "Noah Martin",
+                    "rating": 4.4,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 154,
+                    "user": "Emma Smith",
+                    "rating": 4.2,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 155,
+                    "user": "Liam Jackson",
+                    "rating": 3.6,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 156,
+                    "user": "Elijah Anderson",
+                    "rating": 4.3,
+                    "comment": "Great quality and very comfortable."
+                }
+            ]
+        }, {
+            "id": "28",
+            "name": "Fitness Gloves",
+            "brand": "Asics",
+            "category": "Fitness",
+            "price": 125,
+            "rating": 4.55,
+            "quantity": 48,
+            "description": "Built with durable materials to withstand intense workouts and daily use.",
+            "image": "./src/core/data/images/Fitness Gloves.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 157,
+                    "user": "Elijah Harris",
+                    "rating": 4.8,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 158,
+                    "user": "Sophia Anderson",
+                    "rating": 4.5,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 159,
+                    "user": "Noah Thomas",
+                    "rating": 4.4,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 160,
+                    "user": "Henry White",
+                    "rating": 4.9,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 161,
+                    "user": "William White",
+                    "rating": 3.7,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 162,
+                    "user": "Alexander Jackson",
+                    "rating": 5,
+                    "comment": "Really worth the price."
+                }
+            ]
+        }, {
+            "id": "29",
+            "name": "Gym Water Bottle",
+            "brand": "Decathlon",
+            "category": "Training",
+            "price": 42,
+            "rating": 4.1,
+            "quantity": 25,
+            "description": "Lightweight and breathable design ensures maximum comfort all day long.",
+            "image": "./src/core/data/images/Gym Water Bottle.png",
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 163,
+                    "user": "James Anderson",
+                    "rating": 4.2,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 164,
+                    "user": "William Anderson",
+                    "rating": 4,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 165,
+                    "user": "Benjamin Taylor",
+                    "rating": 4.2,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 166,
+                    "user": "Harper Jackson",
+                    "rating": 4.3,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 167,
+                    "user": "Emma Smith",
+                    "rating": 3.8,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        }, {
+            "id": "30",
+            "name": "Running Socks Pack",
+            "brand": "Asics",
+            "category": "Training",
+            "price": 78,
+            "rating": 3.98,
+            "quantity": 30,
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "image": "./src/core/data/images/Running Socks Pack.jpg",
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 168,
+                    "user": "Sophia Martin",
+                    "rating": 3.6,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 169,
+                    "user": "Lucas Johnson",
+                    "rating": 4.1,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 170,
+                    "user": "Isabella Brown",
+                    "rating": 3.7,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 171,
+                    "user": "Olivia White",
+                    "rating": 4.1,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 172,
+                    "user": "Harper Jackson",
+                    "rating": 4.4,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "31",
+            "name": "Trail Running Shoes",
+            "brand": "Decathlon",
+            "category": "Shoes",
+            "price": 101,
+            "rating": 3.96,
+            "quantity": 20,
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "image": "./src/core/data/images/Trail Running Shoes.webp",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 173,
+                    "user": "Mia Anderson",
+                    "rating": 3.9,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 174,
+                    "user": "Henry White",
+                    "rating": 4.6,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 175,
+                    "user": "William Brown",
+                    "rating": 3.8,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 176,
+                    "user": "Isabella Johnson",
+                    "rating": 4.3,
+                    "comment": "Stylish and durable design."
+                }, {
+                    "id": 177,
+                    "user": "Elijah Johnson",
+                    "rating": 3.9,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 178,
+                    "user": "Oliver Thomas",
+                    "rating": 3.5,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 179,
+                    "user": "Isabella Johnson",
+                    "rating": 3.7,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        }, {
+            "id": "32",
+            "name": "Cycling Helmet",
+            "brand": "Puma",
+            "category": "Equipment",
+            "price": 178,
+            "rating": 4.22,
+            "quantity": 25,
+            "description": "Perfect companion for gym sessions, running, or outdoor activities.",
+            "image": "./src/core/data/images/Cycling Helmet.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 180,
+                    "user": "Oliver Anderson",
+                    "rating": 4.1,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 181,
+                    "user": "Olivia Thomas",
+                    "rating": 4.6,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 182,
+                    "user": "Ava Brown",
+                    "rating": 3.8,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 183,
+                    "user": "James Thomas",
+                    "rating": 4,
+                    "comment": "Great quality and very comfortable."
+                }, {
+                    "id": 184,
+                    "user": "James Thomas",
+                    "rating": 4.2,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 185,
+                    "user": "Emma Jackson",
+                    "rating": 4.6,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        }, {
+            "id": "33",
+            "name": "Sports Sunglasses",
+            "brand": "Columbia",
+            "category": "Accessories",
+            "price": 135,
+            "rating": 4.38,
+            "quantity": 30,
+            "description": "Built with durable materials to withstand intense workouts and daily use.",
+            "image": "./src/core/data/images/Sports Sunglasses.webp",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 186,
+                    "user": "Lucas Smith",
+                    "rating": 4.8,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 187,
+                    "user": "Isabella Brown",
+                    "rating": 4.8,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 188,
+                    "user": "Oliver Smith",
+                    "rating": 4.7,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 189,
+                    "user": "Sophia Martin",
+                    "rating": 4.6,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 190,
+                    "user": "Emma Jackson",
+                    "rating": 3.6,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 191,
+                    "user": "Lucas Harris",
+                    "rating": 3.8,
+                    "comment": "Perfect for daily use."
+                }
+            ]
+        }, {
+            "id": "34",
+            "name": "Training Backpack",
+            "brand": "Adidas",
+            "category": "Bags",
+            "price": 194,
+            "rating": 4.42,
+            "quantity": 39,
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "image": "./src/core/data/images/Training Backpack.avif",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 192,
+                    "user": "Evelyn Smith",
+                    "rating": 4.4,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 193,
+                    "user": "Emma Taylor",
+                    "rating": 3.8,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 194,
+                    "user": "Mia Brown",
+                    "rating": 4.5,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 195,
+                    "user": "William Brown",
+                    "rating": 4.4,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 196,
+                    "user": "Ava Johnson",
+                    "rating": 5,
+                    "comment": "Perfect for daily use."
+                }
+            ]
+        }, {
+            "id": "35",
+            "name": "Camping Tent",
+            "brand": "Decathlon",
+            "category": "Equipment",
+            "price": 108,
+            "rating": 4.56,
+            "quantity": 27,
+            "description": "Perfect companion for gym sessions, running, or outdoor activities.",
+            "image": "./src/core/data/images/Camping Tent.avif",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 197,
+                    "user": "Liam Jackson",
+                    "rating": 5,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 198,
+                    "user": "Ava Harris",
+                    "rating": 4.7,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 199,
+                    "user": "Amelia Jackson",
+                    "rating": 4,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 200,
+                    "user": "Oliver Thomas",
+                    "rating": 4.7,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 201,
+                    "user": "Emma Thomas",
+                    "rating": 4.4,
+                    "comment": "Stylish and durable design."
+                }
+            ]
+        }, {
+            "id": "36",
+            "name": "Hiking Boots",
+            "brand": "Decathlon",
+            "category": "Shoes",
+            "price": 21,
+            "rating": 4.09,
+            "quantity": 20,
+            "description": "A versatile product suitable for both beginners and professionals.",
+            "image": "./src/core/data/images/Hiking Boots.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 202,
+                    "user": "Ava Martin",
+                    "rating": 3.6,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 203,
+                    "user": "Olivia Anderson",
+                    "rating": 4.3,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 204,
+                    "user": "Henry Martin",
+                    "rating": 4.6,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 205,
+                    "user": "Lucas Anderson",
+                    "rating": 4.5,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 206,
+                    "user": "Harper Martin",
+                    "rating": 3.6,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 207,
+                    "user": "Isabella Jackson",
+                    "rating": 3.8,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 208,
+                    "user": "James Martin",
+                    "rating": 4.2,
+                    "comment": "Exceeded my expectations."
+                }
+            ]
+        }, {
+            "id": "37",
+            "name": "Thermal Jacket",
+            "brand": "Under Armour",
+            "category": "Clothing",
+            "price": 158,
+            "rating": 4.1,
+            "quantity": 25,
+            "description": "Lightweight and breathable design ensures maximum comfort all day long.",
+            "image": "./src/core/data/images/Thermal Jacket.jpeg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 209,
+                    "user": "Ava Smith",
+                    "rating": 3.9,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 210,
+                    "user": "Sophia Smith",
+                    "rating": 3.6,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 211,
+                    "user": "Charlotte Thomas",
+                    "rating": 4,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 212,
+                    "user": "Noah Harris",
+                    "rating": 5,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 213,
+                    "user": "Olivia Brown",
+                    "rating": 4,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 214,
+                    "user": "Sophia Thomas",
+                    "rating": 3.6,
+                    "comment": "Great quality and very comfortable."
+                }, {
+                    "id": 215,
+                    "user": "James Johnson",
+                    "rating": 4.6,
+                    "comment": "Exceeded my expectations."
+                }
+            ]
+        }, {
+            "id": "38",
+            "name": "Compression Shirt",
+            "brand": "Columbia",
+            "category": "Clothing",
+            "price": 97,
+            "rating": 4.46,
+            "quantity": 20,
+            "description": "Perfect companion for gym sessions, running, or outdoor activities.",
+            "image": "./src/core/data/images/Compression Shirt.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 216,
+                    "user": "Olivia Brown",
+                    "rating": 4.3,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 217,
+                    "user": "Ava Anderson",
+                    "rating": 5,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 218,
+                    "user": "Amelia Taylor",
+                    "rating": 4.2,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 219,
+                    "user": "Isabella White",
+                    "rating": 4.4,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 220,
+                    "user": "Charlotte White",
+                    "rating": 4.9,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 221,
+                    "user": "Henry Anderson",
+                    "rating": 4.1,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 222,
+                    "user": "Harper Jackson",
+                    "rating": 4.3,
+                    "comment": "Really worth the price."
+                }
+            ]
+        }, {
+            "id": "39",
+            "name": "Sports Watch",
+            "brand": "Reebok",
+            "category": "Accessories",
+            "price": 162,
+            "rating": 4.4,
+            "quantity": 25,
+            "description": "Perfect companion for gym sessions, running, or outdoor activities.",
+            "image": "./src/core/data/images/Sports Watch.webp",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 223,
+                    "user": "Sophia Taylor",
+                    "rating": 3.7,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 224,
+                    "user": "Amelia Smith",
+                    "rating": 5,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 225,
+                    "user": "Benjamin Brown",
+                    "rating": 4.3,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 226,
+                    "user": "Mia Smith",
+                    "rating": 4.7,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 227,
+                    "user": "William Jackson",
+                    "rating": 4.7,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 228,
+                    "user": "Elijah Anderson",
+                    "rating": 3.8,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 229,
+                    "user": "Isabella Johnson",
+                    "rating": 4.6,
+                    "comment": "Highly recommended product."
+                }
+            ]
+        }, {
+            "id": "40",
+            "name": "Smart Fitness Tracker",
+            "brand": "Asics",
+            "category": "Accessories",
+            "price": 17,
+            "rating": 4.27,
+            "quantity": 30,
+            "description": "Crafted with attention to detail to deliver long-lasting quality.",
+            "image": "./src/core/data/images/Smart Fitness Tracker.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 230,
+                    "user": "Benjamin Brown",
+                    "rating": 4,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 231,
+                    "user": "Noah Jackson",
+                    "rating": 3.6,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 232,
+                    "user": "Amelia Taylor",
+                    "rating": 4.8,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 233,
+                    "user": "Lucas Harris",
+                    "rating": 4.1,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 234,
+                    "user": "Mia White",
+                    "rating": 4.6,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 235,
+                    "user": "Olivia Thomas",
+                    "rating": 4.4,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 236,
+                    "user": "Emma Johnson",
+                    "rating": 4.4,
+                    "comment": "Exceeded my expectations."
+                }
+            ]
+        }, {
+            "id": "41",
+            "name": "Basketball Pro",
+            "brand": "Fila",
+            "category": "Outdoor",
+            "price": 132,
+            "rating": 4.02,
+            "quantity": 20,
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "image": "./src/core/data/images/Basketball Pro.png",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 237,
+                    "user": "Emma Thomas",
+                    "rating": 4.3,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 238,
+                    "user": "Amelia Jackson",
+                    "rating": 3.9,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 239,
+                    "user": "Emma Johnson",
+                    "rating": 3.9,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 240,
+                    "user": "Mia Martin",
+                    "rating": 4.3,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 241,
+                    "user": "Elijah Thomas",
+                    "rating": 4.1,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 242,
+                    "user": "Benjamin Brown",
+                    "rating": 3.6,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "42",
+            "name": "Football Match Ball",
+            "brand": "Adidas",
+            "category": "Outdoor",
+            "price": 112,
+            "rating": 4.03,
+            "quantity": 17,
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "image": "./src/core/data/images/Football Match Ball.webp",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 243,
+                    "user": "Alexander Martin",
+                    "rating": 3.8,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 244,
+                    "user": "Henry Brown",
+                    "rating": 3.7,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 245,
+                    "user": "Alexander Johnson",
+                    "rating": 4.5,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 246,
+                    "user": "Alexander Jackson",
+                    "rating": 4.1,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 247,
+                    "user": "Henry White",
+                    "rating": 4,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 248,
+                    "user": "Emma Taylor",
+                    "rating": 3.8,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 249,
+                    "user": "Oliver Taylor",
+                    "rating": 4.3,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }, {
+            "id": "43",
+            "name": "Tennis Racket",
+            "brand": "Decathlon",
+            "category": "Outdoor",
+            "price": 84,
+            "rating": 4.1,
+            "quantity": 44,
+            "description": "Built with durable materials to withstand intense workouts and daily use.",
+            "image": "./src/core/data/images/Tennis Racket.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 250,
+                    "user": "James Johnson",
+                    "rating": 3.7,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 251,
+                    "user": "Charlotte Anderson",
+                    "rating": 3.6,
+                    "comment": "Really worth the price."
+                },
+                {
+                    "id": 252,
+                    "user": "Charlotte Johnson",
+                    "rating": 4.7,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 253,
+                    "user": "Emma Taylor",
+                    "rating": 4.2,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 254,
+                    "user": "Sophia Martin",
+                    "rating": 4.3,
+                    "comment": "Stylish and durable design."
+                }
+            ]
+        }, {
+            "id": "44",
+            "name": "Badminton Set",
+            "brand": "Decathlon",
+            "category": "Outdoor",
+            "price": 184,
+            "rating": 4.33,
+            "quantity": 39,
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "image": "./src/core/data/images/Badminton Set.webp",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 255,
+                    "user": "William Thomas",
+                    "rating": 4.2,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 256,
+                    "user": "William Jackson",
+                    "rating": 4.3,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 257,
+                    "user": "Alexander Jackson",
+                    "rating": 4.1,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 258,
+                    "user": "Benjamin Harris",
+                    "rating": 4.7,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 259,
+                    "user": "Ava Taylor",
+                    "rating": 4.7,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 260,
+                    "user": "Alexander Thomas",
+                    "rating": 3.7,
+                    "comment": "Really worth the price."
+                }, {
+                    "id": 261,
+                    "user": "Noah Taylor",
+                    "rating": 4.6,
+                    "comment": "Really worth the price."
+                }
+            ]
+        }, {
+            "id": "45",
+            "name": "Swimming Goggles",
+            "brand": "Asics",
+            "category": "Accessories",
+            "price": 130,
+            "rating": 4.1,
+            "quantity": 36,
+            "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
+            "image": "./src/core/data/images/Swimming Goggles.jpeg",
+            "inStock": false,
+            "reviews": [
+                {
+                    "id": 262,
+                    "user": "Henry Johnson",
+                    "rating": 4.4,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 263,
+                    "user": "Ava Johnson",
+                    "rating": 3.8,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 264,
+                    "user": "Noah Martin",
+                    "rating": 4.1,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 265,
+                    "user": "Emma Brown",
+                    "rating": 4.7,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 266,
+                    "user": "William White",
+                    "rating": 4.2,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 267,
+                    "user": "Henry Anderson",
+                    "rating": 3.8,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 268,
+                    "user": "Oliver Smith",
+                    "rating": 3.7,
+                    "comment": "Exceeded my expectations."
+                }
+            ]
+        }, {
+            "id": "46",
+            "name": "Swim Cap",
+            "brand": "Asics",
+            "category": "Accessories",
+            "price": 102,
+            "rating": 4.3,
+            "quantity": 41,
+            "description": "Perfect companion for gym sessions, running, or outdoor activities.",
+            "image": "./src/core/data/images/Swim Cap.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 269,
+                    "user": "Harper Brown",
+                    "rating": 4.5,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 270,
+                    "user": "Oliver Smith",
+                    "rating": 4.1,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 271,
+                    "user": "Liam Taylor",
+                    "rating": 4.2,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 272,
+                    "user": "Noah Anderson",
+                    "rating": 3.7,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 273,
+                    "user": "Charlotte Harris",
+                    "rating": 5,
+                    "comment": "Stylish and durable design."
+                }
+            ]
+        }, {
+            "id": "47",
+            "name": "Protein Shaker",
+            "brand": "Reebok",
+            "category": "Training",
+            "price": 83,
+            "rating": 4.26,
+            "quantity": 45,
+            "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
+            "image": "./src/core/data/images/Protein Shaker.jpeg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 274,
+                    "user": "Elijah White",
+                    "rating": 4.5,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 275,
+                    "user": "Olivia Thomas",
+                    "rating": 4.6,
+                    "comment": "Highly recommended product."
+                },
+                {
+                    "id": 276,
+                    "user": "Alexander Jackson",
+                    "rating": 3.7,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 277,
+                    "user": "Elijah Taylor",
+                    "rating": 4.8,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 278,
+                    "user": "Noah Johnson",
+                    "rating": 3.7,
+                    "comment": "Perfect for daily use."
+                }
+            ]
+        }, {
+            "id": "48",
+            "name": "Jump Box",
+            "brand": "Decathlon",
+            "category": "Equipment",
+            "price": 105,
+            "rating": 4.37,
+            "quantity": 55,
+            "description": "Perfect companion for gym sessions, running, or outdoor activities.",
+            "image": "./src/core/data/images/Jump Box.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 279,
+                    "user": "Charlotte Smith",
+                    "rating": 4,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 280,
+                    "user": "Amelia Taylor",
+                    "rating": 4.9,
+                    "comment": "Good but could be improved slightly."
+                },
+                {
+                    "id": 281,
+                    "user": "Ava Martin",
+                    "rating": 4.4,
+                    "comment": "Perfect for daily use."
+                },
+                {
+                    "id": 282,
+                    "user": "Amelia Jackson",
+                    "rating": 4,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 283,
+                    "user": "Olivia Taylor",
+                    "rating": 4.6,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 284,
+                    "user": "Oliver Thomas",
+                    "rating": 4.1,
+                    "comment": "Highly recommended product."
+                }, {
+                    "id": 285,
+                    "user": "Sophia Brown",
+                    "rating": 4.6,
+                    "comment": "Stylish and durable design."
+                }
+            ]
+        }, {
+            "id": "49",
+            "name": "Agility Ladder",
+            "brand": "Reebok",
+            "category": "Training",
+            "price": 67,
+            "rating": 4.47,
+            "quantity": 63,
+            "description": "Engineered for performance with modern styling and excellent support.",
+            "image": "./src/core/data/images/Agility Ladder.avif",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 286,
+                    "user": "Lucas Smith",
+                    "rating": 4.3,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 287,
+                    "user": "Noah Harris",
+                    "rating": 4.9,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 288,
+                    "user": "Noah Johnson",
+                    "rating": 4.9,
+                    "comment": "Great quality and very comfortable."
+                },
+                {
+                    "id": 289,
+                    "user": "Noah Brown",
+                    "rating": 4.7,
+                    "comment": "Perfect for daily use."
+                }, {
+                    "id": 290,
+                    "user": "Benjamin Thomas",
+                    "rating": 3.8,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 291,
+                    "user": "Harper Brown",
+                    "rating": 4.3,
+                    "comment": "Good but could be improved slightly."
+                }, {
+                    "id": 292,
+                    "user": "James Johnson",
+                    "rating": 4.4,
+                    "comment": "Exceeded my expectations."
+                }
+            ]
+        }, {
+            "id": "50",
+            "name": "Balance Board",
+            "brand": "Decathlon",
+            "category": "Equipment",
+            "price": 138,
+            "rating": 4.36,
+            "quantity": 53,
+            "description": "Lightweight and breathable design ensures maximum comfort all day long.",
+            "image": "./src/core/data/images/Balance Board.jpg",
+            "inStock": true,
+            "reviews": [
+                {
+                    "id": 293,
+                    "user": "Amelia Taylor",
+                    "rating": 4.3,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 294,
+                    "user": "Alexander Anderson",
+                    "rating": 4.2,
+                    "comment": "Exceeded my expectations."
+                },
+                {
+                    "id": 295,
+                    "user": "Elijah Taylor",
+                    "rating": 4,
+                    "comment": "Stylish and durable design."
+                },
+                {
+                    "id": 296,
+                    "user": "Harper Taylor",
+                    "rating": 4.5,
+                    "comment": "Exceeded my expectations."
+                }, {
+                    "id": 297,
+                    "user": "Evelyn Taylor",
+                    "rating": 4.8,
+                    "comment": "Good but could be improved slightly."
+                }
+            ]
+        }
+    ],
+    "categories": [
+        {
+            "id": "1",
+            "name": "Shoes"
+        },
+        {
+            "id": "2",
+            "name": "Clothing"
+        },
+        {
+            "id": "3",
+            "name": "Bags"
+        },
+        {
+            "id": "4",
+            "name": "Accessories"
+        }, {
+            "id": "5",
+            "name": "Equipment"
+        }, {
+            "id": "6",
+            "name": "Fitness"
+        }, {
+            "id": "7",
+            "name": "Outdoor"
+        }, {
+            "id": "8",
+            "name": "Training"
+        }, {
+            "id": "9",
+            "name": "Running"
+        }
+    ],
+    "brands": [
+        {
+            "id": "1",
+            "name": "Nike"
+        },
+        {
+            "id": "2",
+            "name": "Adidas"
+        },
+        {
+            "id": "3",
+            "name": "Puma"
+        },
+        {
+            "id": "4",
+            "name": "Under Armour"
+        }, {
+            "id": "5",
+            "name": "Reebok"
+        }, {
+            "id": "6",
+            "name": "Asics"
+        }, {
+            "id": "7",
+            "name": "New Balance"
+        }, {
+            "id": "8",
+            "name": "Decathlon"
+        }, {
+            "id": "9",
+            "name": "Fila"
+        }, {
+            "id": "10",
+            "name": "Columbia"
+        }
+    ],
+    "users": [],
+    "$schema": "./node_modules/json-server/schema.json"
+}

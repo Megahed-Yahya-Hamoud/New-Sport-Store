@@ -1,0 +1,254 @@
+.parent {
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+  @media (max-width: 769px) {
+    padding-left: 10px;
+    padding-right: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1111;
+  }
+}
+.logo {
+  /* margin-right: 75px; */
+  @media (max-width: 362px) {
+  }
+}
+.logoInUser {
+  @media (max-width: 370px) {
+    margin-right: 0px;
+  }
+}
+
+.header {
+  height: rem(60px);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+.itemLargeGroup{
+  gap: 40px;
+  @media (max-width: 991.5px) {
+    gap: 0px;
+  }
+}
+.logoSport {
+  font-family: fantasy;
+}
+
+.logoSport {
+  color: black !important;
+  transition: 0.2s ease-in-out;
+}
+
+.link , .linkLarge {
+  display: block;
+  line-height: 1;
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+  /*   
+    [data-mantine-color-scheme] &[data-active] {
+      background-color: var(--mantine-color-blue-filled);
+      color: var(--mantine-color-white);
+    } */
+
+  @media (max-width: 991.5px) {
+    margin: 20px;
+  }
+}
+
+.linkLarge:hover{
+  color: rgb(102, 102, 102);
+  /* box-shadow:-1px 7px 14px rgb(183, 183, 183);; */
+}
+
+.link:hover {
+  text-shadow:-1px 7px 14px rgb(108, 108, 108);;
+  transform: scale(1.05);
+}
+
+.search {
+  border-radius: 50px;
+  outline: none;
+  padding: 10px 15px;
+  border: 5px solid rgb(255, 255, 255);
+  background-color: aliceblue;
+  transition: 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+}
+
+.filed {
+  background-color: inherit;
+  outline: inherit;
+  border: 0px;
+}
+
+.search:hover {
+  border: 5px solid rgba(214, 197, 239, 0.307);
+}
+
+.search:focus {
+  border: 5px solid rgba(214, 197, 239, 0.307);
+}
+
+.signup {
+  padding: 15px 23px 15px;
+  text-decoration: none;
+  user-select: none;
+  position: relative;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+  width: auto;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 100px;
+  font-size: 14px;
+  background: black;
+  border: var(
+    --button-bd,
+    calc(0.0625rem * var(--mantine-scale)) solid transparent
+  );
+  color: white;
+  height: var(--button-height, var(--button-height-sm));
+  vertical-align: middle;
+  transition: 0.1s ease-in-out;
+}
+
+.login {
+  padding: 15px 0px 15px;
+  margin: 0px 10px;
+  text-decoration: none;
+  user-select: none;
+  position: relative;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+  width: auto;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  color: black;
+  height: var(--button-height, var(--button-height-sm));
+  vertical-align: middle;
+  transition: 0.1s ease-in-out;
+}
+.signup {
+  --button-color: var(--mantine-color-white);
+}
+
+.signup:hover {
+  background-color: rgb(50, 50, 50);
+}
+
+.login:hover {
+  color: rgba(0, 0, 0, 0.553);
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* padding: 10px; */
+  width: 40px;
+  height: 40px;
+  transition: 0.2s linear;
+  color: black;
+}
+
+.userIcon {
+  text-align: center;
+  font-weight: 700;
+  font-size: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: black;
+  color: white;
+  padding: 3px 9px;
+  transition: 0.2s linear;
+  width: 40px;
+  height: 40px;
+}
+
+.icons:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.userIcon:hover {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+
+.btnInNav{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto 10px;
+  gap: 8px;
+  .signupInNav {
+  padding: 15px 23px 15px;
+  width: 50%;
+  text-decoration: none;
+  user-select: none;
+  position: relative;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 100px;
+  font-size: 14px;
+  background: black;
+  border: var(
+    --button-bd,
+    calc(0.0625rem * var(--mantine-scale)) solid transparent
+  );
+  color: white;
+  height: var(--button-height, var(--button-height-sm));
+  vertical-align: middle;
+  transition: 0.1s ease-in-out;
+}
+
+.loginInNav {
+  border-radius: 100px;
+  width: 50%;
+  border: 1px solid black;
+  padding: 15px 0px 15px;
+  /* margin: 0px 10px; */
+  text-decoration: none;
+  user-select: none;
+  position: relative;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  color: black;
+  height: var(--button-height, var(--button-height-sm));
+  vertical-align: middle;
+  transition: 0.1s ease-in-out;
+}
+}

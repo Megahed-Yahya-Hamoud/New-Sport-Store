@@ -1,0 +1,48 @@
+.btnCart{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.btn{
+    font-size: 17px;
+    width: 100%;
+    background-color: black;
+    transition: 0.2s linear;
+}
+
+.btn:hover{
+    background-color: rgb(50, 50, 50);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.iconCart{
+    width: 27px;
+    height:27px;
+}
+
+@media (max-width: 476px) {
+    .btn{
+        font-size: 15px;
+        padding: 5px 5px;
+        height: fit-content;
+        border-radius: 6px;
+    }
+    .iconCart{
+    width: 20px;
+    height:20px;
+}
+}
+
+@media (max-width: 375px) {
+        .btn{
+        font-size: 13px;
+    }
+    .iconCart{
+    width: 18px;
+    height:18px;
+}
+}

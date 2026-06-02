@@ -1,0 +1,15 @@
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+@media (max-width: 503px) {
+  .stars {
+    justify-content: center;
+  }
+  .title,
+  .price {
+    text-align: center;
+  }
+}

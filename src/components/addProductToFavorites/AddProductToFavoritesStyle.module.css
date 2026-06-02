@@ -1,0 +1,20 @@
+.btnFavorites{
+    /* position: absolute; */
+    /* top: 12px; */
+    /* right: 12px; */
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 2px solid red;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.1s linear;
+    width: 50.52px;
+    height: 35px;
+}
+
+.btnFavorites:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

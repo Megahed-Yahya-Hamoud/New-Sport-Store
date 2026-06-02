@@ -1,0 +1,214 @@
+.section {
+  background-color: var(--color-surface-container-low);
+  padding: var(--spacing-section-gap) var(--spacing-margin-mobile);
+}
+
+/* Scroll-reveal wrapper */
+.inner {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  position: relative;
+  opacity: 0;
+  transform: translateY(10px);
+  transition:
+    opacity 0.6s ease-out,
+    transform 0.6s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.heading {
+  font-family: var(--font-headline);
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: var(--spacing-section-gap);
+  @media (max-width:768px) {
+    margin-bottom: 70px;
+  }
+}
+
+/* ── Timeline container ── */
+.timeline {
+  position: relative;
+}
+
+/* Vertical line — mobile: left edge, desktop: centre */
+.line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: var(--color-primary);
+  left: 20px;
+  @media (max-width: 768px) {
+  background-color: rgba(255, 255, 255, 0);
+    
+  }
+}
+
+/* ── Row (milestone) ── */
+.row {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: var(--spacing-section-gap);
+}
+
+.row:last-child {
+  margin-bottom: 0;
+}
+
+/* Ghost year — hidden on mobile */
+.ghostYear {
+  display: none;
+}
+
+/* Dot */
+.dot {
+    border: 2px solid black;
+  position: relative;
+  z-index: 10;
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-label);
+  font-size: 14px;
+  font-weight: 500;
+  flex-shrink: 0;
+  margin-bottom: -62px;
+}
+
+/* Card wrapper */
+.cardWrapper {
+  padding-left: var(--spacing-margin-mobile);
+  width: 100%;
+}
+
+/* Card */
+.card {
+  border: 1px solid rgb(219, 219, 219);
+  background-color: #ffffff;
+  padding: var(--spacing-gutter);
+  border-radius: 10px;
+  /* box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1); */
+   box-shadow:
+    rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+/* Year inside card — shown only on mobile */
+.yearMobile {
+  font-family: var(--font-label);
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.cardTitle {
+  font-family: var(--font-headline);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.cardDesc {
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--color-on-surface-variant);
+}
+
+/* ══════════════════════════
+   Desktop layout (≥ 768px)
+   ══════════════════════════ */
+@media (min-width: 768px) {
+  .section {
+    padding-inline: var(--spacing-margin-desktop);
+  }
+
+  /* Line moves to centre */
+  .line {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  /* Row becomes horizontal */
+  .row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Ghost year visible */
+  .ghostYear {
+    display: block;
+    width: calc(50% - 40px);
+    flex-shrink: 0;
+  }
+
+  .ghostYear span {
+    font-family: var(--font-display);
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: var(--color-on-surface-variant);
+    opacity: 0.2;
+  }
+
+  /* Card wrapper half-width */
+  .cardWrapper {
+    width: calc(50% - 40px);
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* rowRight: ghost-year LEFT | dot | card RIGHT */
+  .rowRight .ghostYear {
+    text-align: right;
+    order: 1;
+  }
+
+  .dot{
+    margin: 0;
+  }
+  .rowRight .dot {
+    order: 2;
+  }
+  .rowRight .cardWrapper {
+    order: 3;
+  }
+
+  /* rowLeft: card LEFT | dot | ghost-year RIGHT */
+  .rowLeft .cardWrapper {
+    order: 1;
+  }
+  .rowLeft .dot {
+    order: 2;
+  }
+  .rowLeft .ghostYear {
+    text-align: left;
+    order: 3;
+  }
+
+  /* Hide year inside card on desktop */
+  .yearMobile {
+    display: none;
+  }
+}

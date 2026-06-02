@@ -1,0 +1,18 @@
+.btnFavorites{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.1s linear;
+
+}
+
+.btnFavorites:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transform: scale(1.1);
+}

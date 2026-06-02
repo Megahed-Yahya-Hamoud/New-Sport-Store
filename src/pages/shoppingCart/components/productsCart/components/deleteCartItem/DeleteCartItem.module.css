@@ -1,0 +1,28 @@
+.remove {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+  cursor: pointer;
+  color: red;
+}
+
+.textRemove {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+}
+
+.iconTrash{
+  width: 18px;
+  height: 18px;
+}
+
+@media (max-width:541px) {
+  .iconTrash{
+    width: 21px;
+    height: 21px;
+  }
+  .textRemove{
+    display: none;
+  }
+}

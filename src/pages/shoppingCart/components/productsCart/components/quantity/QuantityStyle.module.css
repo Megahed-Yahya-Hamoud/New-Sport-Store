@@ -1,0 +1,39 @@
+.qty {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+
+  @media (max-width: 701px) {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .qtyText {
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  .containerCounter {
+    height: fit-content;
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+
+    .counterIcons {
+      border-radius: 4px;
+      width: 18px;
+      height: 18px;
+      padding: 2px;
+      background-color: #bbbbc7;
+    }
+  }
+  .counterIcons {
+    border-radius: 4px;
+    width: 18px;
+    height: 18px;
+    padding: 2px;
+    background-color: #bbbbc7;
+    cursor: pointer;
+  }
+}

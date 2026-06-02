@@ -1,0 +1,102 @@
+.section {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--color-primary);
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: grayscale(1) brightness(0.5);
+  transition: transform 0.7s ease;
+}
+
+.frame:hover .image {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary);
+  padding: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.badgeText {
+  font-family: var(--font-label);
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.cornerLabel {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid #000000;
+  font-family: var(--font-label);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: var(--color-on-background);
+}
+
+/* ── Responsive ── */
+@media (min-width: 768px) {
+  .frame {
+    aspect-ratio: 21 / 9;
+  }
+  .cornerLabel{
+    bottom: 32px;
+  right: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .badge {
+    padding: 24px;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .badgeText {
+    white-space: normal;
+  }
+   .cornerLabel{
+    bottom: 11px;
+  right: 11px;
+  }
+
+}

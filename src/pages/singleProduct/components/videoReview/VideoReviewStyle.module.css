@@ -1,0 +1,28 @@
+.videoReview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 500px) {
+  .media {
+    display: none;
+  }
+}
+
+.firstTitle {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+  @media (max-width: 550px) {
+    font-size: 28px;
+    font-weight: 700;
+  }
+}

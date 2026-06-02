@@ -1,0 +1,22 @@
+.input{
+    width: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.192);
+    border-radius: 8px;
+
+    &:focus{
+    border: 1px solid rgba(0, 0, 0, 0.693);
+box-shadow: rgba(0, 0, 0, 0.264) 0px 4px 12px;
+
+    }
+}
+
+.btnSubmit{
+    width: 19% !important;
+    @media (max-width:550px) {
+        width: 50% !important;
+    }
+}

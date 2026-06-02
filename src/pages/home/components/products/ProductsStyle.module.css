@@ -1,0 +1,162 @@
+.parentCard {
+  text-decoration: none;
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+}
+
+.imageCard {
+  transition: 0.2s ease-in-out;
+}
+
+.card {
+  transition: 0.2s ease-in-out;
+  overflow: hidden;
+  position: relative;
+  border-radius: 25px;
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  background-color: rgb(240, 240, 240);
+}
+.card:hover {
+  .imageCard {
+    transform: scale(1.07);
+  }
+  .icons {
+    opacity: 1;
+    margin-bottom: 10px;
+  }
+
+  .icon,
+  .iconTwo {
+    top: 75%;
+  }
+}
+
+.imageCard {
+  width: 100%;
+  height: 100%;
+  transition: 0.2s ease-in-out;
+}
+
+.icons {
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0;
+  transition: 0.2s ease-in-out;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.227);
+
+  .icon,
+  .iconTwo {
+    position: absolute;
+    top: 77%;
+    transition: 0.2s ease-in-out;
+    background-color: white;
+    padding: 5px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    color: rgb(57, 57, 57);
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+
+    &:hover {
+      background-color: rgb(222, 220, 220);
+      transform: scale(1.08);
+    }
+  }
+  .icon {
+    color: var(--main-color);
+    left: 58%;
+    cursor: pointer;
+  }
+  .iconTwo {
+    color: red;
+    left: 80%;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .icons {
+      display: none;
+    }
+  }
+}
+
+.toggle {
+  display: none;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  .dots {
+    border-radius: 50px;
+    padding: 5px 5px;
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+      background-color: rgb(222, 220, 220);
+      color: black;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .toggle {
+    display: initial;
+    opacity: 1;
+  }
+}
+
+.iconDotsOne,
+.iconDotsTwo {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.iconDotsOne {
+  color: var(--main-color);
+}
+
+.iconDotsTwo {
+  color: red;
+}
+
+.details {
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  .text {
+    cursor: pointer;
+    height: fit-content;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    font-weight: 700;
+  }
+  .description {
+    display: none;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .price {
+    height: fit-content;
+  }
+}

@@ -1,0 +1,21 @@
+.app {}
+
+.main {
+  padding-top: var(--nav-height);
+}
+
+.pageWrapper {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding-inline: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-section-gap);
+  margin-bottom: var(--spacing-section-gap);
+}
+
+@media (min-width: 768px) {
+  .pageWrapper {
+    padding-inline: var(--spacing-margin-desktop);
+  }
+}

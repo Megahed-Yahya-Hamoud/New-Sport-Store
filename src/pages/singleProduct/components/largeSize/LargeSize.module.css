@@ -1,0 +1,23 @@
+.size {
+  display: block;
+  /* line-height: 1; */
+  padding: 10px 15px;
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.873);
+  border: 1px solid rgba(0, 0, 0, 0.334);
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.1s ease-in-out;
+
+  &:hover {
+    border: 1.5px solid rgb(0, 0, 0);
+  }
+
+  [data-mantine-color-scheme] &[data-active] {
+    border: 0.5px solid rgb(0, 0, 0);
+    outline: 1.5px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  }
+}

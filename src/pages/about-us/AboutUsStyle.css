@@ -1,0 +1,60 @@
+/* ============================================================
+   global.css — CSS Variables & Reset
+   يتحمل في main.jsx مرة واحدة فقط
+   ============================================================ */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"); */
+
+:root {
+  /* ── Colors ── */
+  --color-primary:               #000000;
+  --color-on-primary:            #ffffff;
+  --color-secondary:             #5e5e5e;
+  --color-surface:               #f9f9f9;
+  --color-on-surface:            #1a1c1c;
+  --color-on-surface-variant:    #4c4546;
+  --color-surface-container:     #eeeeee;
+  --color-surface-container-low: #f3f3f3;
+  --color-outline:               #7e7576;
+  --color-background:            #f9f9f9;
+
+  /* ── Typography ── */
+  --font-display:  "Hanken Grotesk", sans-serif;
+  --font-headline: "Hanken Grotesk", sans-serif;
+  --font-body:     "Hanken Grotesk", sans-serif;
+  --font-label:    "JetBrains Mono", monospace;
+
+  /* ── Spacing ── */
+  --spacing-base:           8px;
+  --spacing-gutter:         32px;
+  --spacing-section-gap:    128px;
+  --spacing-margin-mobile:  20px;
+  --spacing-margin-desktop: 64px;
+  --container-max:          1280px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  background-color: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+} */
+
+a  { text-decoration: none; }
+/* img { display: block; max-width: 100%; } */ 
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  /* font-family: "Material Symbols Outlined"; */
+  display: inline-block;
+  line-height: 1;
+}
