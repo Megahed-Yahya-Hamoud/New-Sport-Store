@@ -97,7 +97,7 @@ export default function Home() {
             <Divider
               label="Or Search With Filter"
               w={"40%"}
-              my={10}
+              my={isMobile?15:10}
               styles={{ label: { color: "", alignItems: "center" } }}
             />
           </Box>

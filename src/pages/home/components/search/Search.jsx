@@ -13,12 +13,10 @@ setIsValue(false)
 }
 
   return (
-    <Box>
+    <Box className={classes.containerSearch}>
       <form>
         <Box
-          display={"flex"}
           className={classes.filterForm}
-          style={{ alignItems: "baseline" }}
         >
           <input
             type="text"

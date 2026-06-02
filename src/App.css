@@ -197,15 +197,12 @@
   background-color: rgba(0, 0, 0, 0.059);
 }
 
-.style{
+.style {
   min-height: 450px;
 }
 
 .App {
-  /* display: flex;
-  flex-direction: column;
-  justify-self: center;
-  .body{
-    max-width: 1500px;  
-  } */
-  }
+
+  max-width: 1500px;
+
+}

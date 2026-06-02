@@ -7,13 +7,16 @@
     width: 100;
     margin: 10px 50px;
     flex-wrap: wrap;
-    /* width: 100%; */
     @media (max-width:400px) {
           margin-left: 10px;
           margin-right: 10px;
         }
 }
-
+.container{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
 .containerInput{
     display: flex;
     align-items: center;

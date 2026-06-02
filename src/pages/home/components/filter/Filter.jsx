@@ -1,5 +1,4 @@
 /* eslint-disable no-unused-vars */
-/* eslint-disable react/prop-types */
 import { Box, Button, Select } from "@mantine/core";
 import classes from "./Filter.module.css";
 import { useEffect, useRef, useState } from "react";
@@ -83,7 +82,7 @@ function formSubmit(e) {
 
   
   return (
-    <Box>
+    <Box className={classes.container}>
       <form className={classes.filterForm}>
         <Box className={classes.containerInput}>
           <input
