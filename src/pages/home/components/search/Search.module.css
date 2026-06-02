@@ -4,7 +4,7 @@
     gap: 1rem;
     justify-content: center;
     align-items: center;
-    width: 100;
+    width: auto;
     margin: 10px 50px;
     align-items: baseline;
     @media (max-width:400px) {
@@ -13,7 +13,7 @@
         }
 }
 
-.container{
+.containerSearch{
   width: 100%;
   justify-content: center;
   display: flex;

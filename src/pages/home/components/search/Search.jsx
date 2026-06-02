@@ -14,7 +14,7 @@ setIsValue(false)
 
   return (
     <Box className={classes.containerSearch}>
-      <form>
+      <form style={{width:"100%"}}>
         <Box
           className={classes.filterForm}
         >
