@@ -24,13 +24,13 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/kB0rnIifAjE?si=2c4sSKtTIZUe3CfI",
-            "image": "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
+            "image": "/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
             "images": [
-                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
-                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus1.png",
-                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus2.png",
-                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus3.png",
-                "../src/core/data/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus4.png"
+                "/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
+                "/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus1.png",
+                "/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus2.png",
+                "/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus3.png",
+                "/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus4.png"
             ],
             "inStock": true,
             "reviews": [
@@ -89,13 +89,13 @@
             ],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
             "video": "https://youtu.be/ez3fw8SrexA?si=rneGT7mWzKvjXuvx",
-            "image": "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22.png",
+            "image": "/images/Adidas Ultraboost 22/Adidas Ultraboost 22.png",
             "images": [
-                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22.png",
-                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22-1.png",
-                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22-2.png",
-                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22-3.png",
-                "../src/core/data/images/Adidas Ultraboost 22/Adidas Ultraboost 22-4.png"
+                "/images/Adidas Ultraboost 22/Adidas Ultraboost 22.png",
+                "/images/Adidas Ultraboost 22/Adidas Ultraboost 22-1.png",
+                "/images/Adidas Ultraboost 22/Adidas Ultraboost 22-2.png",
+                "/images/Adidas Ultraboost 22/Adidas Ultraboost 22-3.png",
+                "/images/Adidas Ultraboost 22/Adidas Ultraboost 22-4.png"
             ],
             "inStock": true,
             "reviews": [
@@ -154,13 +154,13 @@
             ],
             "description": "Designed for athletes who demand comfort and performance during long training sessions.",
             "video": "https://youtu.be/UyefASVrtbw?si=4zCG0Z94C8NIYyz5",
-            "image": "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro.png",
+            "image": "/images/Puma Velocity Nitro/Puma Velocity Nitro.png",
             "images": [
-                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro.png",
-                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro-2.png",
-                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro-3.png ",
-                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro-4.png ",
-                "../src/core/data/images/Puma Velocity Nitro/Puma Velocity Nitro-5.png"
+                "/images/Puma Velocity Nitro/Puma Velocity Nitro.png",
+                "/images/Puma Velocity Nitro/Puma Velocity Nitro-2.png",
+                "/images/Puma Velocity Nitro/Puma Velocity Nitro-3.png ",
+                "/images/Puma Velocity Nitro/Puma Velocity Nitro-4.png ",
+                "/images/Puma Velocity Nitro/Puma Velocity Nitro-5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -217,13 +217,13 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/vnTrjU-4Ang?si=x4r6Io-yJXkMhygr",
-            "image": "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom.png",
+            "image": "/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom.png",
             "images": [
-                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom.png",
-                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-2.png",
-                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-3.png ",
-                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-4.png ",
-                "../src/core/data/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-5.png"
+                "/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom.png",
+                "/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-2.png",
+                "/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-3.png ",
+                "/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-4.png ",
+                "/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom-5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -286,13 +286,13 @@
             ],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
             "video": "https://youtu.be/nEwXccb5mzA?si=8Jkujhyc68zFybxD",
-            "image": "../src/core/data/images/Reebok Nano X/Reebok Nano X.png",
+            "image": "/images/Reebok Nano X/Reebok Nano X.png",
             "images": [
-                "../src/core/data/images/Reebok Nano X/Reebok Nano X.png",
-                "../src/core/data/images/Reebok Nano X/Reebok Nano X-2.png",
-                "../src/core/data/images/Reebok Nano X/Reebok Nano X-3.png",
-                "../src/core/data/images/Reebok Nano X/Reebok Nano X-4.png",
-                "../src/core/data/images/Reebok Nano X/Reebok Nano X-5.png"
+                "/images/Reebok Nano X/Reebok Nano X.png",
+                "/images/Reebok Nano X/Reebok Nano X-2.png",
+                "/images/Reebok Nano X/Reebok Nano X-3.png",
+                "/images/Reebok Nano X/Reebok Nano X-4.png",
+                "/images/Reebok Nano X/Reebok Nano X-5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -350,13 +350,13 @@
             ],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
             "video": "https://youtu.be/OLDR-6JP3Qc?si=mFVeXPfZwK-1nG92",
-            "image": "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano.png",
+            "image": "/images/Asics Gel Kayano/Asics Gel Kayano.png",
             "images": [
-                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano.png",
-                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano2.png",
-                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano3.png",
-                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano4.png",
-                "../src/core/data/images/Asics Gel Kayano/Asics Gel Kayano5.png"
+                "/images/Asics Gel Kayano/Asics Gel Kayano.png",
+                "/images/Asics Gel Kayano/Asics Gel Kayano2.png",
+                "/images/Asics Gel Kayano/Asics Gel Kayano3.png",
+                "/images/Asics Gel Kayano/Asics Gel Kayano4.png",
+                "/images/Asics Gel Kayano/Asics Gel Kayano5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -414,13 +414,13 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/lEK6z2uQzkg?si=2RH2NzL6g6Fv8_I0",
-            "image": "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam.png",
+            "image": "/images/New Balance Fresh Foam/New Balance Fresh Foam.png",
             "images": [
-                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam.png",
-                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam2.png",
-                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam3.png",
-                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam4.png",
-                "../src/core/data/images/New Balance Fresh Foam/New Balance Fresh Foam5.png"
+                "/images/New Balance Fresh Foam/New Balance Fresh Foam.png",
+                "/images/New Balance Fresh Foam/New Balance Fresh Foam2.png",
+                "/images/New Balance Fresh Foam/New Balance Fresh Foam3.png",
+                "/images/New Balance Fresh Foam/New Balance Fresh Foam4.png",
+                "/images/New Balance Fresh Foam/New Balance Fresh Foam5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -488,13 +488,13 @@
             ],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
             "video": "https://youtu.be/aO3NR9NM7rc?si=aX-ULdD8IC5VeP7T",
-            "image": "../src/core/data/images/Fila Disruptor II/Fila Disruptor II.png",
+            "image": "/images/Fila Disruptor II/Fila Disruptor II.png",
             "images": [
-                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II.png",
-                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II2.png",
-                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II3.png",
-                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II4.png",
-                "../src/core/data/images/Fila Disruptor II/Fila Disruptor II5.png"
+                "/images/Fila Disruptor II/Fila Disruptor II.png",
+                "/images/Fila Disruptor II/Fila Disruptor II2.png",
+                "/images/Fila Disruptor II/Fila Disruptor II3.png",
+                "/images/Fila Disruptor II/Fila Disruptor II4.png",
+                "/images/Fila Disruptor II/Fila Disruptor II5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -558,13 +558,13 @@
             ],
             "description": "A versatile product suitable for both beginners and professionals.",
             "video": "https://youtu.be/3Vk4KqwThqU?si=Wyo_mtYA5PzmihRC",
-            "image": "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack.png",
+            "image": "/images/Columbia Hiking Backpack/Columbia Hiking Backpack.png",
             "images": [
-                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack.png",
-                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack2.png",
-                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack3.png",
-                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack4.png",
-                "../src/core/data/images/Columbia Hiking Backpack/Columbia Hiking Backpack5.png"
+                "/images/Columbia Hiking Backpack/Columbia Hiking Backpack.png",
+                "/images/Columbia Hiking Backpack/Columbia Hiking Backpack2.png",
+                "/images/Columbia Hiking Backpack/Columbia Hiking Backpack3.png",
+                "/images/Columbia Hiking Backpack/Columbia Hiking Backpack4.png",
+                "/images/Columbia Hiking Backpack/Columbia Hiking Backpack5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -623,13 +623,13 @@
             ],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
             "video": "https://youtu.be/jZUrsmj81pY?si=fIorQXP7J_BpOgBg",
-            "image": "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag.png",
+            "image": "/images/Decathlon Gym Bag/Decathlon Gym Bag.png",
             "images": [
-                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag.png",
-                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag2.png",
-                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag3.png",
-                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag4.png",
-                "../src/core/data/images/Decathlon Gym Bag/Decathlon Gym Bag5.png"
+                "/images/Decathlon Gym Bag/Decathlon Gym Bag.png",
+                "/images/Decathlon Gym Bag/Decathlon Gym Bag2.png",
+                "/images/Decathlon Gym Bag/Decathlon Gym Bag3.png",
+                "/images/Decathlon Gym Bag/Decathlon Gym Bag4.png",
+                "/images/Decathlon Gym Bag/Decathlon Gym Bag5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -687,13 +687,13 @@
             ],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
             "video": "https://youtu.be/Op6aAJBgF68?si=gl4WopkTuTjIhLOj",
-            "image": "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt.png",
+            "image": "/images/Nike Training T-Shirt/Nike Training T-Shirt.png",
             "images": [
-                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt.png",
-                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt2.png",
-                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt3.png",
-                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt5.png",
-                "../src/core/data/images/Nike Training T-Shirt/Nike Training T-Shirt4.png"
+                "/images/Nike Training T-Shirt/Nike Training T-Shirt.png",
+                "/images/Nike Training T-Shirt/Nike Training T-Shirt2.png",
+                "/images/Nike Training T-Shirt/Nike Training T-Shirt3.png",
+                "/images/Nike Training T-Shirt/Nike Training T-Shirt5.png",
+                "/images/Nike Training T-Shirt/Nike Training T-Shirt4.png"
             ],
             "inStock": true,
             "reviews": [
@@ -751,13 +751,13 @@
             ],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
             "video": "https://youtu.be/hfSJ6AjeS5E?si=2s32MkAyd6aRDcIc",
-            "image": "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts.png",
+            "image": "/images/Adidas Running Shorts/Adidas Running Shorts.png",
             "images": [
-                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts.png",
-                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts2.png",
-                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts3.png",
-                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts4.png",
-                "../src/core/data/images/Adidas Running Shorts/Adidas Running Shorts5.png"
+                "/images/Adidas Running Shorts/Adidas Running Shorts.png",
+                "/images/Adidas Running Shorts/Adidas Running Shorts2.png",
+                "/images/Adidas Running Shorts/Adidas Running Shorts3.png",
+                "/images/Adidas Running Shorts/Adidas Running Shorts4.png",
+                "/images/Adidas Running Shorts/Adidas Running Shorts5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -815,13 +815,13 @@
             ],
             "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
             "video": "https://youtu.be/aPJBZD7a-EM?si=Oj4yzgtl1qSauEgE",
-            "image": "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket.png",
+            "image": "/images/Puma Sports Jacket/Puma Sports Jacket.png",
             "images": [
-                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket.png",
-                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket2.png",
-                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket3.png",
-                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket4.png",
-                "../src/core/data/images/Puma Sports Jacket/Puma Sports Jacket5.png"
+                "/images/Puma Sports Jacket/Puma Sports Jacket.png",
+                "/images/Puma Sports Jacket/Puma Sports Jacket2.png",
+                "/images/Puma Sports Jacket/Puma Sports Jacket3.png",
+                "/images/Puma Sports Jacket/Puma Sports Jacket4.png",
+                "/images/Puma Sports Jacket/Puma Sports Jacket5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -879,13 +879,13 @@
             ],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
             "video": "https://youtu.be/UcvFlt1EYP8?si=OWEdIqg28aIgUVxV",
-            "image": "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie.png",
+            "image": "/images/Under Armour Hoodie/Under Armour Hoodie.png",
             "images": [
-                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie.png",
-                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie2.png",
-                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie3.png",
-                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie4.png",
-                "../src/core/data/images/Under Armour Hoodie/Under Armour Hoodie5.png"
+                "/images/Under Armour Hoodie/Under Armour Hoodie.png",
+                "/images/Under Armour Hoodie/Under Armour Hoodie2.png",
+                "/images/Under Armour Hoodie/Under Armour Hoodie3.png",
+                "/images/Under Armour Hoodie/Under Armour Hoodie4.png",
+                "/images/Under Armour Hoodie/Under Armour Hoodie5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -943,13 +943,13 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/5hen1jzwxZY?si=J3_ii621Tr7pDGt6",
-            "image": "../src/core/data/images/Reebok Joggers/Reebok Joggers.png",
+            "image": "/images/Reebok Joggers/Reebok Joggers.png",
             "images": [
-                "../src/core/data/images/Reebok Joggers/Reebok Joggers.png",
-                "../src/core/data/images/Reebok Joggers/Reebok Joggers2.png",
-                "../src/core/data/images/Reebok Joggers/Reebok Joggers3.png",
-                "../src/core/data/images/Reebok Joggers/Reebok Joggers4.png",
-                "../src/core/data/images/Reebok Joggers/Reebok Joggers5.png"
+                "/images/Reebok Joggers/Reebok Joggers.png",
+                "/images/Reebok Joggers/Reebok Joggers2.png",
+                "/images/Reebok Joggers/Reebok Joggers3.png",
+                "/images/Reebok Joggers/Reebok Joggers4.png",
+                "/images/Reebok Joggers/Reebok Joggers5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -1013,13 +1013,13 @@
             ],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
             "video": "https://youtu.be/2-AjbDUNMLM?si=knn3nTeqeqq0Eoyp",
-            "image": "../src/core/data/images/Asics Running Cap/Asics Running Cap.png",
+            "image": "/images/Asics Running Cap/Asics Running Cap.png",
             "images": [
-                "../src/core/data/images/Asics Running Cap/Asics Running Cap.png",
-                "../src/core/data/images/Asics Running Cap/Asics Running Cap2.png",
-                "../src/core/data/images/Asics Running Cap/Asics Running Cap3.png",
-                "../src/core/data/images/Asics Running Cap/Asics Running Cap4.png",
-                "../src/core/data/images/Asics Running Cap/Asics Running Cap5.png"
+                "/images/Asics Running Cap/Asics Running Cap.png",
+                "/images/Asics Running Cap/Asics Running Cap2.png",
+                "/images/Asics Running Cap/Asics Running Cap3.png",
+                "/images/Asics Running Cap/Asics Running Cap4.png",
+                "/images/Asics Running Cap/Asics Running Cap5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -1082,13 +1082,13 @@
             ],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
             "video": "https://youtu.be/purj-IBvd74?si=uMVSKCy8ZRvCrQFO",
-            "image": "../src/core/data/images/New Balance Sneakers/New Balance Sneakers.png",
+            "image": "/images/New Balance Sneakers/New Balance Sneakers.png",
             "images": [
-                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers.png",
-                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers2.png",
-                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers3.png",
-                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers4.png",
-                "../src/core/data/images/New Balance Sneakers/New Balance Sneakers5.png"
+                "/images/New Balance Sneakers/New Balance Sneakers.png",
+                "/images/New Balance Sneakers/New Balance Sneakers2.png",
+                "/images/New Balance Sneakers/New Balance Sneakers3.png",
+                "/images/New Balance Sneakers/New Balance Sneakers4.png",
+                "/images/New Balance Sneakers/New Balance Sneakers5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1151,13 +1151,13 @@
             ],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
             "video": "https://youtu.be/ZQB0HHsn75Y?si=prUUGwAlmfZzVBjE",
-            "image": "../src/core/data/images/Fila Sports Tee/Fila Sports Tee.png",
+            "image": "/images/Fila Sports Tee/Fila Sports Tee.png",
             "images": [
-                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee.png",
-                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee2.png",
-                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee3.png",
-                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee4.png",
-                "../src/core/data/images/Fila Sports Tee/Fila Sports Tee5.png"
+                "/images/Fila Sports Tee/Fila Sports Tee.png",
+                "/images/Fila Sports Tee/Fila Sports Tee2.png",
+                "/images/Fila Sports Tee/Fila Sports Tee3.png",
+                "/images/Fila Sports Tee/Fila Sports Tee4.png",
+                "/images/Fila Sports Tee/Fila Sports Tee5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -1225,13 +1225,13 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/0V_sLVmIa6Y?si=eFUi7u6rPXx9Fkmp",
-            "image": "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket.png",
+            "image": "/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket.png",
             "images": [
-                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket.png",
-                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket2.png",
-                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket3.png",
-                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket4.png",
-                "../src/core/data/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket5.png"
+                "/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket.png",
+                "/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket2.png",
+                "/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket3.png",
+                "/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket4.png",
+                "/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1285,13 +1285,13 @@
             ],
             "description": "Designed for athletes who demand comfort and performance during long training sessions.",
             "video": "https://youtu.be/VxuSNSv9GkQ?si=O1IHlNIzskntKZrO",
-            "image": "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat.png",
+            "image": "/images/Decathlon Yoga Mat/Decathlon Yoga Mat.png",
             "images": [
-                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat.png",
-                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat2.png",
-                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat3.png",
-                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat4.png",
-                "../src/core/data/images/Decathlon Yoga Mat/Decathlon Yoga Mat5.png"
+                "/images/Decathlon Yoga Mat/Decathlon Yoga Mat.png",
+                "/images/Decathlon Yoga Mat/Decathlon Yoga Mat2.png",
+                "/images/Decathlon Yoga Mat/Decathlon Yoga Mat3.png",
+                "/images/Decathlon Yoga Mat/Decathlon Yoga Mat4.png",
+                "/images/Decathlon Yoga Mat/Decathlon Yoga Mat5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -1353,13 +1353,13 @@
             "size": [],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
             "video": "https://youtu.be/QbvO5iZqx9g?si=TgL4Ts65-0tDgTNb",
-            "image": "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro.png",
+            "image": "/images/Skipping Rope Pro/Skipping Rope Pro.png",
             "images": [
-                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro.png",
-                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro2.png",
-                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro3.png",
-                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro4.png",
-                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro5.png"
+                "/images/Skipping Rope Pro/Skipping Rope Pro.png",
+                "/images/Skipping Rope Pro/Skipping Rope Pro2.png",
+                "/images/Skipping Rope Pro/Skipping Rope Pro3.png",
+                "/images/Skipping Rope Pro/Skipping Rope Pro4.png",
+                "/images/Skipping Rope Pro/Skipping Rope Pro5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1407,13 +1407,13 @@
             "size": [],
             "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
             "video": "https://youtu.be/EQSr9Ily-0g?si=WLSXQBhNtX2xivwU",
-            "image": "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells.png",
+            "image": "/images/Adjustable Dumbbells/Adjustable Dumbbells.png",
             "images": [
-                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells.png",
-                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells2.png",
-                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells3.png",
-                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells4.png",
-                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells5.png"
+                "/images/Adjustable Dumbbells/Adjustable Dumbbells.png",
+                "/images/Adjustable Dumbbells/Adjustable Dumbbells2.png",
+                "/images/Adjustable Dumbbells/Adjustable Dumbbells3.png",
+                "/images/Adjustable Dumbbells/Adjustable Dumbbells4.png",
+                "/images/Adjustable Dumbbells/Adjustable Dumbbells5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1465,13 +1465,13 @@
             "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
             "video": "https://youtu.be/oECRghVhL5o?si=XWwQAk8KLMyRwAow",
-            "image": "../src/core/data/images/Resistance Bands Set/Resistance Bands Set.png",
+            "image": "/images/Resistance Bands Set/Resistance Bands Set.png",
             "images": [
-                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set.png",
-                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set2.png",
-                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set3.png",
-                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set4.png",
-                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set5.png"
+                "/images/Resistance Bands Set/Resistance Bands Set.png",
+                "/images/Resistance Bands Set/Resistance Bands Set2.png",
+                "/images/Resistance Bands Set/Resistance Bands Set3.png",
+                "/images/Resistance Bands Set/Resistance Bands Set4.png",
+                "/images/Resistance Bands Set/Resistance Bands Set5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1528,13 +1528,13 @@
             "size": [],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
             "video": "https://youtu.be/UXaLn0RtWnA?si=tGnllEuRjKAGrUVZ",
-            "image": "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg.png",
+            "image": "/images/Kettlebell 12kg/Kettlebell 12kg.png",
             "images": [
-                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg.png",
-                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg2.png",
-                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg3.png",
-                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg4.png",
-                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg5.png"
+                "/images/Kettlebell 12kg/Kettlebell 12kg.png",
+                "/images/Kettlebell 12kg/Kettlebell 12kg2.png",
+                "/images/Kettlebell 12kg/Kettlebell 12kg3.png",
+                "/images/Kettlebell 12kg/Kettlebell 12kg4.png",
+                "/images/Kettlebell 12kg/Kettlebell 12kg5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -1591,13 +1591,13 @@
             "size": [],
             "description": "Designed for athletes who demand comfort and performance during long training sessions.",
             "video": "https://youtu.be/LzGuvd0Emco?si=r0htcCgLGZ8DbSgw",
-            "image": "../src/core/data/images/Foam Roller/Foam Roller.png",
+            "image": "/images/Foam Roller/Foam Roller.png",
             "images": [
-                "../src/core/data/images/Foam Roller/Foam Roller.png",
-                "../src/core/data/images/Foam Roller/Foam Roller2.png",
-                "../src/core/data/images/Foam Roller/Foam Roller3.png",
-                "../src/core/data/images/Foam Roller/Foam Roller4.png",
-                "../src/core/data/images/Foam Roller/Foam Roller5.png"
+                "/images/Foam Roller/Foam Roller.png",
+                "/images/Foam Roller/Foam Roller2.png",
+                "/images/Foam Roller/Foam Roller3.png",
+                "/images/Foam Roller/Foam Roller4.png",
+                "/images/Foam Roller/Foam Roller5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1655,13 +1655,13 @@
             "size": [],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/HrOwtAlfPiw?si=lQCZs4qxwvGkiL0n",
-            "image": "../src/core/data/images/Pull Up Bar/Pull Up Bar.png",
+            "image": "/images/Pull Up Bar/Pull Up Bar.png",
             "images": [
-                "../src/core/data/images/Pull Up Bar/Pull Up Bar.png",
-                "../src/core/data/images/Pull Up Bar/Pull Up Bar2.png",
-                "../src/core/data/images/Pull Up Bar/Pull Up Bar3.png",
-                "../src/core/data/images/Pull Up Bar/Pull Up Bar4.png",
-                "../src/core/data/images/Pull Up Bar/Pull Up Bar5.png"
+                "/images/Pull Up Bar/Pull Up Bar.png",
+                "/images/Pull Up Bar/Pull Up Bar2.png",
+                "/images/Pull Up Bar/Pull Up Bar3.png",
+                "/images/Pull Up Bar/Pull Up Bar4.png",
+                "/images/Pull Up Bar/Pull Up Bar5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1718,13 +1718,13 @@
             "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
             "video": "https://youtu.be/pRUqCYcN7xY?si=ZwYTFIjT4LKNkDWd",
-            "image": "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller.png",
+            "image": "/images/Ab Wheel Roller/Ab Wheel Roller.png",
             "images": [
-                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller.png",
-                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller2.png",
-                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller3.png",
-                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller4.png",
-                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller5.png"
+                "/images/Ab Wheel Roller/Ab Wheel Roller.png",
+                "/images/Ab Wheel Roller/Ab Wheel Roller2.png",
+                "/images/Ab Wheel Roller/Ab Wheel Roller3.png",
+                "/images/Ab Wheel Roller/Ab Wheel Roller4.png",
+                "/images/Ab Wheel Roller/Ab Wheel Roller5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -1781,13 +1781,13 @@
             "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
             "video": "https://youtu.be/Hu-ps5xvJjM?si=j43xLSrf4jJ3blcp",
-            "image": "./src/core/data/images/Fitness Gloves/Fitness Gloves.png",
+            "image": "/images/Fitness Gloves/Fitness Gloves.png",
             "images": [
-                "../src/core/data/images/Fitness Gloves/Fitness Gloves.png",
-                "../src/core/data/images/Fitness Gloves/Fitness Gloves2.png",
-                "../src/core/data/images/Fitness Gloves/Fitness Gloves3.png",
-                "../src/core/data/images/Fitness Gloves/Fitness Gloves4.png",
-                "../src/core/data/images/Fitness Gloves/Fitness Gloves5.png"
+                "/images/Fitness Gloves/Fitness Gloves.png",
+                "/images/Fitness Gloves/Fitness Gloves2.png",
+                "/images/Fitness Gloves/Fitness Gloves3.png",
+                "/images/Fitness Gloves/Fitness Gloves4.png",
+                "/images/Fitness Gloves/Fitness Gloves5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -1846,13 +1846,13 @@
             ],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
             "video": "https://youtube.com/shorts/sB9W1eeuuTA?si=k3sK290QZoQNpGMV",
-            "image": "../src/core/data/images/Gym Water Bottle/Gym Water Bottle.png",
+            "image": "/images/Gym Water Bottle/Gym Water Bottle.png",
             "images": [
-                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle.png",
-                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle2.png",
-                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle3.png",
-                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle4.png",
-                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle5.png"
+                "/images/Gym Water Bottle/Gym Water Bottle.png",
+                "/images/Gym Water Bottle/Gym Water Bottle2.png",
+                "/images/Gym Water Bottle/Gym Water Bottle3.png",
+                "/images/Gym Water Bottle/Gym Water Bottle4.png",
+                "/images/Gym Water Bottle/Gym Water Bottle5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1906,13 +1906,13 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/jYdiFFImPa8?si=7kKUDrb6r9lhTJ6o",
-            "image": "../src/core/data/images/Running Socks Pack/Running Socks Pack.png",
+            "image": "/images/Running Socks Pack/Running Socks Pack.png",
             "images": [
-                "../src/core/data/images/Running Socks Pack/Running Socks Pack.png",
-                "../src/core/data/images/Running Socks Pack/Running Socks Pack2.png",
-                "../src/core/data/images/Running Socks Pack/Running Socks Pack3.png",
-                "../src/core/data/images/Running Socks Pack/Running Socks Pack4.png",
-                "../src/core/data/images/Running Socks Pack/Running Socks Pack5.png"
+                "/images/Running Socks Pack/Running Socks Pack.png",
+                "/images/Running Socks Pack/Running Socks Pack2.png",
+                "/images/Running Socks Pack/Running Socks Pack3.png",
+                "/images/Running Socks Pack/Running Socks Pack4.png",
+                "/images/Running Socks Pack/Running Socks Pack5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -1970,13 +1970,13 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/r_so1tdB9fo?si=W7Mm784Vv7sHHX9-",
-            "image": "../src/core/data/images/Trail Running Shoes/Trail Running Shoes.png",
+            "image": "/images/Trail Running Shoes/Trail Running Shoes.png",
             "images": [
-                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes.png",
-                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes2.png",
-                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes3.png",
-                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes4.png",
-                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes5.png"
+                "/images/Trail Running Shoes/Trail Running Shoes.png",
+                "/images/Trail Running Shoes/Trail Running Shoes2.png",
+                "/images/Trail Running Shoes/Trail Running Shoes3.png",
+                "/images/Trail Running Shoes/Trail Running Shoes4.png",
+                "/images/Trail Running Shoes/Trail Running Shoes5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2040,13 +2040,13 @@
             ],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
             "video": "https://youtu.be/i6k0bmMecOw?si=8wi1zCrX8_iVZSM0",
-            "image": "../src/core/data/images/Cycling Helmet/Cycling Helmet.png",
+            "image": "/images/Cycling Helmet/Cycling Helmet.png",
             "images": [
-                "../src/core/data/images/Cycling Helmet/Cycling Helmet.png",
-                "../src/core/data/images/Cycling Helmet/Cycling Helmet2.png",
-                "../src/core/data/images/Cycling Helmet/Cycling Helmet3.png",
-                "../src/core/data/images/Cycling Helmet/Cycling Helmet4.png",
-                "../src/core/data/images/Cycling Helmet/Cycling Helmet5.png"
+                "/images/Cycling Helmet/Cycling Helmet.png",
+                "/images/Cycling Helmet/Cycling Helmet2.png",
+                "/images/Cycling Helmet/Cycling Helmet3.png",
+                "/images/Cycling Helmet/Cycling Helmet4.png",
+                "/images/Cycling Helmet/Cycling Helmet5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2099,13 +2099,13 @@
             "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
             "video": "https://youtu.be/Ttm9dKpEc9g?si=izgpvfxUdloe0Jaw",
-            "image": "../src/core/data/images/Sports Sunglasses/Sports Sunglasses.png",
+            "image": "/images/Sports Sunglasses/Sports Sunglasses.png",
             "images": [
-                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses.png",
-                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses2.png",
-                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses3.png",
-                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses4.png",
-                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses5.png"
+                "/images/Sports Sunglasses/Sports Sunglasses.png",
+                "/images/Sports Sunglasses/Sports Sunglasses2.png",
+                "/images/Sports Sunglasses/Sports Sunglasses3.png",
+                "/images/Sports Sunglasses/Sports Sunglasses4.png",
+                "/images/Sports Sunglasses/Sports Sunglasses5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2160,13 +2160,13 @@
             ],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/sSA6kGtu1ns?si=S_1vEcjTJO4ohn32",
-            "image": "../src/core/data/images/Training Backpack/Training Backpack.png",
+            "image": "/images/Training Backpack/Training Backpack.png",
             "images": [
-                "../src/core/data/images/Training Backpack/Training Backpack.png",
-                "../src/core/data/images/Training Backpack/Training Backpack2.png",
-                "../src/core/data/images/Training Backpack/Training Backpack3.png",
-                "../src/core/data/images/Training Backpack/Training Backpack4.png",
-                "../src/core/data/images/Training Backpack/Training Backpack5.png"
+                "/images/Training Backpack/Training Backpack.png",
+                "/images/Training Backpack/Training Backpack2.png",
+                "/images/Training Backpack/Training Backpack3.png",
+                "/images/Training Backpack/Training Backpack4.png",
+                "/images/Training Backpack/Training Backpack5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2216,13 +2216,13 @@
             ],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
             "video": "https://youtu.be/uXznQ1e16pQ?si=A3fzK2-iPKRt2aXW",
-            "image": "../src/core/data/images/Camping Tent/Camping Tent.png",
+            "image": "/images/Camping Tent/Camping Tent.png",
             "images": [
-                "../src/core/data/images/Camping Tent/Camping Tent.png",
-                "../src/core/data/images/Camping Tent/Camping Tent2.png",
-                "../src/core/data/images/Camping Tent/Camping Tent3.png",
-                "../src/core/data/images/Camping Tent/Camping Tent4.png",
-                "../src/core/data/images/Camping Tent/Camping Tent5.png"
+                "/images/Camping Tent/Camping Tent.png",
+                "/images/Camping Tent/Camping Tent2.png",
+                "/images/Camping Tent/Camping Tent3.png",
+                "/images/Camping Tent/Camping Tent4.png",
+                "/images/Camping Tent/Camping Tent5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2277,13 +2277,13 @@
             ],
             "description": "A versatile product suitable for both beginners and professionals.",
             "video": "https://youtu.be/a45AyMUzaFo?si=_Z77IQraQ5mEaKff",
-            "image": "../src/core/data/images/Hiking Boots/Hiking Boots.png",
+            "image": "/images/Hiking Boots/Hiking Boots.png",
             "images": [
-                "../src/core/data/images/Hiking Boots/Hiking Boots.png",
-                "../src/core/data/images/Hiking Boots/Hiking Boots2.png",
-                "../src/core/data/images/Hiking Boots/Hiking Boots3.png",
-                "../src/core/data/images/Hiking Boots/Hiking Boots4.png",
-                "../src/core/data/images/Hiking Boots/Hiking Boots5.png"
+                "/images/Hiking Boots/Hiking Boots.png",
+                "/images/Hiking Boots/Hiking Boots2.png",
+                "/images/Hiking Boots/Hiking Boots3.png",
+                "/images/Hiking Boots/Hiking Boots4.png",
+                "/images/Hiking Boots/Hiking Boots5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2352,13 +2352,13 @@
             ],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
             "video": "https://youtu.be/fEuwFn-mxz0?si=PjgdT7mGoOw7qQD7",
-            "image": "../src/core/data/images/Thermal Jacket/Thermal Jacket.png",
+            "image": "/images/Thermal Jacket/Thermal Jacket.png",
             "images": [
-                "../src/core/data/images/Thermal Jacket/Thermal Jacket.png",
-                "../src/core/data/images/Thermal Jacket/Thermal Jacket2.png",
-                "../src/core/data/images/Thermal Jacket/Thermal Jacket3.png",
-                "../src/core/data/images/Thermal Jacket/Thermal Jacket4.png",
-                "../src/core/data/images/Thermal Jacket/Thermal Jacket5.png"
+                "/images/Thermal Jacket/Thermal Jacket.png",
+                "/images/Thermal Jacket/Thermal Jacket2.png",
+                "/images/Thermal Jacket/Thermal Jacket3.png",
+                "/images/Thermal Jacket/Thermal Jacket4.png",
+                "/images/Thermal Jacket/Thermal Jacket5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2428,13 +2428,13 @@
             ],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
             "video": "https://youtu.be/cGxtK2VtBxk?si=I2irjPHRyxao1Pb7",
-            "image": "../src/core/data/images/Compression Shirt/Compression Shirt.png",
+            "image": "/images/Compression Shirt/Compression Shirt.png",
             "images": [
-                "../src/core/data/images/Compression Shirt/Compression Shirt.png",
-                "../src/core/data/images/Compression Shirt/Compression Shirt2.png",
-                "../src/core/data/images/Compression Shirt/Compression Shirt3.png",
-                "../src/core/data/images/Compression Shirt/Compression Shirt4.png",
-                "../src/core/data/images/Compression Shirt/Compression Shirt5.png"
+                "/images/Compression Shirt/Compression Shirt.png",
+                "/images/Compression Shirt/Compression Shirt2.png",
+                "/images/Compression Shirt/Compression Shirt3.png",
+                "/images/Compression Shirt/Compression Shirt4.png",
+                "/images/Compression Shirt/Compression Shirt5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2496,13 +2496,13 @@
             "size": [],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
             "video": "https://youtu.be/ItK7opBR8Ps?si=Jl7022I8M3vDMIps",
-            "image": "../src/core/data/images/Sports Watch/Sports Watch.png",
+            "image": "/images/Sports Watch/Sports Watch.png",
             "images": [
-                "../src/core/data/images/Sports Watch/Sports Watch.png",
-                "../src/core/data/images/Sports Watch/Sports Watch2.png",
-                "../src/core/data/images/Sports Watch/Sports Watch3.png",
-                "../src/core/data/images/Sports Watch/Sports Watch4.png",
-                "../src/core/data/images/Sports Watch/Sports Watch5.png"
+                "/images/Sports Watch/Sports Watch.png",
+                "/images/Sports Watch/Sports Watch2.png",
+                "/images/Sports Watch/Sports Watch3.png",
+                "/images/Sports Watch/Sports Watch4.png",
+                "/images/Sports Watch/Sports Watch5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2565,13 +2565,13 @@
             "size": [],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
             "video": "https://youtu.be/HbE42Mt9hW0?si=3HoabNOUhFhcASLu",
-            "image": "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker.png",
+            "image": "/images/Smart Fitness Tracker/Smart Fitness Tracker.png",
             "images": [
-                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker.png",
-                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker2.png",
-                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker3.png",
-                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker4.png",
-                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker5.png"
+                "/images/Smart Fitness Tracker/Smart Fitness Tracker.png",
+                "/images/Smart Fitness Tracker/Smart Fitness Tracker2.png",
+                "/images/Smart Fitness Tracker/Smart Fitness Tracker3.png",
+                "/images/Smart Fitness Tracker/Smart Fitness Tracker4.png",
+                "/images/Smart Fitness Tracker/Smart Fitness Tracker5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2633,13 +2633,13 @@
             "size": [],
             "description": "Professional-grade kickboxing gloves designed for maximum impact protection and comfort. breathable material, and secure wrist support.",
             "video": "https://youtu.be/5CD62hFf5EU?si=aGrzL4vvRBE_C1SN",
-            "image": "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves.png",
+            "image": "/images/Kickboxing Gloves/Kickboxing Gloves.png",
             "images": [
-                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves.png",
-                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves2.png",
-                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves3.png",
-                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves4.png",
-                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves5.png"
+                "/images/Kickboxing Gloves/Kickboxing Gloves.png",
+                "/images/Kickboxing Gloves/Kickboxing Gloves2.png",
+                "/images/Kickboxing Gloves/Kickboxing Gloves3.png",
+                "/images/Kickboxing Gloves/Kickboxing Gloves4.png",
+                "/images/Kickboxing Gloves/Kickboxing Gloves5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2696,13 +2696,13 @@
             "size": [],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/tWADG2LhAGc?si=udbYHUTB262l6TAC",
-            "image": "../src/core/data/images/Football Match Ball/Football Match Ball.png",
+            "image": "/images/Football Match Ball/Football Match Ball.png",
             "images": [
-                "../src/core/data/images/Football Match Ball/Football Match Ball.png",
-                "../src/core/data/images/Football Match Ball/Football Match Ball2.png",
-                "../src/core/data/images/Football Match Ball/Football Match Ball3.png",
-                "../src/core/data/images/Football Match Ball/Football Match Ball4.png",
-                "../src/core/data/images/Football Match Ball/Football Match Ball5.png"
+                "/images/Football Match Ball/Football Match Ball.png",
+                "/images/Football Match Ball/Football Match Ball2.png",
+                "/images/Football Match Ball/Football Match Ball3.png",
+                "/images/Football Match Ball/Football Match Ball4.png",
+                "/images/Football Match Ball/Football Match Ball5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2760,13 +2760,13 @@
             "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
             "video": "https://youtu.be/PU5h2qxmOGk?si=MS-adopICwR_FTu9",
-            "image": "../src/core/data/images/Tennis Racket/Tennis Racket.png",
+            "image": "/images/Tennis Racket/Tennis Racket.png",
             "images": [
-                "../src/core/data/images/Tennis Racket/Tennis Racket.png",
-                "../src/core/data/images/Tennis Racket/Tennis Racket2.png",
-                "../src/core/data/images/Tennis Racket/Tennis Racket3.png",
-                "../src/core/data/images/Tennis Racket/Tennis Racket4.png",
-                "../src/core/data/images/Tennis Racket/Tennis Racket5.png"
+                "/images/Tennis Racket/Tennis Racket.png",
+                "/images/Tennis Racket/Tennis Racket2.png",
+                "/images/Tennis Racket/Tennis Racket3.png",
+                "/images/Tennis Racket/Tennis Racket4.png",
+                "/images/Tennis Racket/Tennis Racket5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2814,13 +2814,13 @@
             "size": [],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/ny9LSh3fJfk?si=eK4l9nSwdiuqdKkY",
-            "image": "../src/core/data/images/Badminton Set/Badminton Set.png",
+            "image": "/images/Badminton Set/Badminton Set.png",
             "images": [
-                "../src/core/data/images/Badminton Set/Badminton Set.png",
-                "../src/core/data/images/Badminton Set/Badminton Set2.png",
-                "../src/core/data/images/Badminton Set/Badminton Set3.png",
-                "../src/core/data/images/Badminton Set/Badminton Set4.png",
-                "../src/core/data/images/Badminton Set/Badminton Set5.png"
+                "/images/Badminton Set/Badminton Set.png",
+                "/images/Badminton Set/Badminton Set2.png",
+                "/images/Badminton Set/Badminton Set3.png",
+                "/images/Badminton Set/Badminton Set4.png",
+                "/images/Badminton Set/Badminton Set5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -2882,13 +2882,13 @@
             "size": [],
             "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
             "video": "https://youtu.be/Foe7vYLgMpE?si=r6hvIX7Dc-VHD0P0",
-            "image": "../src/core/data/images/Swimming Goggles/Swimming Goggles.png",
+            "image": "/images/Swimming Goggles/Swimming Goggles.png",
             "images": [
-                "../src/core/data/images/Swimming Goggles/Swimming Goggles.png",
-                "../src/core/data/images/Swimming Goggles/Swimming Goggles2.png",
-                "../src/core/data/images/Swimming Goggles/Swimming Goggles3.png",
-                "../src/core/data/images/Swimming Goggles/Swimming Goggles4.png",
-                "../src/core/data/images/Swimming Goggles/Swimming Goggles5.png"
+                "/images/Swimming Goggles/Swimming Goggles.png",
+                "/images/Swimming Goggles/Swimming Goggles2.png",
+                "/images/Swimming Goggles/Swimming Goggles3.png",
+                "/images/Swimming Goggles/Swimming Goggles4.png",
+                "/images/Swimming Goggles/Swimming Goggles5.png"
             ],
             "inStock": false,
             "reviews": [
@@ -2950,13 +2950,13 @@
             "size": [],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
             "video": "https://youtu.be/J8p-eIi5IhU?si=NGT_Y12icv05JOTD",
-            "image": "../src/core/data/images/Swim Cap/Swim Cap.png",
+            "image": "/images/Swim Cap/Swim Cap.png",
             "images": [
-                "../src/core/data/images/Swim Cap/Swim Cap.png",
-                "../src/core/data/images/Swim Cap/Swim Cap2.png",
-                "../src/core/data/images/Swim Cap/Swim Cap3.png",
-                "../src/core/data/images/Swim Cap/Swim Cap4.png",
-                "../src/core/data/images/Swim Cap/Swim Cap5.png"
+                "/images/Swim Cap/Swim Cap.png",
+                "/images/Swim Cap/Swim Cap2.png",
+                "/images/Swim Cap/Swim Cap3.png",
+                "/images/Swim Cap/Swim Cap4.png",
+                "/images/Swim Cap/Swim Cap5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -3008,13 +3008,13 @@
             "size": [],
             "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
             "video": "https://youtu.be/npHp8UX8tlM?si=v2-aNYtAXeBEBHu-",
-            "image": "../src/core/data/images/Protein Shaker/Protein Shaker.png",
+            "image": "/images/Protein Shaker/Protein Shaker.png",
             "images": [
-                "../src/core/data/images/Protein Shaker/Protein Shaker.png",
-                "../src/core/data/images/Protein Shaker/Protein Shaker2.png",
-                "../src/core/data/images/Protein Shaker/Protein Shaker3.png",
-                "../src/core/data/images/Protein Shaker/Protein Shaker4.png",
-                "../src/core/data/images/Protein Shaker/Protein Shaker5.png"
+                "/images/Protein Shaker/Protein Shaker.png",
+                "/images/Protein Shaker/Protein Shaker2.png",
+                "/images/Protein Shaker/Protein Shaker3.png",
+                "/images/Protein Shaker/Protein Shaker4.png",
+                "/images/Protein Shaker/Protein Shaker5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -3062,13 +3062,13 @@
             "size": [],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
             "video": "https://youtu.be/ua-VvojLrxM?si=VEi9hogjzgyAtdzt",
-            "image": "../src/core/data/images/Jump Box/Jump Box.png",
+            "image": "/images/Jump Box/Jump Box.png",
             "images": [
-                "../src/core/data/images/Jump Box/Jump Box.png",
-                "../src/core/data/images/Jump Box/Jump Box2.png",
-                "../src/core/data/images/Jump Box/Jump Box3.png",
-                "../src/core/data/images/Jump Box/Jump Box4.png",
-                "../src/core/data/images/Jump Box/Jump Box5.png"
+                "/images/Jump Box/Jump Box.png",
+                "/images/Jump Box/Jump Box2.png",
+                "/images/Jump Box/Jump Box3.png",
+                "/images/Jump Box/Jump Box4.png",
+                "/images/Jump Box/Jump Box5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -3126,13 +3126,13 @@
             "size": [],
             "description": "Engineered for performance with modern styling and excellent support.",
             "video": "https://youtu.be/ex-D_SZsUpA?si=O_A9A_bPd-YxUmsz",
-            "image": "../src/core/data/images/Agility Ladder/Agility Ladder.png",
+            "image": "/images/Agility Ladder/Agility Ladder.png",
             "images": [
-                "../src/core/data/images/Agility Ladder/Agility Ladder.png",
-                "../src/core/data/images/Agility Ladder/Agility Ladder2.png",
-                "../src/core/data/images/Agility Ladder/Agility Ladder3.png",
-                "../src/core/data/images/Agility Ladder/Agility Ladder4.png",
-                "../src/core/data/images/Agility Ladder/Agility Ladder5.png"
+                "/images/Agility Ladder/Agility Ladder.png",
+                "/images/Agility Ladder/Agility Ladder2.png",
+                "/images/Agility Ladder/Agility Ladder3.png",
+                "/images/Agility Ladder/Agility Ladder4.png",
+                "/images/Agility Ladder/Agility Ladder5.png"
             ],
             "inStock": true,
             "reviews": [
@@ -3190,13 +3190,13 @@
             "size": [],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
             "video": "https://youtu.be/e00ZUdOOyyg?si=WW3Yn6Jk9SYHE9fA",
-            "image": "../src/core/data/images/Balance Board/Balance Board.png",
+            "image": "/images/Balance Board/Balance Board.png",
             "images": [
-                "../src/core/data/images/Balance Board/Balance Board.png",
-                "../src/core/data/images/Balance Board/Balance Board2.png",
-                "../src/core/data/images/Balance Board/Balance Board3.png",
-                "../src/core/data/images/Balance Board/Balance Board4.png",
-                "../src/core/data/images/Balance Board/Balance Board5.png"
+                "/images/Balance Board/Balance Board.png",
+                "/images/Balance Board/Balance Board2.png",
+                "/images/Balance Board/Balance Board3.png",
+                "/images/Balance Board/Balance Board4.png",
+                "/images/Balance Board/Balance Board5.png"
             ],
             "inStock": true,
             "reviews": [
