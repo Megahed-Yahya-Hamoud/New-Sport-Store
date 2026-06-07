@@ -110,7 +110,9 @@ code {
   background: var(--code-bg);
 } */
 
-/* body{ */
-   /* display: flex; */
-    /* justify-content: center;  */
-/* } */
+body{
+  @media (min-width: 1920px) {
+    display: flex;
+     justify-content: center; 
+}
+}

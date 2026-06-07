@@ -83,7 +83,7 @@ export default function SingleProduct() {
           >
             {product.description}
           </Text>
-          <Text className={classes.title} pl={1} fw={600} c={"#007185"}>
+          <Text fz={22} className={classes.title} pl={1} fw={600} c={"#007185"}>
             Brand: <span style={{ color: "black" }}>{product.brand}</span>
           </Text>
           <Text className={classes.price} c={""} fw={"700"} my={0} fz={25}>
@@ -107,18 +107,17 @@ export default function SingleProduct() {
               <ProductColors colors={colors} />
             </Box>
           </Box>
-          <Box className={classes.containerDetails}>
+          <Box display={product.size?.length > 0 ? "" : "grid"} className={classes.containerDetails}>
             <Box>
-              <ProductSize  size={product.size} />
-             
-              {/* {category === "Clothing" || category === "Bags" ? (
-                <LargeSize />
-              ) : (
-                ""
-              )} */}
+              {
+                product.size?.length > 0 ?(
+                  <ProductSize  size={product.size} />
+                ):
+                (<></>)
+              }
             </Box>
             <Box>
-              <ProductPieces quantity={product.quantity} />
+              <ProductPieces size={product.size?.length} quantity={product.quantity} />
             </Box>
           </Box>
           {/* <Divider my={20} /> */}

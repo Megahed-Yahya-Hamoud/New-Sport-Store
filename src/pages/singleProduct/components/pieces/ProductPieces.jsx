@@ -2,17 +2,21 @@ import { Box, Button, Group, Text } from "@mantine/core";
 import classes from "./ProductPieces.module.css";
 import { useCounter } from "@mantine/hooks";
 
-export default function ProductPieces({quantity}) {
+export default function ProductPieces({size,quantity}) {
       const [count, handlers] = useCounter(1, { min: 1 });
     
+      console.log(size);
+      
   return (
-    <Box className={classes.containerPieces}>
+    <Box 
+     className={classes.containerPieces}>
       <Text
         className={classes.title}
         fz={18}
         mb={10}
         fw={700}
         c={"black"}
+        ta={size > 0 ? "" :"start"}
       >
         Pieces:
       </Text>

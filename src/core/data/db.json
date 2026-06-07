@@ -554,11 +554,7 @@
                 "aqua"
             ],
             "size": [
-                "sm",
-                "md",
-                "lg",
-                "xl",
-                "xxl"
+                "24inch", "28inch", "32inch"
             ],
             "description": "A versatile product suitable for both beginners and professionals.",
             "video": "https://youtu.be/3Vk4KqwThqU?si=Wyo_mtYA5PzmihRC",
@@ -623,11 +619,7 @@
                 "pink"
             ],
             "size": [
-                "sm",
-                "md",
-                "lg",
-                "xl",
-                "xxl"
+                "25inch", "30inch", "35inch"
             ],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
             "video": "https://youtu.be/jZUrsmj81pY?si=fIorQXP7J_BpOgBg",
@@ -1351,8 +1343,24 @@
             "price": 63,
             "rating": 4.18,
             "quantity": 15,
+            "colors": [
+                "blue",
+                "grey",
+                "black",
+                "green",
+                "red"
+            ],
+            "size": [],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
-            "image": "./src/core/data/images/Skipping Rope.jpg",
+            "video": "https://youtu.be/QbvO5iZqx9g?si=TgL4Ts65-0tDgTNb",
+            "image": "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro.png",
+            "images": [
+                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro.png",
+                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro2.png",
+                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro3.png",
+                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro4.png",
+                "../src/core/data/images/Skipping Rope Pro/Skipping Rope Pro5.png"
+            ],
             "inStock": false,
             "reviews": [
                 {
@@ -1393,8 +1401,20 @@
             "price": 192,
             "rating": 4.28,
             "quantity": 25,
+            "colors": [
+                "black", "grey", "red"
+            ],
+            "size": [],
             "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
-            "image": "./src/core/data/images/Adjustable Dumbbells.avif",
+            "video": "https://youtu.be/EQSr9Ily-0g?si=WLSXQBhNtX2xivwU",
+            "image": "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells.png",
+            "images": [
+                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells.png",
+                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells2.png",
+                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells3.png",
+                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells4.png",
+                "../src/core/data/images/Adjustable Dumbbells/Adjustable Dumbbells5.png"
+            ],
             "inStock": false,
             "reviews": [
                 {
@@ -1435,8 +1455,24 @@
             "price": 25,
             "rating": 3.83,
             "quantity": 30,
+            "colors": [
+                "black",
+                "green",
+                "red",
+                "blue",
+                "purple"
+            ],
+            "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
-            "image": "./src/core/data/images/Resistance Bands Set.jpg",
+            "video": "https://youtu.be/oECRghVhL5o?si=XWwQAk8KLMyRwAow",
+            "image": "../src/core/data/images/Resistance Bands Set/Resistance Bands Set.png",
+            "images": [
+                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set.png",
+                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set2.png",
+                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set3.png",
+                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set4.png",
+                "../src/core/data/images/Resistance Bands Set/Resistance Bands Set5.png"
+            ],
             "inStock": false,
             "reviews": [
                 {
@@ -1482,8 +1518,24 @@
             "price": 57,
             "rating": 4.08,
             "quantity": 20,
+            "colors": [
+                "black",
+                "green",
+                "red",
+                "blue",
+                "grey"
+            ],
+            "size": [],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
-            "image": "./src/core/data/images/Kettlebell 12kg.jpg",
+            "video": "https://youtu.be/UXaLn0RtWnA?si=tGnllEuRjKAGrUVZ",
+            "image": "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg.png",
+            "images": [
+                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg.png",
+                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg2.png",
+                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg3.png",
+                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg4.png",
+                "../src/core/data/images/Kettlebell 12kg/Kettlebell 12kg5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -1529,8 +1581,24 @@
             "price": 23,
             "rating": 3.91,
             "quantity": 30,
+            "colors": [
+                "purple",
+                "red",
+                "black",
+                "green",
+                "blue"
+            ],
+            "size": [],
             "description": "Designed for athletes who demand comfort and performance during long training sessions.",
-            "image": "./src/core/data/images/yoga-grid-foam-roller.webp",
+            "video": "https://youtu.be/LzGuvd0Emco?si=r0htcCgLGZ8DbSgw",
+            "image": "../src/core/data/images/Foam Roller/Foam Roller.png",
+            "images": [
+                "../src/core/data/images/Foam Roller/Foam Roller.png",
+                "../src/core/data/images/Foam Roller/Foam Roller2.png",
+                "../src/core/data/images/Foam Roller/Foam Roller3.png",
+                "../src/core/data/images/Foam Roller/Foam Roller4.png",
+                "../src/core/data/images/Foam Roller/Foam Roller5.png"
+            ],
             "inStock": false,
             "reviews": [
                 {
@@ -1581,8 +1649,20 @@
             "price": 27,
             "rating": 4.42,
             "quantity": 20,
+            "colors": [
+                "black", "grey", "red"
+            ],
+            "size": [],
             "description": "Engineered for performance with modern styling and excellent support.",
-            "image": "./src/core/data/images/Pull Up Bar.webp",
+            "video": "https://youtu.be/HrOwtAlfPiw?si=lQCZs4qxwvGkiL0n",
+            "image": "../src/core/data/images/Pull Up Bar/Pull Up Bar.png",
+            "images": [
+                "../src/core/data/images/Pull Up Bar/Pull Up Bar.png",
+                "../src/core/data/images/Pull Up Bar/Pull Up Bar2.png",
+                "../src/core/data/images/Pull Up Bar/Pull Up Bar3.png",
+                "../src/core/data/images/Pull Up Bar/Pull Up Bar4.png",
+                "../src/core/data/images/Pull Up Bar/Pull Up Bar5.png"
+            ],
             "inStock": false,
             "reviews": [
                 {
@@ -1628,8 +1708,24 @@
             "price": 29,
             "rating": 4.03,
             "quantity": 30,
+            "colors": [
+                "blue",
+                "green",
+                "black",
+                "red",
+                "orange"
+            ],
+            "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
-            "image": "./src/core/data/images/Ab Wheel Roller.jpg",
+            "video": "https://youtu.be/pRUqCYcN7xY?si=ZwYTFIjT4LKNkDWd",
+            "image": "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller.png",
+            "images": [
+                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller.png",
+                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller2.png",
+                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller3.png",
+                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller4.png",
+                "../src/core/data/images/Ab Wheel Roller/Ab Wheel Roller5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -1675,8 +1771,24 @@
             "price": 125,
             "rating": 4.55,
             "quantity": 48,
+            "colors": [
+                "green",
+                "orange",
+                "black",
+                "red",
+                "yellow"
+            ],
+            "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
-            "image": "./src/core/data/images/Fitness Gloves.jpg",
+            "video": "https://youtu.be/Hu-ps5xvJjM?si=j43xLSrf4jJ3blcp",
+            "image": "./src/core/data/images/Fitness Gloves/Fitness Gloves.png",
+            "images": [
+                "../src/core/data/images/Fitness Gloves/Fitness Gloves.png",
+                "../src/core/data/images/Fitness Gloves/Fitness Gloves2.png",
+                "../src/core/data/images/Fitness Gloves/Fitness Gloves3.png",
+                "../src/core/data/images/Fitness Gloves/Fitness Gloves4.png",
+                "../src/core/data/images/Fitness Gloves/Fitness Gloves5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -1722,8 +1834,26 @@
             "price": 42,
             "rating": 4.1,
             "quantity": 25,
+            "colors": [
+                "black",
+                "green",
+                "pink",
+                "blue",
+                "purple"
+            ],
+            "size": [
+                "sm", "lg", "xl"
+            ],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
-            "image": "./src/core/data/images/Gym Water Bottle.png",
+            "video": "https://youtube.com/shorts/sB9W1eeuuTA?si=k3sK290QZoQNpGMV",
+            "image": "../src/core/data/images/Gym Water Bottle/Gym Water Bottle.png",
+            "images": [
+                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle.png",
+                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle2.png",
+                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle3.png",
+                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle4.png",
+                "../src/core/data/images/Gym Water Bottle/Gym Water Bottle5.png"
+            ],
             "inStock": false,
             "reviews": [
                 {
@@ -1764,8 +1894,26 @@
             "price": 78,
             "rating": 3.98,
             "quantity": 30,
+            "colors": [
+                "black",
+                "grey",
+                "pink",
+                "green",
+                "red"
+            ],
+            "size": [
+                "sm", "lg"
+            ],
             "description": "Engineered for performance with modern styling and excellent support.",
-            "image": "./src/core/data/images/Running Socks Pack.jpg",
+            "video": "https://youtu.be/jYdiFFImPa8?si=7kKUDrb6r9lhTJ6o",
+            "image": "../src/core/data/images/Running Socks Pack/Running Socks Pack.png",
+            "images": [
+                "../src/core/data/images/Running Socks Pack/Running Socks Pack.png",
+                "../src/core/data/images/Running Socks Pack/Running Socks Pack2.png",
+                "../src/core/data/images/Running Socks Pack/Running Socks Pack3.png",
+                "../src/core/data/images/Running Socks Pack/Running Socks Pack4.png",
+                "../src/core/data/images/Running Socks Pack/Running Socks Pack5.png"
+            ],
             "inStock": false,
             "reviews": [
                 {
@@ -1806,8 +1954,30 @@
             "price": 101,
             "rating": 3.96,
             "quantity": 20,
+            "colors": [
+                "black",
+                "green",
+                "grey",
+                "orange",
+                "blue"
+            ],
+            "size": [
+                "40",
+                "41",
+                "42",
+                "43",
+                "44"
+            ],
             "description": "Engineered for performance with modern styling and excellent support.",
-            "image": "./src/core/data/images/Trail Running Shoes.webp",
+            "video": "https://youtu.be/r_so1tdB9fo?si=W7Mm784Vv7sHHX9-",
+            "image": "../src/core/data/images/Trail Running Shoes/Trail Running Shoes.png",
+            "images": [
+                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes.png",
+                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes2.png",
+                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes3.png",
+                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes4.png",
+                "../src/core/data/images/Trail Running Shoes/Trail Running Shoes5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -1858,8 +2028,26 @@
             "price": 178,
             "rating": 4.22,
             "quantity": 25,
+            "colors": [
+                "black",
+                "green",
+                "grey",
+                "orange",
+                "white"
+            ],
+            "size": [
+                "sm", "lg"
+            ],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
-            "image": "./src/core/data/images/Cycling Helmet.jpg",
+            "video": "https://youtu.be/i6k0bmMecOw?si=8wi1zCrX8_iVZSM0",
+            "image": "../src/core/data/images/Cycling Helmet/Cycling Helmet.png",
+            "images": [
+                "../src/core/data/images/Cycling Helmet/Cycling Helmet.png",
+                "../src/core/data/images/Cycling Helmet/Cycling Helmet2.png",
+                "../src/core/data/images/Cycling Helmet/Cycling Helmet3.png",
+                "../src/core/data/images/Cycling Helmet/Cycling Helmet4.png",
+                "../src/core/data/images/Cycling Helmet/Cycling Helmet5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -1905,8 +2093,20 @@
             "price": 135,
             "rating": 4.38,
             "quantity": 30,
+            "colors": [
+                "black", "red", "blue", "purple"
+            ],
+            "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
-            "image": "./src/core/data/images/Sports Sunglasses.webp",
+            "video": "https://youtu.be/Ttm9dKpEc9g?si=izgpvfxUdloe0Jaw",
+            "image": "../src/core/data/images/Sports Sunglasses/Sports Sunglasses.png",
+            "images": [
+                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses.png",
+                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses2.png",
+                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses3.png",
+                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses4.png",
+                "../src/core/data/images/Sports Sunglasses/Sports Sunglasses5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -1952,8 +2152,22 @@
             "price": 194,
             "rating": 4.42,
             "quantity": 39,
+            "colors": [
+                "black", "green", "grey"
+            ],
+            "size": [
+                "20inch", "24inch", "28inch", "32inch"
+            ],
             "description": "Engineered for performance with modern styling and excellent support.",
-            "image": "./src/core/data/images/Training Backpack.avif",
+            "video": "https://youtu.be/sSA6kGtu1ns?si=S_1vEcjTJO4ohn32",
+            "image": "../src/core/data/images/Training Backpack/Training Backpack.png",
+            "images": [
+                "../src/core/data/images/Training Backpack/Training Backpack.png",
+                "../src/core/data/images/Training Backpack/Training Backpack2.png",
+                "../src/core/data/images/Training Backpack/Training Backpack3.png",
+                "../src/core/data/images/Training Backpack/Training Backpack4.png",
+                "../src/core/data/images/Training Backpack/Training Backpack5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -1994,8 +2208,22 @@
             "price": 108,
             "rating": 4.56,
             "quantity": 27,
+            "colors": [
+                "green", "blue", "grey", "orange"
+            ],
+            "size": [
+                "2-Person", "4-Person", "6-Person", "8-Person"
+            ],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
-            "image": "./src/core/data/images/Camping Tent.avif",
+            "video": "https://youtu.be/uXznQ1e16pQ?si=A3fzK2-iPKRt2aXW",
+            "image": "../src/core/data/images/Camping Tent/Camping Tent.png",
+            "images": [
+                "../src/core/data/images/Camping Tent/Camping Tent.png",
+                "../src/core/data/images/Camping Tent/Camping Tent2.png",
+                "../src/core/data/images/Camping Tent/Camping Tent3.png",
+                "../src/core/data/images/Camping Tent/Camping Tent4.png",
+                "../src/core/data/images/Camping Tent/Camping Tent5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2036,8 +2264,27 @@
             "price": 21,
             "rating": 4.09,
             "quantity": 20,
+            "colors": [
+                "brown", "grey", "black", "green"
+            ],
+            "size": [
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46"
+            ],
             "description": "A versatile product suitable for both beginners and professionals.",
-            "image": "./src/core/data/images/Hiking Boots.jpg",
+            "video": "https://youtu.be/a45AyMUzaFo?si=_Z77IQraQ5mEaKff",
+            "image": "../src/core/data/images/Hiking Boots/Hiking Boots.png",
+            "images": [
+                "../src/core/data/images/Hiking Boots/Hiking Boots.png",
+                "../src/core/data/images/Hiking Boots/Hiking Boots2.png",
+                "../src/core/data/images/Hiking Boots/Hiking Boots3.png",
+                "../src/core/data/images/Hiking Boots/Hiking Boots4.png",
+                "../src/core/data/images/Hiking Boots/Hiking Boots5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2088,8 +2335,31 @@
             "price": 158,
             "rating": 4.1,
             "quantity": 25,
+            "colors": [
+                "black",
+                "grey",
+                "blue",
+                "red",
+                "green",
+                "pink"
+            ],
+            "size": [
+                "md",
+                "lg",
+                "xl",
+                "xxl",
+                "xxxl"
+            ],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
-            "image": "./src/core/data/images/Thermal Jacket.jpeg",
+            "video": "https://youtu.be/fEuwFn-mxz0?si=PjgdT7mGoOw7qQD7",
+            "image": "../src/core/data/images/Thermal Jacket/Thermal Jacket.png",
+            "images": [
+                "../src/core/data/images/Thermal Jacket/Thermal Jacket.png",
+                "../src/core/data/images/Thermal Jacket/Thermal Jacket2.png",
+                "../src/core/data/images/Thermal Jacket/Thermal Jacket3.png",
+                "../src/core/data/images/Thermal Jacket/Thermal Jacket4.png",
+                "../src/core/data/images/Thermal Jacket/Thermal Jacket5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2140,8 +2410,32 @@
             "price": 97,
             "rating": 4.46,
             "quantity": 20,
+            "colors": [
+                "black",
+                "grey",
+                "blue",
+                "red",
+                "green",
+                "white",
+                "purple"
+            ],
+            "size": [
+                "sm",
+                "md",
+                "lg",
+                "xl",
+                "xxl"
+            ],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
-            "image": "./src/core/data/images/Compression Shirt.jpg",
+            "video": "https://youtu.be/cGxtK2VtBxk?si=I2irjPHRyxao1Pb7",
+            "image": "../src/core/data/images/Compression Shirt/Compression Shirt.png",
+            "images": [
+                "../src/core/data/images/Compression Shirt/Compression Shirt.png",
+                "../src/core/data/images/Compression Shirt/Compression Shirt2.png",
+                "../src/core/data/images/Compression Shirt/Compression Shirt3.png",
+                "../src/core/data/images/Compression Shirt/Compression Shirt4.png",
+                "../src/core/data/images/Compression Shirt/Compression Shirt5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2192,8 +2486,24 @@
             "price": 162,
             "rating": 4.4,
             "quantity": 25,
+            "colors": [
+                "green",
+                "black",
+                "blue",
+                "red",
+                "gold"
+            ],
+            "size": [],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
-            "image": "./src/core/data/images/Sports Watch.webp",
+            "video": "https://youtu.be/ItK7opBR8Ps?si=Jl7022I8M3vDMIps",
+            "image": "../src/core/data/images/Sports Watch/Sports Watch.png",
+            "images": [
+                "../src/core/data/images/Sports Watch/Sports Watch.png",
+                "../src/core/data/images/Sports Watch/Sports Watch2.png",
+                "../src/core/data/images/Sports Watch/Sports Watch3.png",
+                "../src/core/data/images/Sports Watch/Sports Watch4.png",
+                "../src/core/data/images/Sports Watch/Sports Watch5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2244,8 +2554,25 @@
             "price": 17,
             "rating": 4.27,
             "quantity": 30,
+            "colors": [
+                "black",
+                "purple",
+                "green",
+                "red",
+                "white",
+                "pink"
+            ],
+            "size": [],
             "description": "Crafted with attention to detail to deliver long-lasting quality.",
-            "image": "./src/core/data/images/Smart Fitness Tracker.jpg",
+            "video": "https://youtu.be/HbE42Mt9hW0?si=3HoabNOUhFhcASLu",
+            "image": "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker.png",
+            "images": [
+                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker.png",
+                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker2.png",
+                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker3.png",
+                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker4.png",
+                "../src/core/data/images/Smart Fitness Tracker/Smart Fitness Tracker5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2290,14 +2617,30 @@
             ]
         }, {
             "id": "41",
-            "name": "Basketball Pro",
-            "brand": "Fila",
+            "name": "Kickboxing Gloves",
+            "brand": "Venum",
             "category": "Outdoor",
             "price": 132,
             "rating": 4.02,
             "quantity": 20,
-            "description": "Engineered for performance with modern styling and excellent support.",
-            "image": "./src/core/data/images/Basketball Pro.png",
+            "colors": [
+                "black",
+                "white",
+                "gold",
+                "red",
+                "blue"
+            ],
+            "size": [],
+            "description": "Professional-grade kickboxing gloves designed for maximum impact protection and comfort. breathable material, and secure wrist support.",
+            "video": "https://youtu.be/5CD62hFf5EU?si=aGrzL4vvRBE_C1SN",
+            "image": "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves.png",
+            "images": [
+                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves.png",
+                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves2.png",
+                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves3.png",
+                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves4.png",
+                "../src/core/data/images/Kickboxing Gloves/Kickboxing Gloves5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2343,8 +2686,24 @@
             "price": 112,
             "rating": 4.03,
             "quantity": 17,
+            "colors": [
+                "orange",
+                "green",
+                "red",
+                "yellow",
+                "blue"
+            ],
+            "size": [],
             "description": "Engineered for performance with modern styling and excellent support.",
-            "image": "./src/core/data/images/Football Match Ball.webp",
+            "video": "https://youtu.be/tWADG2LhAGc?si=udbYHUTB262l6TAC",
+            "image": "../src/core/data/images/Football Match Ball/Football Match Ball.png",
+            "images": [
+                "../src/core/data/images/Football Match Ball/Football Match Ball.png",
+                "../src/core/data/images/Football Match Ball/Football Match Ball2.png",
+                "../src/core/data/images/Football Match Ball/Football Match Ball3.png",
+                "../src/core/data/images/Football Match Ball/Football Match Ball4.png",
+                "../src/core/data/images/Football Match Ball/Football Match Ball5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2395,8 +2754,20 @@
             "price": 84,
             "rating": 4.1,
             "quantity": 44,
+            "colors": [
+                "blue", "green", "red", "orange"
+            ],
+            "size": [],
             "description": "Built with durable materials to withstand intense workouts and daily use.",
-            "image": "./src/core/data/images/Tennis Racket.jpg",
+            "video": "https://youtu.be/PU5h2qxmOGk?si=MS-adopICwR_FTu9",
+            "image": "../src/core/data/images/Tennis Racket/Tennis Racket.png",
+            "images": [
+                "../src/core/data/images/Tennis Racket/Tennis Racket.png",
+                "../src/core/data/images/Tennis Racket/Tennis Racket2.png",
+                "../src/core/data/images/Tennis Racket/Tennis Racket3.png",
+                "../src/core/data/images/Tennis Racket/Tennis Racket4.png",
+                "../src/core/data/images/Tennis Racket/Tennis Racket5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2437,8 +2808,20 @@
             "price": 184,
             "rating": 4.33,
             "quantity": 39,
+            "colors": [
+                "blue", "green", "red", "orange"
+            ],
+            "size": [],
             "description": "Engineered for performance with modern styling and excellent support.",
-            "image": "./src/core/data/images/Badminton Set.webp",
+            "video": "https://youtu.be/ny9LSh3fJfk?si=eK4l9nSwdiuqdKkY",
+            "image": "../src/core/data/images/Badminton Set/Badminton Set.png",
+            "images": [
+                "../src/core/data/images/Badminton Set/Badminton Set.png",
+                "../src/core/data/images/Badminton Set/Badminton Set2.png",
+                "../src/core/data/images/Badminton Set/Badminton Set3.png",
+                "../src/core/data/images/Badminton Set/Badminton Set4.png",
+                "../src/core/data/images/Badminton Set/Badminton Set5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2489,8 +2872,24 @@
             "price": 130,
             "rating": 4.1,
             "quantity": 36,
+            "colors": [
+                "black",
+                "blue",
+                "grey",
+                "pink",
+                "purple"
+            ],
+            "size": [],
             "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
-            "image": "./src/core/data/images/Swimming Goggles.jpeg",
+            "video": "https://youtu.be/Foe7vYLgMpE?si=r6hvIX7Dc-VHD0P0",
+            "image": "../src/core/data/images/Swimming Goggles/Swimming Goggles.png",
+            "images": [
+                "../src/core/data/images/Swimming Goggles/Swimming Goggles.png",
+                "../src/core/data/images/Swimming Goggles/Swimming Goggles2.png",
+                "../src/core/data/images/Swimming Goggles/Swimming Goggles3.png",
+                "../src/core/data/images/Swimming Goggles/Swimming Goggles4.png",
+                "../src/core/data/images/Swimming Goggles/Swimming Goggles5.png"
+            ],
             "inStock": false,
             "reviews": [
                 {
@@ -2541,8 +2940,24 @@
             "price": 102,
             "rating": 4.3,
             "quantity": 41,
+            "colors": [
+                "black",
+                "blue",
+                "white",
+                "orange",
+                "purple"
+            ],
+            "size": [],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
-            "image": "./src/core/data/images/Swim Cap.jpg",
+            "video": "https://youtu.be/J8p-eIi5IhU?si=NGT_Y12icv05JOTD",
+            "image": "../src/core/data/images/Swim Cap/Swim Cap.png",
+            "images": [
+                "../src/core/data/images/Swim Cap/Swim Cap.png",
+                "../src/core/data/images/Swim Cap/Swim Cap2.png",
+                "../src/core/data/images/Swim Cap/Swim Cap3.png",
+                "../src/core/data/images/Swim Cap/Swim Cap4.png",
+                "../src/core/data/images/Swim Cap/Swim Cap5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2583,8 +2998,24 @@
             "price": 83,
             "rating": 4.26,
             "quantity": 45,
+            "colors": [
+                "black",
+                "purple",
+                "pink",
+                "red",
+                "white"
+            ],
+            "size": [],
             "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
-            "image": "./src/core/data/images/Protein Shaker.jpeg",
+            "video": "https://youtu.be/npHp8UX8tlM?si=v2-aNYtAXeBEBHu-",
+            "image": "../src/core/data/images/Protein Shaker/Protein Shaker.png",
+            "images": [
+                "../src/core/data/images/Protein Shaker/Protein Shaker.png",
+                "../src/core/data/images/Protein Shaker/Protein Shaker2.png",
+                "../src/core/data/images/Protein Shaker/Protein Shaker3.png",
+                "../src/core/data/images/Protein Shaker/Protein Shaker4.png",
+                "../src/core/data/images/Protein Shaker/Protein Shaker5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2625,8 +3056,20 @@
             "price": 105,
             "rating": 4.37,
             "quantity": 55,
+            "colors": [
+                "black", "grey", "white"
+            ],
+            "size": [],
             "description": "Perfect companion for gym sessions, running, or outdoor activities.",
-            "image": "./src/core/data/images/Jump Box.jpg",
+            "video": "https://youtu.be/ua-VvojLrxM?si=VEi9hogjzgyAtdzt",
+            "image": "../src/core/data/images/Jump Box/Jump Box.png",
+            "images": [
+                "../src/core/data/images/Jump Box/Jump Box.png",
+                "../src/core/data/images/Jump Box/Jump Box2.png",
+                "../src/core/data/images/Jump Box/Jump Box3.png",
+                "../src/core/data/images/Jump Box/Jump Box4.png",
+                "../src/core/data/images/Jump Box/Jump Box5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2677,8 +3120,20 @@
             "price": 67,
             "rating": 4.47,
             "quantity": 63,
+            "colors": [
+                "yellow", "red", "green", "blue"
+            ],
+            "size": [],
             "description": "Engineered for performance with modern styling and excellent support.",
-            "image": "./src/core/data/images/Agility Ladder.avif",
+            "video": "https://youtu.be/ex-D_SZsUpA?si=O_A9A_bPd-YxUmsz",
+            "image": "../src/core/data/images/Agility Ladder/Agility Ladder.png",
+            "images": [
+                "../src/core/data/images/Agility Ladder/Agility Ladder.png",
+                "../src/core/data/images/Agility Ladder/Agility Ladder2.png",
+                "../src/core/data/images/Agility Ladder/Agility Ladder3.png",
+                "../src/core/data/images/Agility Ladder/Agility Ladder4.png",
+                "../src/core/data/images/Agility Ladder/Agility Ladder5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2729,8 +3184,20 @@
             "price": 138,
             "rating": 4.36,
             "quantity": 53,
+            "colors": [
+                "yellow", "green", "blue", "aqua"
+            ],
+            "size": [],
             "description": "Lightweight and breathable design ensures maximum comfort all day long.",
-            "image": "./src/core/data/images/Balance Board.jpg",
+            "video": "https://youtu.be/e00ZUdOOyyg?si=WW3Yn6Jk9SYHE9fA",
+            "image": "../src/core/data/images/Balance Board/Balance Board.png",
+            "images": [
+                "../src/core/data/images/Balance Board/Balance Board.png",
+                "../src/core/data/images/Balance Board/Balance Board2.png",
+                "../src/core/data/images/Balance Board/Balance Board3.png",
+                "../src/core/data/images/Balance Board/Balance Board4.png",
+                "../src/core/data/images/Balance Board/Balance Board5.png"
+            ],
             "inStock": true,
             "reviews": [
                 {
@@ -2832,6 +3299,9 @@
         }, {
             "id": "10",
             "name": "Columbia"
+        }, {
+            "id": "11",
+            "name": "Venum"
         }
     ],
     "users": [],
