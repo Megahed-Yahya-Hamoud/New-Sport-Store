@@ -26,7 +26,7 @@
 }
 
 .mainTitle {
-  font-family: fantasy;
+  font-family: fantasy !important;
   color: aliceblue !important;
   font-size: 50px !important;
   line-height: normal !important;
@@ -48,7 +48,7 @@
 }
 
 .title{
-  font-family: fantasy;
+  font-family: fantasy !important;
   /* color: aliceblue !important; */
   color: rgb(0,135,255) !important;
   font-size: 40px !important;
@@ -74,7 +74,7 @@
 }
 
 .titleSecond{
-    font-family: fantasy;
+    font-family: fantasy !important;
     text-align: center;
     color: rgb(0, 0, 0) !important;
     font-size: 50px !important;

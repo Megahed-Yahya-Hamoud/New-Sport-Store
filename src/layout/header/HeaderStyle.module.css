@@ -36,7 +36,7 @@
   }
 }
 .logoSport {
-  font-family: fantasy;
+  font-family: fantasy !important; 
 }
 
 .logoSport {
