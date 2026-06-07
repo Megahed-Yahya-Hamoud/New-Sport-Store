@@ -5,58 +5,58 @@ import classes from "./Companies.module.css";
 const imageCompanies = [
   {
     image:
-      "src/components/section-Companies/brands/adidas.png",
+      "/images/brands/adidas.png",
     // width: "150px",
     // height: "50px",
   },
   {
     image:
-      "src/components/section-Companies/brands/Asics.png",
+      "/images/brands/Asics.png",
     // width: "150px",
     // height: "50px",
   },
   {
     image:
-      "src/components/section-Companies/brands/Columbia.png",
+      "/images/brands/Columbia.png",
 
     // width: "150px",
     // height: "50px",
   },
   {
-    image: "src/components/section-Companies/brands/decathlon.png",
+    image: "/images/brands/decathlon.png",
     // width: "150px",
     // height: "50px",
   },
   {
     image:
-      "src/components/section-Companies/brands/fila.png",
+      "/images/brands/fila.png",
     // width: "100px",
     // height: "80px",
   },
   {
     image:
-      "src/components/section-Companies/brands/NB.png",
+      "/images/brands/NB.png",
     // width: "200px",
     // height: "60px",
   },
   {
-    image: "src/components/section-Companies/brands/nike.png",
+    image: "/images/brands/nike.png",
     // width: "180px",
     // height: "90px",
   },
   {
-    image: "src/components/section-Companies/brands/puma.png",
+    image: "/images/brands/puma.png",
     // width: "180px",
     // height: "90px",
   },
   {
     image:
-      "src/components/section-Companies/brands/reebok.png",
+      "/images/brands/reebok.png",
     // width: "190px",
     // height: "100px",
   },
   {
-    image: "src/components/section-Companies/brands/UA.png",
+    image: "/images/brands/UA.png",
     // width: "180px",
     // height: "100px",
   }
