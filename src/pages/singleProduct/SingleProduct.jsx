@@ -24,7 +24,7 @@ export default function SingleProduct() {
   const [active, setActive] = useState();
   const [refreshComments, setRefreshComments] = useState(false);
   const [reviewId, setReviewId] = useState();
-  
+
   useEffect(() => {
     fetch(API_CONFIG.mainUrl + endpointForProduct + "/" + id)
       .then((res) => res.json())
@@ -108,22 +108,26 @@ export default function SingleProduct() {
               <ProductColors colors={colors} />
             </Box>
           </Box>
-          <Box display={product.size?.length > 0 ? "" : "grid"} className={classes.containerDetails}>
+          <Box
+            display={product.size?.length > 0 ? "" : "grid"}
+            className={classes.containerDetails}
+          >
             <Box>
-              {
-                product.size?.length > 0 ?(
-                  <ProductSize  size={product.size} />
-                ):
-                (<></>)
-              }
+              {product.size?.length > 0 ? (
+                <ProductSize size={product.size} />
+              ) : (
+                <></>
+              )}
             </Box>
             <Box>
-              <ProductPieces size={product.size?.length} quantity={product.quantity} />
+              <ProductPieces
+                size={product.size?.length}
+                quantity={product.quantity}
+              />
             </Box>
           </Box>
           {/* <Divider my={20} /> */}
           <Box className={classes.containerBtn}>
-            
             <AddToCart id={product.id} />
             <AddProductToFavorites id={product.id} />
           </Box>
@@ -146,18 +150,18 @@ export default function SingleProduct() {
         />
         <Comments  setReviewId={setReviewId} refresh={refreshComments} id={product.id || id}  /> */}
         <AddComment
-  onCommentAdded={() => setRefreshComments((prev) => !prev)}
-  id={product.id}
-  reviewId={reviewId}
-  setReviewId={setReviewId}
-/>
+          onCommentAdded={() => setRefreshComments((prev) => !prev)}
+          id={product.id}
+          reviewId={reviewId}
+          setReviewId={setReviewId}
+        />
 
-<Comments
-  onCommentAdded={() => setRefreshComments((prev) => !prev)}
-  setReviewId={setReviewId}
-  refresh={refreshComments}
-  id={product.id || id}
-/>
+        <Comments
+          onCommentAdded={() => setRefreshComments((prev) => !prev)}
+          setReviewId={setReviewId}
+          refresh={refreshComments}
+          id={product.id || id}
+        />
       </Box>
     </Box>
   );

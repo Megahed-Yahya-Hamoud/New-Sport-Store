@@ -1,184 +1,3 @@
-// import { Box, Button, Input, NumberInput, Text } from "@mantine/core";
-// import { notifications } from "@mantine/notifications";
-// import classes from "./AddCommentStyle.module.css";
-// import { useEffect, useRef, useState } from "react";
-// import API_CONFIG from "../../../../core/utils/apiConfig";
-// import { IconSendFilled } from "@tabler/icons-react";
-
-// export default function AddComment({ id, onCommentAdded , reviewId }) {
-//   const [value, setValue] = useState("");
-//   const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
-//   const endpointForProduct = API_CONFIG.endpoints.products.allProducts;
-//   const selectRef = useRef();
-//   const inputSelectRef = useRef();
-
-//   const [allReview, setAllReview] = useState([]);
-//   const [firstName, setFirstName] = useState("");
-//   const [lastName, setLastName] = useState("");
-//   const [check, setCheck] = useState(true);
-
-//   const getUser = JSON.parse(localStorage.getItem("currentUser"));
-
-//   useEffect(() => {
-//     fetch(API_CONFIG.mainUrl + endpointForUsers + getUser)
-//       .then((res) => res.json())
-//       .then((data) => {
-//         setFirstName(data.firstName);
-//         setLastName(data.lastName);
-//       });
-//   });
-
-//   const userIcon = (
-//     <Text className={classes.userIcon}> {firstName?.[0]?.toUpperCase()}</Text>
-//   );
-
-//   async function sendComment(value, rating) {
-//     if (!getUser) {
-      
-//       return notifications.show({
-//         title: "You must be logged in to add a comment",
-//         color: "orange",
-//       });
-//     }
-//     // تحقق لو التعليق فاضي
-//     if (!value.trim()) {
-//       setCheck(false);
-//       console.log("is empty");
-//       return;
-//     }
-//     setCheck(true);
-
-//     if (rating > 5) {
-//       rating = 5;
-//     }
-//     // التعليق الجديد
-//     const newReview = {
-//       id: Date.now(), // id تلقائي
-//       user: `${firstName} ${lastName}`,
-//       rating: rating,
-//       comment: value,
-//     };
-
-//     try {
-//       // هات بيانات المنتج الحالية
-//       const res = await fetch(
-//         `${API_CONFIG.mainUrl}${endpointForProduct}/${id}`,
-//       );
-//       const data = await res.json();
-
-//       // لو reviews مش موجودة
-//       data.reviews = data.reviews || [];
-
-//       // ضيف الريفيو الجديد
-//       data.reviews.push(newReview);
-
-//       // console.log(data.reviews);
-
-//       // ابعت البيانات بعد التعديل
-//       await fetch(`${API_CONFIG.mainUrl}${endpointForProduct}/${id}`, {
-//         method: "PUT",
-//         headers: {
-//           "Content-Type": "application/json",
-//         },
-//         body: JSON.stringify(data),
-//       });
-//       onCommentAdded();
-
-//       // console.log("Review added successfully");
-//     } catch (error) {
-//       console.log("Error:", error);
-//     }
-//   }
-
-
-//   useEffect(() => {
-//     fetch(API_CONFIG.mainUrl + endpointForProduct  + "/" + id)
-//       .then((res) => res.json())
-//       .then((data) => {
-//         // console.log(data.reviews.filter((review) => review.id == reviewId))
-//         setAllReview(data.reviews.filter((review) => review.id == reviewId));
-//       });
-//   },[reviewId]);
-  
-
-
-
-
-//   return (
-//     <Box className={classes.addComment}>
-//       {userIcon}
-//       <Input
-//         styles={{
-//           wrapper: {
-//             outlineColor: "black",
-//           },
-//         }}
-//         className={classes.inputComment}
-//         style={{
-//           border: !check ? "1px solid red" : "1px black",
-//           borderRadius: "8px",
-//         }}
-//         variant="filled"
-//         placeholder="Add your comment"
-//         value={allReview.length > 0 ? allReview[0].comment : value}
-//         onChange={(event) => setValue(event.currentTarget.value)}
-//         rightSectionPointerEvents="all"
-//         mt="md"
-//         rightSection={
-//           value ? (
-//             <Input.ClearButton
-//               aria-label="Clear input"
-//               onClick={() => setValue("")}
-//             />
-//           ) : null
-//         }
-//       />
-//         <NumberInput
-//           className={classes.largeSize}
-//           w={"15%"}
-//           placeholder="Your rating"
-//           max={5}
-//           min={1}
-//           ref={selectRef}
-//           value={allReview.length > 0 ? allReview[0].rating : 0}
-//         />
-//         <Button
-//           className={classes.largeSize}
-//           variant="filled"
-//           color={"black"}
-//           onClick={() => {
-//             sendComment(value, Number(selectRef.current.value));
-//           }}
-//         >
-//           <IconSendFilled className={classes.iconSend} />
-//           <span className={classes.textSend}>Send</span>
-//         </Button>
-
-//         <Input
-//           className={classes.smallSize}
-//           w={"80px"}
-//           placeholder="Rating"
-//           max={5}
-//           min={1}
-//           ref={inputSelectRef}
-//           value={allReview.length > 0 ? allReview[0].rating : 0}
-//         />
-
-//         <Button
-//           className={classes.smallSize}
-//           variant="filled"
-//           color={"black"}
-//           onClick={() => {
-//             sendComment(value, Number(inputSelectRef.current.value));
-//           }}
-//         >
-//           <IconSendFilled className={classes.iconSend} />
-//         </Button>
-//     </Box>
-//   );
-// }
-
-
 import { Box, Button, Input, NumberInput, Text } from "@mantine/core";
 import { notifications } from "@mantine/notifications";
 import classes from "./AddCommentStyle.module.css";
@@ -208,9 +27,7 @@ export default function AddComment({
   const getUser = JSON.parse(localStorage.getItem("currentUser"));
 
   const userIcon = (
-    <Text className={classes.userIcon}>
-      {firstName?.[0]?.toUpperCase()}
-    </Text>
+    <Text className={classes.userIcon}>{firstName?.[0]?.toUpperCase()}</Text>
   );
 
   // user data
@@ -266,7 +83,7 @@ export default function AddComment({
 
     try {
       const res = await fetch(
-        `${API_CONFIG.mainUrl}${endpointForProduct}/${id}`
+        `${API_CONFIG.mainUrl}${endpointForProduct}/${id}`,
       );
 
       const data = await res.json();
@@ -281,7 +98,7 @@ export default function AddComment({
                 comment: comment,
                 rating: reviewRating,
               }
-            : review
+            : review,
         );
 
         await fetch(`${API_CONFIG.mainUrl}${endpointForProduct}/${id}`, {
@@ -298,6 +115,7 @@ export default function AddComment({
         setReviewId(null);
 
         if (selectRef.current) selectRef.current.value = "";
+
         if (inputSelectRef.current) inputSelectRef.current.value = "";
 
         onCommentAdded?.();
@@ -326,6 +144,7 @@ export default function AddComment({
       setRating(0);
 
       if (selectRef.current) selectRef.current.value = "";
+
       if (inputSelectRef.current) inputSelectRef.current.value = "";
 
       onCommentAdded?.();
@@ -337,7 +156,6 @@ export default function AddComment({
   return (
     <Box className={classes.addComment}>
       {userIcon}
-
       {/* INPUT 1 */}
       <Input
         className={classes.inputComment}
@@ -349,8 +167,7 @@ export default function AddComment({
         placeholder="Add your comment"
         value={value}
         onChange={(e) => setValue(e.currentTarget.value)}
-      />
-
+      />{" "}
       {/* NUMBER INPUT */}
       <NumberInput
         className={classes.largeSize}
@@ -361,8 +178,7 @@ export default function AddComment({
         ref={selectRef}
         value={rating}
         onChange={(val) => setRating(Number(val) || 0)}
-      />
-
+      />{" "}
       {/* BUTTON */}
       <Button
         className={classes.largeSize}
@@ -371,11 +187,8 @@ export default function AddComment({
         onClick={() => sendComment(value, rating)}
       >
         <IconSendFilled className={classes.iconSend} />
-        <span className={classes.textSend}>
-          {reviewId ? "Update" : "Send"}
-        </span>
+        <span className={classes.textSend}>{reviewId ? "Update" : "Send"}</span>
       </Button>
-
       {/* INPUT 2 (زي ما هو بس متصل بالحالة) */}
       <Input
         className={classes.smallSize}
@@ -383,11 +196,8 @@ export default function AddComment({
         placeholder="Rating"
         ref={inputSelectRef}
         value={rating}
-        onChange={(e) =>
-          setRating(Number(e.currentTarget.value) || 0)
-        }
+        onChange={(e) => setRating(Number(e.currentTarget.value) || 0)}
       />
-
       <Button
         className={classes.smallSize}
         variant="filled"

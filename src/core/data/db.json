@@ -3504,20 +3504,6 @@
       "name": "Venum"
     }
   ],
-  "users": [
-    {
-      "firstName": "Megahed",
-      "lastName": "Yahya",
-      "email": "hmjahd010@gmail.com",
-      "phone": 1289205153,
-      "password": "74108520",
-      "favorites": [],
-      "cart": {
-        "items": [],
-        "total_price": 0
-      },
-      "id": "LWCmoWO-V0c"
-    }
-  ],
+  "users": [],
   "$schema": "./node_modules/json-server/schema.json"
 }
