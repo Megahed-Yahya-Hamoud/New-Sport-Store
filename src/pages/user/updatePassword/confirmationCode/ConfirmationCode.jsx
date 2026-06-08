@@ -70,6 +70,7 @@ export default function ConfirmationCode() {
           A confirmation code has been sent
         </Text>
         <Text ta={"center"}>Check your email address</Text>
+        <Text ta={"center"}>Add any code</Text>
       </Box>
       <Box
         mt={20}

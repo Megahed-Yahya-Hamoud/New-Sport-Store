@@ -104,11 +104,15 @@ function formSubmit(e) {
         </Box>
 
         <Box className={classes.containerInput}>
-          <Select           
+          <Select    
+            className={classes.inputSelect}
             placeholder="Select Category"
             data={categories.map((ele) => ele.name)}
             clearable
             ref={selectRef}
+            styles={{input:{
+              border:"0px solid #ccc",
+            }}}
             />
           <input
           onChange={handleData}

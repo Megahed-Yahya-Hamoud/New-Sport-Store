@@ -160,13 +160,16 @@ export default function AddComment({
       <Input
         className={classes.inputComment}
         style={{
-          border: !check ? "1px solid red" : "1px solid black",
+          border: !check ? "1px solid red" : "1px solid #a3a3a3",
           borderRadius: "8px",
         }}
         variant="filled"
         placeholder="Add your comment"
         value={value}
         onChange={(e) => setValue(e.currentTarget.value)}
+        styles={{input:{
+              border:"0px solid #ccc",
+            }}}
       />{" "}
       {/* NUMBER INPUT */}
       <NumberInput
@@ -178,6 +181,9 @@ export default function AddComment({
         ref={selectRef}
         value={rating}
         onChange={(val) => setRating(Number(val) || 0)}
+        styles={{input:{
+              border:"0px solid #ccc",
+        }}}
       />{" "}
       {/* BUTTON */}
       <Button

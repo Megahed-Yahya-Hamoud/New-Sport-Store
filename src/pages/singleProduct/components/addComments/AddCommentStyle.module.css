@@ -7,6 +7,18 @@
 
 .inputComment {
   width: 50%;
+  color: #a3a3a3;
+}
+
+.largeSize {
+  border: 1px solid #a3a3a3;
+  border-radius: 8px;
+  transition: 0.1s ease-in-out;
+}
+
+.largeSize:focus {
+  border: 1px solid #00000015;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 .smallSize {

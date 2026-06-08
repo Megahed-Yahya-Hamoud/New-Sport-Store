@@ -8,20 +8,8 @@
       "price": 51,
       "rating": 4.48,
       "quantity": 35,
-      "colors": [
-        "red",
-        "green",
-        "yellow",
-        "blue",
-        "grey"
-      ],
-      "size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "colors": ["red", "green", "yellow", "blue", "grey"],
+      "size": ["41", "42", "43", "44", "45"],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/kB0rnIifAjE?si=2c4sSKtTIZUe3CfI",
       "image": "/images/Nike Air Zoom Pegasus/Nike Air Zoom Pegasus.png",
@@ -74,20 +62,8 @@
       "price": 157,
       "rating": 4.14,
       "quantity": 20,
-      "colors": [
-        "blue",
-        "gold",
-        "#d3d3d3",
-        "purple",
-        "black"
-      ],
-      "size": [
-        "38",
-        "39",
-        "40",
-        "41",
-        "42"
-      ],
+      "colors": ["blue", "gold", "#d3d3d3", "purple", "black"],
+      "size": ["38", "39", "40", "41", "42"],
       "description": "Crafted with attention to detail to deliver long-lasting quality.",
       "video": "https://youtu.be/ez3fw8SrexA?si=rneGT7mWzKvjXuvx",
       "image": "/images/Adidas Ultraboost 22/Adidas Ultraboost 22.png",
@@ -140,20 +116,8 @@
       "price": 162,
       "rating": 4.03,
       "quantity": 25,
-      "colors": [
-        "red",
-        "gray",
-        "black",
-        "yellow",
-        "green"
-      ],
-      "size": [
-        "38",
-        "40",
-        "42",
-        "43",
-        "44"
-      ],
+      "colors": ["red", "gray", "black", "yellow", "green"],
+      "size": ["38", "40", "42", "43", "44"],
       "description": "Designed for athletes who demand comfort and performance during long training sessions.",
       "video": "https://youtu.be/UyefASVrtbw?si=4zCG0Z94C8NIYyz5",
       "image": "/images/Puma Velocity Nitro/Puma Velocity Nitro.png",
@@ -212,13 +176,7 @@
       "price": 125,
       "rating": 4.37,
       "quantity": 30,
-      "colors": [
-        "red",
-        "green",
-        "gold",
-        "grey",
-        "orange"
-      ],
+      "colors": ["red", "green", "gold", "grey", "orange"],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/vnTrjU-4Ang?si=x4r6Io-yJXkMhygr",
       "image": "/images/Under Armour HOVR Phantom/Under Armour HOVR Phantom.png",
@@ -277,20 +235,8 @@
       "price": 126,
       "rating": 3.92,
       "quantity": 15,
-      "colors": [
-        "blue",
-        "green",
-        "gold",
-        "grey",
-        "black"
-      ],
-      "size": [
-        "38",
-        "40",
-        "42",
-        "43",
-        "44"
-      ],
+      "colors": ["blue", "green", "gold", "grey", "black"],
+      "size": ["38", "40", "42", "43", "44"],
       "description": "Built with durable materials to withstand intense workouts and daily use.",
       "video": "https://youtu.be/nEwXccb5mzA?si=8Jkujhyc68zFybxD",
       "image": "/images/Reebok Nano X/Reebok Nano X.png",
@@ -343,20 +289,8 @@
       "price": 45,
       "rating": 4.52,
       "quantity": 40,
-      "colors": [
-        "white",
-        "purple",
-        "gold",
-        "red",
-        "black"
-      ],
-      "size": [
-        "38",
-        "39",
-        "40",
-        "43",
-        "45"
-      ],
+      "colors": ["white", "purple", "gold", "red", "black"],
+      "size": ["38", "39", "40", "43", "45"],
       "description": "Perfect companion for gym sessions, running, or outdoor activities.",
       "video": "https://youtu.be/OLDR-6JP3Qc?si=mFVeXPfZwK-1nG92",
       "image": "/images/Asics Gel Kayano/Asics Gel Kayano.png",
@@ -409,20 +343,8 @@
       "price": 42,
       "rating": 4.29,
       "quantity": 25,
-      "colors": [
-        "black",
-        "grey",
-        "blue",
-        "red",
-        "aqua"
-      ],
-      "size": [
-        "40",
-        "41",
-        "42",
-        "43",
-        "44"
-      ],
+      "colors": ["black", "grey", "blue", "red", "aqua"],
+      "size": ["40", "41", "42", "43", "44"],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/lEK6z2uQzkg?si=2RH2NzL6g6Fv8_I0",
       "image": "/images/New Balance Fresh Foam/New Balance Fresh Foam.png",
@@ -487,20 +409,8 @@
       "price": 148,
       "rating": 3.9,
       "quantity": 30,
-      "colors": [
-        "white",
-        "grey",
-        "blue",
-        "red",
-        "black"
-      ],
-      "size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "colors": ["white", "grey", "blue", "red", "black"],
+      "size": ["41", "42", "43", "44", "45"],
       "description": "Crafted with attention to detail to deliver long-lasting quality.",
       "video": "https://youtu.be/aO3NR9NM7rc?si=aX-ULdD8IC5VeP7T",
       "image": "/images/Fila Disruptor II/Fila Disruptor II.png",
@@ -565,18 +475,8 @@
       "price": 94,
       "rating": 4.2,
       "quantity": 20,
-      "colors": [
-        "blue",
-        "black",
-        "green",
-        "red",
-        "aqua"
-      ],
-      "size": [
-        "24inch",
-        "28inch",
-        "32inch"
-      ],
+      "colors": ["blue", "black", "green", "red", "aqua"],
+      "size": ["24inch", "28inch", "32inch"],
       "description": "A versatile product suitable for both beginners and professionals.",
       "video": "https://youtu.be/3Vk4KqwThqU?si=Wyo_mtYA5PzmihRC",
       "image": "/images/Columbia Hiking Backpack/Columbia Hiking Backpack.png",
@@ -635,18 +535,8 @@
       "price": 48,
       "rating": 4.38,
       "quantity": 25,
-      "colors": [
-        "black",
-        "gray",
-        "red",
-        "blue",
-        "pink"
-      ],
-      "size": [
-        "25inch",
-        "30inch",
-        "35inch"
-      ],
+      "colors": ["black", "gray", "red", "blue", "pink"],
+      "size": ["25inch", "30inch", "35inch"],
       "description": "Crafted with attention to detail to deliver long-lasting quality.",
       "video": "https://youtu.be/jZUrsmj81pY?si=fIorQXP7J_BpOgBg",
       "image": "/images/Decathlon Gym Bag/Decathlon Gym Bag.png",
@@ -699,20 +589,8 @@
       "price": 28,
       "rating": 4.16,
       "quantity": 30,
-      "colors": [
-        "black",
-        "gray",
-        "red",
-        "white",
-        "blue"
-      ],
-      "size": [
-        "sm",
-        "md",
-        "lg",
-        "xl",
-        "xxl"
-      ],
+      "colors": ["black", "gray", "red", "white", "blue"],
+      "size": ["sm", "md", "lg", "xl", "xxl"],
       "description": "Perfect companion for gym sessions, running, or outdoor activities.",
       "video": "https://youtu.be/Op6aAJBgF68?si=gl4WopkTuTjIhLOj",
       "image": "/images/Nike Training T-Shirt/Nike Training T-Shirt.png",
@@ -765,20 +643,8 @@
       "price": 145,
       "rating": 3.94,
       "quantity": 22,
-      "colors": [
-        "black",
-        "gray",
-        "blue",
-        "red",
-        "aqua"
-      ],
-      "size": [
-        "md",
-        "lg",
-        "xl",
-        "xxl",
-        "xxxl"
-      ],
+      "colors": ["black", "gray", "blue", "red", "aqua"],
+      "size": ["md", "lg", "xl", "xxl", "xxxl"],
       "description": "Crafted with attention to detail to deliver long-lasting quality.",
       "video": "https://youtu.be/hfSJ6AjeS5E?si=2s32MkAyd6aRDcIc",
       "image": "/images/Adidas Running Shorts/Adidas Running Shorts.png",
@@ -831,20 +697,8 @@
       "price": 146,
       "rating": 4.32,
       "quantity": 25,
-      "colors": [
-        "black",
-        "gray",
-        "blue",
-        "red",
-        "green"
-      ],
-      "size": [
-        "sm",
-        "md",
-        "lg",
-        "xl",
-        "xxl"
-      ],
+      "colors": ["black", "gray", "blue", "red", "green"],
+      "size": ["sm", "md", "lg", "xl", "xxl"],
       "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
       "video": "https://youtu.be/aPJBZD7a-EM?si=Oj4yzgtl1qSauEgE",
       "image": "/images/Puma Sports Jacket/Puma Sports Jacket.png",
@@ -897,20 +751,8 @@
       "price": 179,
       "rating": 4.34,
       "quantity": 28,
-      "colors": [
-        "white",
-        "black",
-        "aqua",
-        "purple",
-        "blue"
-      ],
-      "size": [
-        "md",
-        "lg",
-        "xl",
-        "xxl",
-        "xxxl"
-      ],
+      "colors": ["white", "black", "aqua", "purple", "blue"],
+      "size": ["md", "lg", "xl", "xxl", "xxxl"],
       "description": "Lightweight and breathable design ensures maximum comfort all day long.",
       "video": "https://youtu.be/UcvFlt1EYP8?si=OWEdIqg28aIgUVxV",
       "image": "/images/Under Armour Hoodie/Under Armour Hoodie.png",
@@ -963,20 +805,8 @@
       "price": 36,
       "rating": 4.11,
       "quantity": 30,
-      "colors": [
-        "black",
-        "grey",
-        "blue",
-        "white",
-        "green"
-      ],
-      "size": [
-        "md",
-        "lg",
-        "xl",
-        "xxl",
-        "xxxl"
-      ],
+      "colors": ["black", "grey", "blue", "white", "green"],
+      "size": ["md", "lg", "xl", "xxl", "xxxl"],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/5hen1jzwxZY?si=J3_ii621Tr7pDGt6",
       "image": "/images/Reebok Joggers/Reebok Joggers.png",
@@ -1041,17 +871,8 @@
       "price": 11,
       "rating": 4.43,
       "quantity": 43,
-      "colors": [
-        "black",
-        "grey",
-        "blue",
-        "white",
-        "green"
-      ],
-      "size": [
-        "sm",
-        "lg"
-      ],
+      "colors": ["black", "grey", "blue", "white", "green"],
+      "size": ["sm", "lg"],
       "description": "Lightweight and breathable design ensures maximum comfort all day long.",
       "video": "https://youtu.be/2-AjbDUNMLM?si=knn3nTeqeqq0Eoyp",
       "image": "/images/Asics Running Cap/Asics Running Cap.png",
@@ -1110,20 +931,8 @@
       "price": 47,
       "rating": 4.05,
       "quantity": 30,
-      "colors": [
-        "black",
-        "grey",
-        "brown",
-        "white",
-        "green"
-      ],
-      "size": [
-        "40",
-        "41",
-        "42",
-        "44",
-        "45"
-      ],
+      "colors": ["black", "grey", "brown", "white", "green"],
+      "size": ["40", "41", "42", "44", "45"],
       "description": "Lightweight and breathable design ensures maximum comfort all day long.",
       "video": "https://youtu.be/purj-IBvd74?si=uMVSKCy8ZRvCrQFO",
       "image": "/images/New Balance Sneakers/New Balance Sneakers.png",
@@ -1182,20 +991,8 @@
       "price": 138,
       "rating": 4.49,
       "quantity": 35,
-      "colors": [
-        "black",
-        "grey",
-        "white",
-        "blue",
-        "red"
-      ],
-      "size": [
-        "sm",
-        "md",
-        "lg",
-        "xl",
-        "xxl"
-      ],
+      "colors": ["black", "grey", "white", "blue", "red"],
+      "size": ["sm", "md", "lg", "xl", "xxl"],
       "description": "Crafted with attention to detail to deliver long-lasting quality.",
       "video": "https://youtu.be/ZQB0HHsn75Y?si=prUUGwAlmfZzVBjE",
       "image": "/images/Fila Sports Tee/Fila Sports Tee.png",
@@ -1260,20 +1057,8 @@
       "price": 184,
       "rating": 4.14,
       "quantity": 20,
-      "colors": [
-        "black",
-        "grey",
-        "white",
-        "blue",
-        "green"
-      ],
-      "size": [
-        "md",
-        "lg",
-        "xl",
-        "xxl",
-        "xxxl"
-      ],
+      "colors": ["black", "grey", "white", "blue", "green"],
+      "size": ["md", "lg", "xl", "xxl", "xxxl"],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/0V_sLVmIa6Y?si=eFUi7u6rPXx9Fkmp",
       "image": "/images/Columbia Outdoor Jacket/Columbia Outdoor Jacket.png",
@@ -1326,17 +1111,8 @@
       "price": 100,
       "rating": 4.49,
       "quantity": 30,
-      "colors": [
-        "blue",
-        "purple",
-        "pink",
-        "green",
-        "red"
-      ],
-      "size": [
-        "173*24",
-        "55*55"
-      ],
+      "colors": ["blue", "purple", "pink", "green", "red"],
+      "size": ["173*24", "55*55"],
       "description": "Designed for athletes who demand comfort and performance during long training sessions.",
       "video": "https://youtu.be/VxuSNSv9GkQ?si=O1IHlNIzskntKZrO",
       "image": "/images/Decathlon Yoga Mat/Decathlon Yoga Mat.png",
@@ -1401,13 +1177,7 @@
       "price": 63,
       "rating": 4.18,
       "quantity": 15,
-      "colors": [
-        "blue",
-        "grey",
-        "black",
-        "green",
-        "red"
-      ],
+      "colors": ["blue", "grey", "black", "green", "red"],
       "size": [],
       "description": "Lightweight and breathable design ensures maximum comfort all day long.",
       "video": "https://youtu.be/QbvO5iZqx9g?si=TgL4Ts65-0tDgTNb",
@@ -1461,11 +1231,7 @@
       "price": 192,
       "rating": 4.28,
       "quantity": 25,
-      "colors": [
-        "black",
-        "grey",
-        "red"
-      ],
+      "colors": ["black", "grey", "red"],
       "size": [],
       "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
       "video": "https://youtu.be/EQSr9Ily-0g?si=WLSXQBhNtX2xivwU",
@@ -1519,13 +1285,7 @@
       "price": 25,
       "rating": 3.83,
       "quantity": 30,
-      "colors": [
-        "black",
-        "green",
-        "red",
-        "blue",
-        "purple"
-      ],
+      "colors": ["black", "green", "red", "blue", "purple"],
       "size": [],
       "description": "Built with durable materials to withstand intense workouts and daily use.",
       "video": "https://youtu.be/oECRghVhL5o?si=XWwQAk8KLMyRwAow",
@@ -1585,13 +1345,7 @@
       "price": 57,
       "rating": 4.08,
       "quantity": 20,
-      "colors": [
-        "black",
-        "green",
-        "red",
-        "blue",
-        "grey"
-      ],
+      "colors": ["black", "green", "red", "blue", "grey"],
       "size": [],
       "description": "Crafted with attention to detail to deliver long-lasting quality.",
       "video": "https://youtu.be/UXaLn0RtWnA?si=tGnllEuRjKAGrUVZ",
@@ -1651,13 +1405,7 @@
       "price": 23,
       "rating": 3.91,
       "quantity": 30,
-      "colors": [
-        "purple",
-        "red",
-        "black",
-        "green",
-        "blue"
-      ],
+      "colors": ["purple", "red", "black", "green", "blue"],
       "size": [],
       "description": "Designed for athletes who demand comfort and performance during long training sessions.",
       "video": "https://youtu.be/LzGuvd0Emco?si=r0htcCgLGZ8DbSgw",
@@ -1723,11 +1471,7 @@
       "price": 27,
       "rating": 4.42,
       "quantity": 20,
-      "colors": [
-        "black",
-        "grey",
-        "red"
-      ],
+      "colors": ["black", "grey", "red"],
       "size": [],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/HrOwtAlfPiw?si=lQCZs4qxwvGkiL0n",
@@ -1787,13 +1531,7 @@
       "price": 29,
       "rating": 4.03,
       "quantity": 30,
-      "colors": [
-        "blue",
-        "green",
-        "black",
-        "red",
-        "orange"
-      ],
+      "colors": ["blue", "green", "black", "red", "orange"],
       "size": [],
       "description": "Built with durable materials to withstand intense workouts and daily use.",
       "video": "https://youtu.be/pRUqCYcN7xY?si=ZwYTFIjT4LKNkDWd",
@@ -1853,13 +1591,7 @@
       "price": 125,
       "rating": 4.55,
       "quantity": 48,
-      "colors": [
-        "green",
-        "orange",
-        "black",
-        "red",
-        "yellow"
-      ],
+      "colors": ["green", "orange", "black", "red", "yellow"],
       "size": [],
       "description": "Built with durable materials to withstand intense workouts and daily use.",
       "video": "https://youtu.be/Hu-ps5xvJjM?si=j43xLSrf4jJ3blcp",
@@ -1919,18 +1651,8 @@
       "price": 42,
       "rating": 4.1,
       "quantity": 25,
-      "colors": [
-        "black",
-        "green",
-        "pink",
-        "blue",
-        "purple"
-      ],
-      "size": [
-        "sm",
-        "lg",
-        "xl"
-      ],
+      "colors": ["black", "green", "pink", "blue", "purple"],
+      "size": ["sm", "lg", "xl"],
       "description": "Lightweight and breathable design ensures maximum comfort all day long.",
       "video": "https://youtube.com/shorts/sB9W1eeuuTA?si=k3sK290QZoQNpGMV",
       "image": "/images/Gym Water Bottle/Gym Water Bottle.png",
@@ -1983,17 +1705,8 @@
       "price": 78,
       "rating": 3.98,
       "quantity": 30,
-      "colors": [
-        "black",
-        "grey",
-        "pink",
-        "green",
-        "red"
-      ],
-      "size": [
-        "sm",
-        "lg"
-      ],
+      "colors": ["black", "grey", "pink", "green", "red"],
+      "size": ["sm", "lg"],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/jYdiFFImPa8?si=7kKUDrb6r9lhTJ6o",
       "image": "/images/Running Socks Pack/Running Socks Pack.png",
@@ -2046,20 +1759,8 @@
       "price": 101,
       "rating": 3.96,
       "quantity": 20,
-      "colors": [
-        "black",
-        "green",
-        "grey",
-        "orange",
-        "blue"
-      ],
-      "size": [
-        "40",
-        "41",
-        "42",
-        "43",
-        "44"
-      ],
+      "colors": ["black", "green", "grey", "orange", "blue"],
+      "size": ["40", "41", "42", "43", "44"],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/r_so1tdB9fo?si=W7Mm784Vv7sHHX9-",
       "image": "/images/Trail Running Shoes/Trail Running Shoes.png",
@@ -2124,17 +1825,8 @@
       "price": 178,
       "rating": 4.22,
       "quantity": 25,
-      "colors": [
-        "black",
-        "green",
-        "grey",
-        "orange",
-        "white"
-      ],
-      "size": [
-        "sm",
-        "lg"
-      ],
+      "colors": ["black", "green", "grey", "orange", "white"],
+      "size": ["sm", "lg"],
       "description": "Perfect companion for gym sessions, running, or outdoor activities.",
       "video": "https://youtu.be/i6k0bmMecOw?si=8wi1zCrX8_iVZSM0",
       "image": "/images/Cycling Helmet/Cycling Helmet.png",
@@ -2193,12 +1885,7 @@
       "price": 135,
       "rating": 4.38,
       "quantity": 30,
-      "colors": [
-        "black",
-        "red",
-        "blue",
-        "purple"
-      ],
+      "colors": ["black", "red", "blue", "purple"],
       "size": [],
       "description": "Built with durable materials to withstand intense workouts and daily use.",
       "video": "https://youtu.be/Ttm9dKpEc9g?si=izgpvfxUdloe0Jaw",
@@ -2258,17 +1945,8 @@
       "price": 194,
       "rating": 4.42,
       "quantity": 39,
-      "colors": [
-        "black",
-        "green",
-        "grey"
-      ],
-      "size": [
-        "20inch",
-        "24inch",
-        "28inch",
-        "32inch"
-      ],
+      "colors": ["black", "green", "grey"],
+      "size": ["20inch", "24inch", "28inch", "32inch"],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/sSA6kGtu1ns?si=S_1vEcjTJO4ohn32",
       "image": "/images/Training Backpack/Training Backpack.png",
@@ -2321,18 +1999,8 @@
       "price": 108,
       "rating": 4.56,
       "quantity": 27,
-      "colors": [
-        "green",
-        "blue",
-        "grey",
-        "orange"
-      ],
-      "size": [
-        "2-Person",
-        "4-Person",
-        "6-Person",
-        "8-Person"
-      ],
+      "colors": ["green", "blue", "grey", "orange"],
+      "size": ["2-Person", "4-Person", "6-Person", "8-Person"],
       "description": "Perfect companion for gym sessions, running, or outdoor activities.",
       "video": "https://youtu.be/uXznQ1e16pQ?si=A3fzK2-iPKRt2aXW",
       "image": "/images/Camping Tent/Camping Tent.png",
@@ -2385,20 +2053,8 @@
       "price": 21,
       "rating": 4.09,
       "quantity": 20,
-      "colors": [
-        "brown",
-        "grey",
-        "black",
-        "green"
-      ],
-      "size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45",
-        "46"
-      ],
+      "colors": ["brown", "grey", "black", "green"],
+      "size": ["41", "42", "43", "44", "45", "46"],
       "description": "A versatile product suitable for both beginners and professionals.",
       "video": "https://youtu.be/a45AyMUzaFo?si=_Z77IQraQ5mEaKff",
       "image": "/images/Hiking Boots/Hiking Boots.png",
@@ -2463,21 +2119,8 @@
       "price": 158,
       "rating": 4.1,
       "quantity": 25,
-      "colors": [
-        "black",
-        "grey",
-        "blue",
-        "red",
-        "green",
-        "pink"
-      ],
-      "size": [
-        "md",
-        "lg",
-        "xl",
-        "xxl",
-        "xxxl"
-      ],
+      "colors": ["black", "grey", "blue", "red", "green", "pink"],
+      "size": ["md", "lg", "xl", "xxl", "xxxl"],
       "description": "Lightweight and breathable design ensures maximum comfort all day long.",
       "video": "https://youtu.be/fEuwFn-mxz0?si=PjgdT7mGoOw7qQD7",
       "image": "/images/Thermal Jacket/Thermal Jacket.png",
@@ -2542,22 +2185,8 @@
       "price": 97,
       "rating": 4.46,
       "quantity": 20,
-      "colors": [
-        "black",
-        "grey",
-        "blue",
-        "red",
-        "green",
-        "white",
-        "purple"
-      ],
-      "size": [
-        "sm",
-        "md",
-        "lg",
-        "xl",
-        "xxl"
-      ],
+      "colors": ["black", "grey", "blue", "red", "green", "white", "purple"],
+      "size": ["sm", "md", "lg", "xl", "xxl"],
       "description": "Perfect companion for gym sessions, running, or outdoor activities.",
       "video": "https://youtu.be/cGxtK2VtBxk?si=I2irjPHRyxao1Pb7",
       "image": "/images/Compression Shirt/Compression Shirt.png",
@@ -2622,13 +2251,7 @@
       "price": 162,
       "rating": 4.4,
       "quantity": 25,
-      "colors": [
-        "green",
-        "black",
-        "blue",
-        "red",
-        "gold"
-      ],
+      "colors": ["green", "black", "blue", "red", "gold"],
       "size": [],
       "description": "Perfect companion for gym sessions, running, or outdoor activities.",
       "video": "https://youtu.be/ItK7opBR8Ps?si=Jl7022I8M3vDMIps",
@@ -2694,14 +2317,7 @@
       "price": 17,
       "rating": 4.27,
       "quantity": 30,
-      "colors": [
-        "black",
-        "purple",
-        "green",
-        "red",
-        "white",
-        "pink"
-      ],
+      "colors": ["black", "purple", "green", "red", "white", "pink"],
       "size": [],
       "description": "Crafted with attention to detail to deliver long-lasting quality.",
       "video": "https://youtu.be/HbE42Mt9hW0?si=3HoabNOUhFhcASLu",
@@ -2767,13 +2383,7 @@
       "price": 132,
       "rating": 4.02,
       "quantity": 20,
-      "colors": [
-        "black",
-        "white",
-        "gold",
-        "red",
-        "blue"
-      ],
+      "colors": ["black", "white", "gold", "red", "blue"],
       "size": [],
       "description": "Professional-grade kickboxing gloves designed for maximum impact protection and comfort. breathable material, and secure wrist support.",
       "video": "https://youtu.be/5CD62hFf5EU?si=aGrzL4vvRBE_C1SN",
@@ -2833,13 +2443,7 @@
       "price": 112,
       "rating": 4.03,
       "quantity": 17,
-      "colors": [
-        "orange",
-        "green",
-        "red",
-        "yellow",
-        "blue"
-      ],
+      "colors": ["orange", "green", "red", "yellow", "blue"],
       "size": [],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/tWADG2LhAGc?si=udbYHUTB262l6TAC",
@@ -2905,12 +2509,7 @@
       "price": 84,
       "rating": 4.1,
       "quantity": 44,
-      "colors": [
-        "blue",
-        "green",
-        "red",
-        "orange"
-      ],
+      "colors": ["blue", "green", "red", "orange"],
       "size": [],
       "description": "Built with durable materials to withstand intense workouts and daily use.",
       "video": "https://youtu.be/PU5h2qxmOGk?si=MS-adopICwR_FTu9",
@@ -2964,12 +2563,7 @@
       "price": 184,
       "rating": 4.33,
       "quantity": 39,
-      "colors": [
-        "blue",
-        "green",
-        "red",
-        "orange"
-      ],
+      "colors": ["blue", "green", "red", "orange"],
       "size": [],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/ny9LSh3fJfk?si=eK4l9nSwdiuqdKkY",
@@ -3035,13 +2629,7 @@
       "price": 130,
       "rating": 4.1,
       "quantity": 36,
-      "colors": [
-        "black",
-        "blue",
-        "grey",
-        "pink",
-        "purple"
-      ],
+      "colors": ["black", "blue", "grey", "pink", "purple"],
       "size": [],
       "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
       "video": "https://youtu.be/Foe7vYLgMpE?si=r6hvIX7Dc-VHD0P0",
@@ -3107,13 +2695,7 @@
       "price": 102,
       "rating": 4.3,
       "quantity": 41,
-      "colors": [
-        "black",
-        "blue",
-        "white",
-        "orange",
-        "purple"
-      ],
+      "colors": ["black", "blue", "white", "orange", "purple"],
       "size": [],
       "description": "Perfect companion for gym sessions, running, or outdoor activities.",
       "video": "https://youtu.be/J8p-eIi5IhU?si=NGT_Y12icv05JOTD",
@@ -3167,13 +2749,7 @@
       "price": 83,
       "rating": 4.26,
       "quantity": 45,
-      "colors": [
-        "black",
-        "purple",
-        "pink",
-        "red",
-        "white"
-      ],
+      "colors": ["black", "purple", "pink", "red", "white"],
       "size": [],
       "description": "Provides excellent grip, durability, and comfort for active lifestyles.",
       "video": "https://youtu.be/npHp8UX8tlM?si=v2-aNYtAXeBEBHu-",
@@ -3227,11 +2803,7 @@
       "price": 105,
       "rating": 4.37,
       "quantity": 55,
-      "colors": [
-        "black",
-        "grey",
-        "white"
-      ],
+      "colors": ["black", "grey", "white"],
       "size": [],
       "description": "Perfect companion for gym sessions, running, or outdoor activities.",
       "video": "https://youtu.be/ua-VvojLrxM?si=VEi9hogjzgyAtdzt",
@@ -3297,12 +2869,7 @@
       "price": 67,
       "rating": 4.47,
       "quantity": 63,
-      "colors": [
-        "yellow",
-        "red",
-        "green",
-        "blue"
-      ],
+      "colors": ["yellow", "red", "green", "blue"],
       "size": [],
       "description": "Engineered for performance with modern styling and excellent support.",
       "video": "https://youtu.be/ex-D_SZsUpA?si=O_A9A_bPd-YxUmsz",
@@ -3368,12 +2935,7 @@
       "price": 138,
       "rating": 4.36,
       "quantity": 53,
-      "colors": [
-        "yellow",
-        "green",
-        "blue",
-        "aqua"
-      ],
+      "colors": ["yellow", "green", "blue", "aqua"],
       "size": [],
       "description": "Lightweight and breathable design ensures maximum comfort all day long.",
       "video": "https://youtu.be/e00ZUdOOyyg?si=WW3Yn6Jk9SYHE9fA",

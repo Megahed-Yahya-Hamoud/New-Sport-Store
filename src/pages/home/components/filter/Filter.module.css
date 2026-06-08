@@ -1,55 +1,66 @@
-.filterForm{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    margin: 10px 50px;
-    flex-wrap: wrap;
-    @media (max-width:400px) {
-          margin-left: 10px;
-          margin-right: 10px;
-        }
+.filterForm {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: 10px 50px;
+  flex-wrap: wrap;
+  @media (max-width: 400px) {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
-.container{
+.container {
   width: 100%;
   justify-content: center;
   display: flex;
 }
-.containerInput{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
+.containerInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
-.inputFilter{
-    outline: none;
-    border: 1px solid rgba(0, 0, 0, 0.111);
-    border-radius: 8px;
-    padding: 6px 10px;
-    width: 220px;
+.inputFilter,
+.inputSelect {
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.111);
+  border-radius: 8px;
+  padding: 6px 10px;
+  width: 220px;
+  transition: 0.1s ease-in-out;
 
-    @media (max-width:550px) {
+  @media (max-width: 550px) {
     width: 150px;
-    }
-}
-.containerBtn{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 1rem;
+  }
 }
 
-.btnFormFilter{
-    background-color: black !important;
-    transition: 0.2s ease-in-out;
-    padding: 0px 25px;
+.inputSelect {
+  padding: 0px;
 }
 
+.inputFilter:focus,
+.inputSelect:focus {
+  border: 1px solid rgba(0, 0, 0, 0.084);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
 
+.containerBtn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
 
-.btnFormFilter:hover{
-    background-color: rgb(60, 60, 60) !important;
+.btnFormFilter {
+  background-color: black !important;
+  transition: 0.2s ease-in-out;
+  padding: 0px 25px;
+}
+
+.btnFormFilter:hover {
+  background-color: rgb(60, 60, 60) !important;
 }
