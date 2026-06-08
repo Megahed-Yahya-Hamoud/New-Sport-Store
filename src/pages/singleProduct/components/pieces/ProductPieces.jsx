@@ -5,7 +5,7 @@ import { useCounter } from "@mantine/hooks";
 export default function ProductPieces({size,quantity}) {
       const [count, handlers] = useCounter(1, { min: 1 });
     
-      console.log(size);
+      // console.log(size);
       
   return (
     <Box 

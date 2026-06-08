@@ -5,7 +5,7 @@ import { useState } from "react";
 export default function ProductSize({size=[]}) {
 
       // const size = ["41", "42", "43", "44", "45"];
-    console.log(size);
+    // console.log(size);
     
       const [activeSize, setActiveSize] = useState(size[0]||"");
     

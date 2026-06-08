@@ -23,7 +23,8 @@ export default function SingleProduct() {
   // const [category, setCategory] = useState();
   const [active, setActive] = useState();
   const [refreshComments, setRefreshComments] = useState(false);
-
+  const [reviewId, setReviewId] = useState();
+  
   useEffect(() => {
     fetch(API_CONFIG.mainUrl + endpointForProduct + "/" + id)
       .then((res) => res.json())
@@ -138,11 +139,25 @@ export default function SingleProduct() {
         <Box mt={30} className={classes.firstTitle}>
           <Text className={classes.title}>Top reviews from the worlds</Text>
         </Box>
-        <AddComment
+        {/* <AddComment
           onCommentAdded={() => setRefreshComments((prev) => !prev)}
           id={product.id}
+          reviewId={reviewId}
         />
-        <Comments refresh={refreshComments} id={product.id || id} />
+        <Comments  setReviewId={setReviewId} refresh={refreshComments} id={product.id || id}  /> */}
+        <AddComment
+  onCommentAdded={() => setRefreshComments((prev) => !prev)}
+  id={product.id}
+  reviewId={reviewId}
+  setReviewId={setReviewId}
+/>
+
+<Comments
+  onCommentAdded={() => setRefreshComments((prev) => !prev)}
+  setReviewId={setReviewId}
+  refresh={refreshComments}
+  id={product.id || id}
+/>
       </Box>
     </Box>
   );
