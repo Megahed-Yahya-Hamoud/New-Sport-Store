@@ -57,7 +57,7 @@ export default function Home() {
 
   // to check if the screen is mobile or not for change the aspect ratio of the video review
 
-   const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
@@ -70,9 +70,6 @@ export default function Home() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-
-
-  
   return (
     <Box>
       <Box className={classes.content}>
@@ -100,7 +97,7 @@ export default function Home() {
             <Divider
               label="Or Search With Filter"
               w={"40%"}
-              my={isMobile?15:10}
+              my={isMobile ? 15 : 10}
               styles={{ label: { color: "", alignItems: "center" } }}
             />
           </Box>
@@ -133,9 +130,9 @@ export default function Home() {
                   <Text fw={700} c={"red"} className={classes.price}>
                     {product.price}$
                   </Text>
-                <Box className={classes.addToCart} mt={0}>
-                  <AddToCart id={product.id} />
-                </Box>
+                  <Box className={classes.addToCart} mt={0}>
+                    <AddToCart id={product.id} />
+                  </Box>
                 </Box>
               </Box>
             ))
