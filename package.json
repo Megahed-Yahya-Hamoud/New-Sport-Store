@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start-json": "json-server --watch ./src/core/data/db.json --port 3002"
+    "start": "json-server --watch ./src/core/data/db.json --port 3002"
   },
   "dependencies": {
     "@mantine/carousel": "^9.1.1",
