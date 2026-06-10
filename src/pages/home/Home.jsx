@@ -44,12 +44,14 @@ export default function Home() {
     fetch(API_CONFIG.mainUrl + endpointForProducts + limitInUlr + query)
       .then((res) => res.json())
       .then((data) => {
+        console.log(data)
         setProducts(data.data);
       });
     // to get total products for pagination
     fetch(API_CONFIG.mainUrl + endpointForProducts + secondQuery)
       .then((res) => res.json())
       .then((data) => {
+        console.log(data)
         setLimitProducts(data);
         // addToCart()
       });
@@ -69,6 +71,16 @@ export default function Home() {
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+
+  useEffect(() => {
+    fetch('/src/core/data/db.json' )
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data.products);
+      });
+  }, []);
+
 
   return (
     <Box>
