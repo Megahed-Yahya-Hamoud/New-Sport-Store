@@ -23,7 +23,7 @@ export default function MapSection() {
       <div className={styles.frame}>
         <img
           className={styles.image}
-          src="src/pages/contact-us/components/mapSection/screen.png"
+          src="/images/screen.png"
           alt="Flagship Location"
         />
 
