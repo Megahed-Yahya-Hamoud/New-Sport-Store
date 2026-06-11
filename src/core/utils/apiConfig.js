@@ -1,6 +1,6 @@
 
 const API_CONFIG = {
-    mainUrl: "http://localhost:3002/",
+    mainUrl: "https://new-sport-store-production-2b2e.up.railway.app/",
     endpoints: {
         auth: {
             login: "auth/login",
