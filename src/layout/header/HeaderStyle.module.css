@@ -36,7 +36,10 @@
   }
 }
 .logoSport {
-  font-family: fantasy !important; 
+  /* font-family: fantasy !important;  */
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .logoSport {

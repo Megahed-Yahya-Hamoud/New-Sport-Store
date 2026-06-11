@@ -47,7 +47,7 @@ export default function HeaderHome() {
         </Box>
       </Box>
       <Box className={classes.container}>
-        <Text style={{fontFamily:"fantasy"}} mt={30} ta={"center"} className={classes.titleSecond}>
+        <Text mt={30} mx={5} ta={"center"} className={classes.titleSecond}>
           Everything new in the world <br className={classes.showThisLine} /> of sports
         </Text>
       </Box>

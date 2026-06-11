@@ -72,9 +72,17 @@
       }
   }
 }
+/* 
+.anton-regular {
+
+} */
+
 
 .titleSecond{
-    font-family: fantasy !important;
+font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    /* font-family: fantasy !important; */
     text-align: center;
     color: rgb(0, 0, 0) !important;
     font-size: 50px !important;
