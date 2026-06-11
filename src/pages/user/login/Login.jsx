@@ -1,5 +1,5 @@
 import { Box, Button, Text } from "@mantine/core";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import classes from "./LoginStyle.module.css";
 import { ErrorMessage, Field, Form, Formik } from "formik";
 import LoginSchema from "./schema/LoginSchema";
@@ -8,7 +8,7 @@ import { notifications } from "@mantine/notifications";
 
 export default function Login() {
   const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
-
+  const navigateTo = useNavigate();
   async function loginUser(values) {
   try {
     // نجيب كل اليوزرز
@@ -43,7 +43,7 @@ export default function Login() {
             color: "green",
           });
     setTimeout(() => {
-      location.href = "/";
+      navigateTo("/");
             window.location.reload();
         }, 1000);
 
