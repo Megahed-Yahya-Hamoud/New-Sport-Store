@@ -16,7 +16,7 @@ import Companies from "../../components/section-Companies/Companies";
 const endpointForProducts = API_CONFIG.endpoints.products.allProducts;
 export default function Home() {
   const [products, setProducts] = useState([]);
-  const [limitProducts, setLimitProducts] = useState([]);
+  const [totalItems, setTotalItems] = useState(0);
 
   // to get page number from url and set it in page state and if there is no page number in url set it to 1
   const [page, setPage] = useQueryState("page", parseAsInteger.withDefault(1));
@@ -32,27 +32,19 @@ export default function Home() {
   //  to fetch data with search or without search
   useEffect(() => {
     let query = "";
-    let secondQuery = "";
     // got check isValue =false and isValueSearch = false to fetch all data without search and filter
     if (searchValue && isValue == isValueSearch) {
       query = `&name:contains=${searchValue}`;
-      secondQuery = `?name:contains=${searchValue}`;
     } else if (filterQuery) {
       query = `&${filterQuery}`;
-      secondQuery = `?${filterQuery}`;
     }
     fetch(API_CONFIG.mainUrl + endpointForProducts + limitInUlr + query)
       .then((res) => res.json())
       .then((data) => {
-        setProducts(data.data);
-      });
-    // to get total products for pagination
-    fetch(API_CONFIG.mainUrl + endpointForProducts + secondQuery)
-      .then((res) => res.json())
-      .then((data) => {
-        setLimitProducts(data);
-        // addToCart()
-      });
+        setProducts(data.data || []);
+        setTotalItems(data.items || 0);
+      })
+      .catch((err) => console.error("Error fetching products:", err));
   }, [searchValue, filterQuery, isValue, page]);
 
   // to check if the screen is mobile or not for change the aspect ratio of the video review
@@ -118,7 +110,7 @@ export default function Home() {
               <Box key={product.id} className={classes.parentCard}>
                 <Box className={classes.card}>
                   <Image className={classes.imageCard} src={product.image} />
-                  <AddToFavorites id={product.id} />
+                  <AddToFavorites product={product} id={product.id} />
                 </Box>
                 <Box className={classes.details}>
                   <Text className={classes.categoryText}>
@@ -131,7 +123,7 @@ export default function Home() {
                     {product.price}$
                   </Text>
                   <Box className={classes.addToCart} mt={0}>
-                    <AddToCart id={product.id} />
+                    <AddToCart product={product} id={product.id} />
                   </Box>
                 </Box>
               </Box>
@@ -148,7 +140,7 @@ export default function Home() {
           {products.length >= 0 && (
             <Pagination
               // to get total page we need to get total products and divide it by 10 because we show 10 products in each page
-              total={Math.ceil(limitProducts.length / 10)}
+              total={Math.ceil(totalItems / 10)}
               value={page}
               onChange={setPage}
               color="black"

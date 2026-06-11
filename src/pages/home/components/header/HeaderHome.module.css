@@ -26,8 +26,10 @@
 }
 
 .mainTitle {
-  font-family: fantasy !important;
-  color: aliceblue !important;
+font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+    color: aliceblue !important;
   font-size: 50px !important;
   line-height: normal !important;
   @media (max-width: 500px) {
@@ -48,12 +50,17 @@
 }
 
 .title{
-  font-family: fantasy !important;
+  font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   /* color: aliceblue !important; */
   color: rgb(0,135,255) !important;
   font-size: 40px !important;
   line-height: normal !important;
   .sale{
+    font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 50px !important;
   }
   @media (max-width: 991px) {

@@ -3,59 +3,54 @@ import { Box, Text } from "@mantine/core";
 import { IconTrash } from "@tabler/icons-react";
 import API_CONFIG from "../../../../../../core/utils/apiConfig";
 import { notifications } from "@mantine/notifications";
+import { useContext } from "react";
+import { UserContext } from "../../../../../../core/contexts/UserContext";
 
 const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
 
-export default function DeleteCartItem({
-  id,
-  products,
-  setProducts,
-  setRefresh,
-  cartQty,
-  checkedItems,
-  getUser,
-}) {
-  const deleteItemHandler = async () => {
+export default function DeleteCartItem({ id }) {
+  const { user, setUser } = useContext(UserContext);
+
+  const deleteItemHandler = async (e) => {
+    e.stopPropagation();
     try {
-      // حذف العنصر
-      const updatedProducts = products.filter((item) => item.id !== id);
+      if (!user) return;
 
-      // تحديث الـ UI
-      setProducts(updatedProducts);
+      const updatedItems = user.cart.items.filter((item) => item.id !== id);
 
-      // حساب التوتال الجديد
-      const updatedTotal = updatedProducts.reduce((acc, product) => {
-        if (!checkedItems[product.id]) return acc;
-        const qty = cartQty[product.id] || 1;
-
-        return acc + Number(product.price) * Number(qty);
+      const updatedTotal = updatedItems.reduce((acc, item) => {
+        if (item.isChecked === false) return acc;
+        return acc + Number(item.price) * (item.cartQuantity || 1);
       }, 0);
 
-      // تحديث الـ API
-      await fetch(`${API_CONFIG.mainUrl}${endpointForUsers}${getUser}`, {
-        method: "PATCH",
+      const updatedUser = {
+        ...user,
+        cart: {
+          items: updatedItems,
+          total_price: updatedTotal,
+        },
+      };
+
+      // Update local state instantly (Optimistic UI)
+      setUser(updatedUser);
+
+      // Sync changes in the background
+      await fetch(`${API_CONFIG.mainUrl}${endpointForUsers}${user.id}`, {
+        method: "PUT",
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({
-          cart: {
-            items: updatedProducts,
-            total_price: updatedTotal,
-          },
-        }),
+        body: JSON.stringify(updatedUser),
       });
 
-      // تشغيل fetch جديد
-      setRefresh((prev) => !prev);
+      notifications.show({
+        message: "Item removed from cart.",
+        position: "top-right",
+        color: "red",
+      });
     } catch (error) {
       console.log("Delete Error:", error);
     }
-
-    notifications.show({
-      message: "Item removed from cart.",
-      position: "top-right",
-      color: "red",
-    });
   };
 
   return (
@@ -65,7 +60,6 @@ export default function DeleteCartItem({
       style={{ cursor: "pointer" }}
     >
       <IconTrash className={classes.iconTrash} />
-
       <Text className={classes.textRemove}>Remove</Text>
     </Box>
   );

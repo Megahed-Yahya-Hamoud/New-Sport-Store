@@ -5,8 +5,11 @@ import { ErrorMessage, Field, Form, Formik } from "formik";
 import LoginSchema from "./schema/LoginSchema";
 import API_CONFIG from "../../../core/utils/apiConfig";
 import { notifications } from "@mantine/notifications";
+import { useContext } from "react";
+import { UserContext } from "../../../core/contexts/UserContext";
 
 export default function Login() {
+  const { loginUser: loginUserContext } = useContext(UserContext);
   const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
   const navigateTo = useNavigate();
   async function loginUser(values) {
@@ -35,8 +38,8 @@ export default function Login() {
     // لو موجود
     console.log("Login successful", user);
 
-    // ممكن تخزنيه في localStorage
-    localStorage.setItem("currentUser", JSON.stringify(user.id));
+    // تخزين في السياق و localStorage
+    loginUserContext(user.id);
     notifications.show({
             message: "Login successful. Welcome back!",
             position: "top-right",

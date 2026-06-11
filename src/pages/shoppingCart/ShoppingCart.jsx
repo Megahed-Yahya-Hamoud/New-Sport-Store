@@ -4,21 +4,12 @@ import { IconChevronLeft } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 import LogoEmpty from "./components/logoEmpty/LogoEmpty";
 import ProductsCart from "./components/productsCart/ProductsCart";
-import { useEffect, useState } from "react";
-import API_CONFIG from "../../core/utils/apiConfig";
-
-const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
+import { useContext } from "react";
+import { UserContext } from "../../core/contexts/UserContext";
 
 export default function ShoppingCart() {
-  const [length, setLength] = useState([]);
-  const [newRefresh, setNewRefresh] = useState(false);
-  const getUser = JSON.parse(localStorage.getItem("currentUser"));
-// لو مفيش items في ال cart هعرض صفحة فاضية فيها لوجو بس من غير search ولا pagination
-  useEffect(() => {
-    fetch(API_CONFIG.mainUrl + endpointForUsers + getUser)
-      .then((res) => res.json())
-      .then((data) => setLength(data.cart.items));
-  }, [getUser, newRefresh]);
+  const { user } = useContext(UserContext);
+  const length = user?.cart?.items || [];
 
   return (
     <Box>
@@ -63,7 +54,7 @@ export default function ShoppingCart() {
           </>
         ) : (
           <>
-            <ProductsCart setNewRefresh={setNewRefresh} />
+            <ProductsCart />
           </>
         )}
       </Box>

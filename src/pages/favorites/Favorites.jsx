@@ -4,49 +4,19 @@ import { parseAsInteger, useQueryState } from "nuqs";
 import AddToFavorites from "../../components/addToFavorites/AddToFavorites";
 import { Link } from "react-router-dom";
 import AddToCart from "../../components/addToCart/AddToCart";
-import API_CONFIG from "../../core/utils/apiConfig";
-import { useEffect, useState } from "react";
+import { useState, useContext } from "react";
 import Search from "../home/components/search/Search";
 import Empty from "./empty/Empty";
 import Loading from "../../components/loading/Loading";
-
-const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
+import { UserContext } from "../../core/contexts/UserContext";
 
 export default function Favorites() {
-  const getUser = JSON.parse(localStorage.getItem("currentUser"));
-
-  const [allFavorites, setAllFavorites] = useState([]);
-  const [handleFavoriteFetch, setHandleFavoriteFetch] = useState(0);
-
+  const { user, loading } = useContext(UserContext);
   const [page, setPage] = useQueryState("page", parseAsInteger.withDefault(1));
-
   const [searchValue, setSearchValue] = useState("");
 
-  // 🔥 Loading لأول مرة فقط
-  const [loading, setLoading] = useState(true);
-
   const limit = 10;
-
-  // ================= FETCH ONLY ONCE =================
-  useEffect(() => {
-    const fetchFavorites = async () => {
-      try {
-        const res = await fetch(
-          API_CONFIG.mainUrl + endpointForUsers + getUser,
-        );
-
-        const data = await res.json();
-
-        setAllFavorites(data?.favorites || []);
-      } catch (error) {
-        console.error(error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchFavorites();
-  }, [handleFavoriteFetch]);
+  const allFavorites = user?.favorites || [];
 
   // ================= SEARCH (NO LOADING) =================
   const filteredFavorites = searchValue
@@ -61,9 +31,13 @@ export default function Favorites() {
 
   const paginatedFavorites = filteredFavorites.slice(start, end);
 
-  // ================= LOADING ONLY FIRST TIME =================
+  // ================= LOADING =================
   if (loading) {
-    return<Box display={"grid"} style={{alignContent: "center"}} h={"60vh"}><Loading /></Box>;
+    return (
+      <Box display={"grid"} style={{ alignContent: "center" }} h={"60vh"}>
+        <Loading />
+      </Box>
+    );
   }
 
   return (
@@ -92,7 +66,7 @@ export default function Favorites() {
                 <Image className={classes.imageCard} src={product.image} />
 
                 <AddToFavorites
-                  setHandleFavorite={setHandleFavoriteFetch}
+                  product={product}
                   id={product.id}
                 />
               </Box>
@@ -109,7 +83,7 @@ export default function Favorites() {
                 </Text>
 
                 <Box className={classes.addToCart}>
-                  <AddToCart id={product.id} />
+                  <AddToCart product={product} id={product.id} />
                 </Box>
               </Box>
             </Box>

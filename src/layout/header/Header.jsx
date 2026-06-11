@@ -12,24 +12,16 @@ import { useDisclosure } from "@mantine/hooks";
 import classes from "./HeaderStyle.module.css";
 import { Link, useNavigate } from "react-router-dom";
 import { IconHeart, IconLogout, IconShoppingCart } from "@tabler/icons-react";
-import API_CONFIG from "../../core/utils/apiConfig";
-import { useEffect, useState } from "react";
+// import API_CONFIG from "../../core/utils/apiConfig";
+import { useContext } from "react";
+import { UserContext } from "../../core/contexts/UserContext";
 
 export function Header() {
-  const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
+  const { user, logoutUser } = useContext(UserContext);
   const navigateTo = useNavigate();
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const getUser = JSON.parse(localStorage.getItem("currentUser"));
-
-  useEffect(() => {
-    fetch(API_CONFIG.mainUrl + endpointForUsers + getUser)
-      .then((res) => res.json())
-      .then((data) => {
-        setFirstName(data.firstName);
-        setLastName(data.lastName);
-      });
-  }, []);
+  const firstName = user?.firstName || "";
+  const lastName = user?.lastName || "";
+  const getUser = user?.id || null;
 
   const [drawerOpened, { toggle: toggleDrawer, close: closeDrawer }] =
     useDisclosure(false);
@@ -83,9 +75,8 @@ export function Header() {
   );
 
   function logOut() {
-    localStorage.clear();
+    logoutUser();
     navigateTo("/login");
-    window.location.reload();
   }
 
   return (

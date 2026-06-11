@@ -2,26 +2,18 @@ import { Box, Image, Text } from "@mantine/core";
 import classes from "./ProductsPay.module.css";
 import { IconArrowLeft, IconBuildingStore } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
-import API_CONFIG from "../../../../core/utils/apiConfig";
+import { useContext } from "react";
+// import API_CONFIG from "../../../../core/utils/apiConfig";
 import Loading from "../../../../components/loading/Loading";
+import { UserContext } from "../../../../core/contexts/UserContext";
 
-const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
+// const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
 
 export default function ProductsPay() {
-  const getUser = JSON.parse(localStorage.getItem("currentUser"));
+  const { user } = useContext(UserContext);
 
-  const [products, setProducts] = useState([]);
-  const [totalPrice, setTotalPrice] = useState(0);
-
-  useEffect(() => {
-    fetch(API_CONFIG.mainUrl + endpointForUsers + getUser)
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data.cart.items);
-        setTotalPrice(data.cart.total_price);
-      });
-  }, []);
+  const products = (user?.cart?.items || []).filter(item => item.isChecked !== false);
+  const totalPrice = user?.cart?.total_price || 0;
 
   function showDiscount(discount, price) {
     if (discount) {
@@ -121,7 +113,7 @@ export default function ProductsPay() {
                         <Text className={classes.productTitle}>{ele.name}</Text>
                       </Link>
                       <Text ta={"start"} c={"#1a1a1a80"} fw={600} fz={12}>
-                        Qyt 1
+                        Qty {ele.cartQuantity || 1}
                       </Text>
                     </Box>
                     <Box>{showDiscount(ele.discount, ele.price)}</Box>
@@ -146,7 +138,7 @@ export default function ProductsPay() {
                       fw={500}
                       fz={14}
                     >
-                      Qyt 1, ${totalPrice}.00 each{" "}
+                      Qty {ele.cartQuantity || 1}, ${ele.price}.00 each{" "}
                     </Text>
                     <Box
                       className={classes.singleProductImage}

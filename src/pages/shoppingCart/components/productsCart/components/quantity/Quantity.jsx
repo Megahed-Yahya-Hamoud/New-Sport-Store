@@ -1,32 +1,24 @@
 import classes from "./QuantityStyle.module.css";
 import { Box, Text } from "@mantine/core";
 import { IconMinus, IconPlus, IconRefresh } from "@tabler/icons-react";
-import { useState } from "react";
 
-export default function Quantity({ quantity, price, onQtyChange }) {
-  const [count, setCount] = useState(1);
-
+export default function Quantity({ count, stock, price, onQtyChange }) {
   function increment() {
-    if (count < quantity) {
-      const newCount = count + 1;
-      setCount(newCount);
-      onQtyChange(newCount);
+    if (count < stock) {
+      onQtyChange(count + 1);
     }
   }
 
   function decrement() {
     if (count > 1) {
-      const newCount = count - 1;
-      setCount(newCount);
-      onQtyChange(newCount);
+      onQtyChange(count - 1);
     }
   }
 
   function reset() {
-    const newCount = 1;
-    setCount(newCount);
-    onQtyChange(newCount);
+    onQtyChange(1);
   }
+
   return (
     <Box className={classes.qty}>
       <Text fw={600} className={classes.qtyText}>

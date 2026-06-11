@@ -18,9 +18,21 @@ import ConfirmationCode from "./pages/user/updatePassword/confirmationCode/Confi
 import ConfirmationEmail from "./pages/user/updatePassword/confirmationEmail/ConfirmationEmail";
 import ResetPassword from "./pages/user/updatePassword/resetPassword/ResetPassword";
 
+import { useContext } from "react";
+import { UserContext } from "./core/contexts/UserContext";
+import Loading from "./components/loading/Loading";
 
 function App() {
-  const getUser = JSON.parse(localStorage.getItem("currentUser"));
+  const { user, loading } = useContext(UserContext);
+  const getUser = user?.id || null;
+
+  if (loading) {
+    return (
+      <Box display="grid" style={{ alignContent: "center" }} h="100vh">
+        <Loading />
+      </Box>
+    );
+  }
 
   return (
     <Box className="App">
