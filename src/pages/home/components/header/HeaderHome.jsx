@@ -28,7 +28,7 @@ export default function HeaderHome() {
           <Text w={"95%"} className={classes.mainTitle}>
             Everything new in the world of sports
           </Text>
-          <Text  c={"white"} className={classes.title}>
+          <Text style={{fontFamily:"fantasy"}} c={"white"} className={classes.title}>
             SALE UP TO{" "}
             <span className={classes.sale} style={{ color: "red" }}>
               50%
@@ -47,7 +47,7 @@ export default function HeaderHome() {
         </Box>
       </Box>
       <Box className={classes.container}>
-        <Text mt={30} ta={"center"} className={classes.titleSecond}>
+        <Text style={{fontFamily:"fantasy"}} mt={30} ta={"center"} className={classes.titleSecond}>
           Everything new in the world <br className={classes.showThisLine} /> of sports
         </Text>
       </Box>

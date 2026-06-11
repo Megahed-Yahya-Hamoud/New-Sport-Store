@@ -76,7 +76,7 @@ export function Header() {
 
   const logo = (
     <Link to={"/"} style={{ textDecoration: "none" }}>
-      <Text  fz={30} className={classes.logoSport}>
+      <Text style={{fontFamily:"fantasy"}}  fz={30} className={classes.logoSport}>
         Sports
       </Text>
     </Link>
