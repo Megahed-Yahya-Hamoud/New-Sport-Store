@@ -10,7 +10,7 @@ export default function Empty() {
   return (
     <Box className={classes.isEmpty}>
           <Image
-            src={"src/assets/17568937.png"}
+            src={"/images/17568937.png"}
             className={classes.imageEmpty}
           />
           <Box className={classes.containerText}>
