@@ -4,6 +4,7 @@ import { IconArrowLeft, IconBuildingStore } from "@tabler/icons-react";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import API_CONFIG from "../../../../core/utils/apiConfig";
+import Loading from "../../../../components/loading/Loading";
 
 const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
 
@@ -97,11 +98,17 @@ export default function ProductsPay() {
             <></>
           )}
           <Box className={classes.containerProductsCard}>
-            {products.length > 1
-              ? products.map((ele) => (
-                  <Box className={classes.productCard} key={ele.id}>
-                    <Image
-                      className={classes.imageCard}
+          { products.length  == 0 ? (
+              <Box display={"grid"} style={{ alignContent: "center"  , alignItems: "start"}} h={"50vh"}>
+                <Loading />
+              </Box>
+            ) : (
+              products.length > 1
+                ?
+                 products.map((ele) => (
+                    <Box className={classes.productCard} key={ele.id}>
+                      <Image
+                        className={classes.imageCard}
                       src={ele.image}
                       w={100}
                       h={100}
@@ -154,7 +161,9 @@ export default function ProductsPay() {
                     </Box>
                     <Box></Box>
                   </Box>
-                ))}
+                ))
+              )
+          }
           </Box>
         </Box>
       </Box>

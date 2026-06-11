@@ -137,7 +137,7 @@ export default function Home() {
               </Box>
             ))
           ) : (
-            <Box>
+            <Box display={"grid"} style={{ alignContent: "center" }} h={"50vh"}>
               <Loading />
             </Box>
           )}

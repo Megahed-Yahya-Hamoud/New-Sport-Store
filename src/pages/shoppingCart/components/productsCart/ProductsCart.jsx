@@ -7,6 +7,7 @@ import Quantity from "./components/quantity/Quantity";
 import Summary from "./components/summary/Summary";
 import { Link } from "react-router-dom";
 import DeleteCartItem from "./components/deleteCartItem/DeleteCartItem";
+import Loading from "../../../../components/loading/Loading";
 
 const endpointForUsers = API_CONFIG.endpoints.users.allUsers;
 
@@ -116,10 +117,17 @@ export default function ProductsCart({ setNewRefresh }) {
   }, [finalTotal]);
 
   return (
-    <Box mt={50} mb={20} className={classes.parent}>
+    <Box display={products.length === 0 ? "grid" : ""} mt={50} mb={20} className={classes.parent}>
       {/* ================= Products ================= */}
       <Box className={classes.containerProducts}>
-        {products.map((ele) => (
+        {
+        products.length == 0 ? (
+          <Box display={"grid"} style={{ alignContent: "center"  , alignItems: "start"}} h={"50vh"}>
+            <Loading />
+            <br />
+          </Box>
+        ) : (
+        products.map((ele) => (
           <Box key={ele.id} className={classes.card}>
             {/* ================= Checkbox ================= */}
             <Box
@@ -187,7 +195,9 @@ export default function ProductsCart({ setNewRefresh }) {
               </Box>
             </Box>
           </Box>
-        ))}
+        ))
+        )}
+      
       </Box>
 
       {/* ================= Summary ================= */}
