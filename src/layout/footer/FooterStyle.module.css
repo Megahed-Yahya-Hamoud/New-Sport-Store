@@ -44,8 +44,9 @@
 }
 
 .logoSport {
-  font-family: fantasy;
-}
+font-family: "Anton", sans-serif;
+  font-weight: 500;
+  font-style: normal;}
 
 .logoSport {
   color: rgb(255, 255, 255) !important;
